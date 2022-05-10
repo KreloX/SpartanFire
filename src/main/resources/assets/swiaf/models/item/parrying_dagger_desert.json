@@ -1,0 +1,14 @@
+{
+  "parent": "spartanweaponry:item/base/parrying_dagger",
+  "textures": {
+    "layer0": "swiaf:items/parrying_dagger_desert"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:blocking": 1.0
+      },
+      "model": "swiaf:item/parrying_dagger_desert_blocking"
+    }
+  ]
+}
