@@ -1,0 +1,32 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:battleaxe",
+  "pattern": [
+    "mmm",
+	"msm",
+	" h "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:myrmex_desert_chitin"
+    },
+	"s": {
+      "item": "iceandfire:witherbone"
+	},
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	}
+  },
+  "result": {
+    "item": "swiaf:battleaxe_desert"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battleaxe"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}
