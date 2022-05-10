@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT License"
+[[mods]] #mandatory
+modId="swiaf"
+version="1.16.5-1.0.0"
+displayName="Spartan Weaponry: Ice and Fire"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-ice-and-fire"
+logoFile="logo.png"
+credits="Thanks to Alexthe666 for making Ice and Fire: Dragons and to ObliviousSpartan for making Spartan Weaponry. Another thanks goes to cbkovak for creating the original Spartan and Fire."
+authors="KreloX"
+description='''
+Spicing up Spartan Weaponry by implementing materials from the mythological legends of Ice and Fire.'''
+[[dependencies.swiaf]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.swiaf]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
