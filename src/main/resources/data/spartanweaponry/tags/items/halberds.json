@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:halberd_dragonbone",
+    "swiaf:halberd_fire_dragonbone",
+    "swiaf:halberd_ice_dragonbone",
+    "swiaf:halberd_lightning_dragonbone",
+    "swiaf:halberd_lightning_dragonsteel",
+    "swiaf:halberd_fire_dragonsteel",
+    "swiaf:halberd_ice_dragonsteel",
+    "swiaf:halberd_jungle_venom",
+    "swiaf:halberd_jungle",
+    "swiaf:halberd_desert_venom",
+    "swiaf:halberd_desert"
+  ]
+}

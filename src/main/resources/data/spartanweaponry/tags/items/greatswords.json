@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:greatsword_dragonbone",
+    "swiaf:greatsword_fire_dragonbone",
+    "swiaf:greatsword_ice_dragonbone",
+    "swiaf:greatsword_lightning_dragonbone",
+    "swiaf:greatsword_lightning_dragonsteel",
+    "swiaf:greatsword_fire_dragonsteel",
+    "swiaf:greatsword_ice_dragonsteel",
+    "swiaf:greatsword_jungle_venom",
+    "swiaf:greatsword_jungle",
+    "swiaf:greatsword_desert_venom",
+    "swiaf:greatsword_desert"
+  ]
+}

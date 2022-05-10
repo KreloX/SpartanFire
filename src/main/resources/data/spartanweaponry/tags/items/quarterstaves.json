@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:quarterstaff_dragonbone",
+    "swiaf:quarterstaff_fire_dragonbone",
+    "swiaf:quarterstaff_ice_dragonbone",
+    "swiaf:quarterstaff_lightning_dragonbone",
+    "swiaf:quarterstaff_lightning_dragonsteel",
+    "swiaf:quarterstaff_fire_dragonsteel",
+    "swiaf:quarterstaff_ice_dragonsteel",
+    "swiaf:quarterstaff_desert_venom",
+    "swiaf:quarterstaff_desert",
+    "swiaf:quarterstaff_jungle_venom",
+    "swiaf:quarterstaff_jungle"
+  ]
+}

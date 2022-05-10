@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:rapier_dragonbone",
+    "swiaf:rapier_fire_dragonbone",
+    "swiaf:rapier_ice_dragonbone",
+    "swiaf:rapier_lightning_dragonbone",
+    "swiaf:rapier_lightning_dragonsteel",
+    "swiaf:rapier_fire_dragonsteel",
+    "swiaf:rapier_ice_dragonsteel",
+    "swiaf:rapier_desert_venom",
+    "swiaf:rapier_desert",
+    "swiaf:rapier_jungle_venom",
+    "swiaf:rapier_jungle"
+  ]
+}

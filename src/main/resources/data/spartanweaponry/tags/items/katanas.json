@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:katana_dragonbone",
+    "swiaf:katana_fire_dragonbone",
+    "swiaf:katana_ice_dragonbone",
+    "swiaf:katana_lightning_dragonbone",
+    "swiaf:katana_lightning_dragonsteel",
+    "swiaf:katana_fire_dragonsteel",
+    "swiaf:katana_ice_dragonsteel",
+    "swiaf:katana_jungle_venom",
+    "swiaf:katana_jungle",
+    "swiaf:katana_desert_venom",
+    "swiaf:katana_desert"
+  ]
+}

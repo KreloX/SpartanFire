@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:javelin_dragonbone",
+    "swiaf:javelin_fire_dragonbone",
+    "swiaf:javelin_ice_dragonbone",
+    "swiaf:javelin_lightning_dragonbone",
+    "swiaf:javelin_lightning_dragonsteel",
+    "swiaf:javelin_fire_dragonsteel",
+    "swiaf:javelin_ice_dragonsteel",
+    "swiaf:javelin_jungle_venom",
+    "swiaf:javelin_jungle",
+    "swiaf:javelin_desert_venom",
+    "swiaf:javelin_desert"
+  ]
+}

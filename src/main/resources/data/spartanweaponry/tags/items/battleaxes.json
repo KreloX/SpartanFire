@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:battleaxe_dragonbone",
+    "swiaf:battleaxe_fire_dragonbone",
+    "swiaf:battleaxe_ice_dragonbone",
+    "swiaf:battleaxe_lightning_dragonbone",
+    "swiaf:battleaxe_lightning_dragonsteel",
+    "swiaf:battleaxe_fire_dragonsteel",
+    "swiaf:battleaxe_ice_dragonsteel",
+    "swiaf:battleaxe_jungle_venom",
+    "swiaf:battleaxe_jungle",
+    "swiaf:battleaxe_desert_venom",
+    "swiaf:battleaxe_desert"
+  ]
+}

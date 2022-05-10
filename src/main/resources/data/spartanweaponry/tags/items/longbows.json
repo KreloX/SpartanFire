@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:longbow_dragonbone",
+    "swiaf:longbow_fire_dragonbone",
+    "swiaf:longbow_ice_dragonbone",
+    "swiaf:longbow_lightning_dragonbone",
+    "swiaf:longbow_lightning_dragonsteel",
+    "swiaf:longbow_fire_dragonsteel",
+    "swiaf:longbow_ice_dragonsteel",
+    "swiaf:longbow_jungle",
+    "swiaf:longbow_desert"
+  ]
+}

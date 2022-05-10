@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:flanged_mace_dragonbone",
+    "swiaf:flanged_mace_fire_dragonbone",
+    "swiaf:flanged_mace_ice_dragonbone",
+    "swiaf:flanged_mace_lightning_dragonbone",
+    "swiaf:flanged_mace_lightning_dragonsteel",
+    "swiaf:flanged_mace_fire_dragonsteel",
+    "swiaf:flanged_mace_ice_dragonsteel",
+    "swiaf:flanged_mace_jungle_venom",
+    "swiaf:flanged_mace_jungle",
+    "swiaf:flanged_mace_desert_venom",
+    "swiaf:flanged_mace_desert"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:scythe_dragonbone",
+    "swiaf:scythe_fire_dragonbone",
+    "swiaf:scythe_ice_dragonbone",
+    "swiaf:scythe_lightning_dragonbone",
+    "swiaf:scythe_lightning_dragonsteel",
+    "swiaf:scythe_fire_dragonsteel",
+    "swiaf:scythe_ice_dragonsteel",
+    "swiaf:scythe_desert_venom",
+    "swiaf:scythe_desert",
+    "swiaf:scythe_jungle_venom",
+    "swiaf:scythe_jungle"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:parrying_dagger_dragonbone",
+    "swiaf:parrying_dagger_fire_dragonbone",
+    "swiaf:parrying_dagger_ice_dragonbone",
+    "swiaf:parrying_dagger_lightning_dragonbone",
+    "swiaf:parrying_dagger_lightning_dragonsteel",
+    "swiaf:parrying_dagger_fire_dragonsteel",
+    "swiaf:parrying_dagger_ice_dragonsteel",
+    "swiaf:parrying_dagger_desert_venom",
+    "swiaf:parrying_dagger_desert",
+    "swiaf:parrying_dagger_jungle_venom",
+    "swiaf:parrying_dagger_jungle"
+  ]
+}

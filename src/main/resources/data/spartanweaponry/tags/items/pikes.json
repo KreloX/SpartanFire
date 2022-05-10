@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:pike_dragonbone",
+    "swiaf:pike_fire_dragonbone",
+    "swiaf:pike_ice_dragonbone",
+    "swiaf:pike_lightning_dragonbone",
+    "swiaf:pike_lightning_dragonsteel",
+    "swiaf:pike_fire_dragonsteel",
+    "swiaf:pike_ice_dragonsteel",
+    "swiaf:pike_desert_venom",
+    "swiaf:pike_desert",
+    "swiaf:pike_jungle_venom",
+    "swiaf:pike_jungle"
+  ]
+}

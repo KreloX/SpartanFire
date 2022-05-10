@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:hammer_dragonbone",
+    "swiaf:hammer_fire_dragonbone",
+    "swiaf:hammer_ice_dragonbone",
+    "swiaf:hammer_lightning_dragonbone",
+    "swiaf:hammer_lightning_dragonsteel",
+    "swiaf:hammer_fire_dragonsteel",
+    "swiaf:hammer_ice_dragonsteel",
+    "swiaf:hammer_jungle_venom",
+    "swiaf:hammer_jungle",
+    "swiaf:hammer_desert_venom",
+    "swiaf:hammer_desert"
+  ]
+}

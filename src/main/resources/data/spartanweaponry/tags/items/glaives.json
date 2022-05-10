@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:glaive_dragonbone",
+    "swiaf:glaive_fire_dragonbone",
+    "swiaf:glaive_ice_dragonbone",
+    "swiaf:glaive_lightning_dragonbone",
+    "swiaf:glaive_lightning_dragonsteel",
+    "swiaf:glaive_fire_dragonsteel",
+    "swiaf:glaive_ice_dragonsteel",
+    "swiaf:glaive_jungle_venom",
+    "swiaf:glaive_jungle",
+    "swiaf:glaive_desert_venom",
+    "swiaf:glaive_desert"
+  ]
+}

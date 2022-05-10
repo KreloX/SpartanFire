@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:lance_dragonbone",
+    "swiaf:lance_fire_dragonbone",
+    "swiaf:lance_ice_dragonbone",
+    "swiaf:lance_lightning_dragonbone",
+    "swiaf:lance_lightning_dragonsteel",
+    "swiaf:lance_fire_dragonsteel",
+    "swiaf:lance_ice_dragonsteel",
+    "swiaf:lance_jungle_venom",
+    "swiaf:lance_jungle",
+    "swiaf:lance_desert_venom",
+    "swiaf:lance_desert"
+  ]
+}

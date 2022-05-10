@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:throwing_knife_dragonbone",
+    "swiaf:throwing_knife_fire_dragonbone",
+    "swiaf:throwing_knife_ice_dragonbone",
+    "swiaf:throwing_knife_lightning_dragonbone",
+    "swiaf:throwing_knife_lightning_dragonsteel",
+    "swiaf:throwing_knife_fire_dragonsteel",
+    "swiaf:throwing_knife_ice_dragonsteel",
+    "swiaf:throwing_knife_desert_venom",
+    "swiaf:throwing_knife_desert",
+    "swiaf:throwing_knife_jungle_venom",
+    "swiaf:throwing_knife_jungle"
+  ]
+}

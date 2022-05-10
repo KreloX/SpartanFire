@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:tomahawk_dragonbone",
+    "swiaf:tomahawk_fire_dragonbone",
+    "swiaf:tomahawk_ice_dragonbone",
+    "swiaf:tomahawk_lightning_dragonbone",
+    "swiaf:tomahawk_lightning_dragonsteel",
+    "swiaf:tomahawk_fire_dragonsteel",
+    "swiaf:tomahawk_ice_dragonsteel",
+    "swiaf:tomahawk_desert_venom",
+    "swiaf:tomahawk_desert",
+    "swiaf:tomahawk_jungle_venom",
+    "swiaf:tomahawk_jungle"
+  ]
+}

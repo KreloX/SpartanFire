@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:boomerang_dragonbone",
+    "swiaf:boomerang_fire_dragonbone",
+    "swiaf:boomerang_ice_dragonbone",
+    "swiaf:boomerang_lightning_dragonbone",
+    "swiaf:boomerang_lightning_dragonsteel",
+    "swiaf:boomerang_fire_dragonsteel",
+    "swiaf:boomerang_ice_dragonsteel",
+    "swiaf:boomerang_jungle_venom",
+    "swiaf:boomerang_jungle",
+    "swiaf:boomerang_desert_venom",
+    "swiaf:boomerang_desert"
+  ]
+}

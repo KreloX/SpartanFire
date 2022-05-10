@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:dagger_dragonbone",
+    "swiaf:dagger_fire_dragonbone",
+    "swiaf:dagger_ice_dragonbone",
+    "swiaf:dagger_lightning_dragonbone",
+    "swiaf:dagger_lightning_dragonsteel",
+    "swiaf:dagger_fire_dragonsteel",
+    "swiaf:dagger_ice_dragonsteel",
+    "swiaf:dagger_jungle_venom",
+    "swiaf:dagger_jungle",
+    "swiaf:dagger_desert_venom",
+    "swiaf:dagger_desert"
+  ]
+}

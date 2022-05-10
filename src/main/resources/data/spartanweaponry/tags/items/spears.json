@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:spear_dragonbone",
+    "swiaf:spear_fire_dragonbone",
+    "swiaf:spear_ice_dragonbone",
+    "swiaf:spear_lightning_dragonbone",
+    "swiaf:spear_lightning_dragonsteel",
+    "swiaf:spear_fire_dragonsteel",
+    "swiaf:spear_ice_dragonsteel",
+    "swiaf:spear_desert_venom",
+    "swiaf:spear_desert",
+    "swiaf:spear_jungle_venom",
+    "swiaf:spear_jungle"
+  ]
+}

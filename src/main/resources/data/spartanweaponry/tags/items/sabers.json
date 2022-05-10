@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:saber_dragonbone",
+    "swiaf:saber_fire_dragonbone",
+    "swiaf:saber_ice_dragonbone",
+    "swiaf:saber_lightning_dragonbone",
+    "swiaf:saber_lightning_dragonsteel",
+    "swiaf:saber_fire_dragonsteel",
+    "swiaf:saber_ice_dragonsteel",
+    "swiaf:saber_desert_venom",
+    "swiaf:saber_desert",
+    "swiaf:saber_jungle_venom",
+    "swiaf:saber_jungle"
+  ]
+}

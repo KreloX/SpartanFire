@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "swiaf:heavy_crossbow_dragonbone",
+    "swiaf:heavy_crossbow_fire_dragonbone",
+    "swiaf:heavy_crossbow_ice_dragonbone",
+    "swiaf:heavy_crossbow_lightning_dragonbone",
+    "swiaf:heavy_crossbow_lightning_dragonsteel",
+    "swiaf:heavy_crossbow_fire_dragonsteel",
+    "swiaf:heavy_crossbow_ice_dragonsteel",
+    "swiaf:heavy_crossbow_jungle",
+    "swiaf:heavy_crossbow_desert"
+  ]
+}
