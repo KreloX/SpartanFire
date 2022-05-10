@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:rapier",
+  "ingredients": [
+    {
+      "item": "swiaf:rapier_jungle"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:rapier_jungle_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "rapier"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

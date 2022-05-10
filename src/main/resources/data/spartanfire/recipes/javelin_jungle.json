@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:javelin",
+  "pattern": [
+    "   ",
+	"hm ",
+	"   "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:myrmex_jungle_chitin"
+    },
+	"h": {
+      "item": "swiaf:witherbone_pole"
+	}
+  },
+  "result": {
+    "item": "swiaf:javelin_jungle"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "javelin"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

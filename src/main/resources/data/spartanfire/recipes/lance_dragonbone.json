@@ -1,0 +1,32 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:lance",
+  "pattern": [
+    "  m",
+	"mp ",
+	"hm "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:dragonbone"
+    },
+	"p": {
+      "item": "swiaf:witherbone_pole"
+	},
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	}
+  },
+  "result": {
+    "item": "swiaf:lance_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "lance"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

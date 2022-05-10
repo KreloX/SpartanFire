@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:rapier",
+  "pattern": [
+    "  m",
+	"mm ",
+	"hm "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:myrmex_desert_chitin"
+    },
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	}
+  },
+  "result": {
+    "item": "swiaf:rapier_desert"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "rapier"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

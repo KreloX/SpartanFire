@@ -1,0 +1,35 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:longbow",
+  "pattern": [
+    "htm",
+	"t s",
+	"mss"
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:dragonbone"
+    },
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	},
+	"s": {
+      "tag": "forge:string"
+	},
+	"t": {
+      "tag": "forge:rods/wooden"
+	}
+  },
+  "result": {
+    "item": "swiaf:longbow_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "longbow"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:pole",
+  "pattern": [
+    "| ",
+    "|#",
+    "| "
+  ],
+  "key": {
+    "|": {
+      "item": "iceandfire:witherbone"
+    },
+    "#": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "swiaf:witherbone_pole"
+  }
+}

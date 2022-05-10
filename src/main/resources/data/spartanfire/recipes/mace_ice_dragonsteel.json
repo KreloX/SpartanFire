@@ -1,0 +1,32 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:flanged_mace",
+  "pattern": [
+    " mm",
+	" sm",
+	"h  "
+  ],
+  "key": {
+    "m": {
+      "tag": "forge:ingots/dragonsteel_ice"
+    },
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	},
+    "s": {
+      "item": "iceandfire:witherbone"
+	}
+  },
+  "result": {
+    "item": "swiaf:flanged_mace_ice_dragonsteel"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "flanged_mace"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

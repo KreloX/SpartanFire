@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:lance",
+  "ingredients": [
+        {
+            "item": "iceandfire:lightning_dragon_blood"
+        },
+        {
+            "item": "swiaf:lance_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:lance_lightning_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "lance"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

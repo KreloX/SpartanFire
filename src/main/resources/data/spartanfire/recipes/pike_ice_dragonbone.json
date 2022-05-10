@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:pike",
+  "ingredients": [
+        {
+            "item": "iceandfire:ice_dragon_blood"
+        },
+        {
+            "item": "swiaf:pike_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:pike_ice_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "pike"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

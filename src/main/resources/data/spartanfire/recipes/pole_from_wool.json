@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:pole",
+  "pattern": [
+    "|||",
+    "|||",
+    "||#"
+  ],
+  "key": {
+    "|": {
+      "item": "iceandfire:witherbone"
+    },
+    "#": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "swiaf:witherbone_pole",
+    "count": 4
+  }
+}

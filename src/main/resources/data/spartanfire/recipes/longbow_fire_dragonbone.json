@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:longbow",
+  "ingredients": [
+        {
+            "item": "iceandfire:fire_dragon_blood"
+        },
+        {
+            "item": "swiaf:longbow_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:longbow_fire_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "longbow"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

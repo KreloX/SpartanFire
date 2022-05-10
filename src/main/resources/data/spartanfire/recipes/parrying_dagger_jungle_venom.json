@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:parrying_dagger",
+  "ingredients": [
+    {
+      "item": "swiaf:parrying_dagger_jungle"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:parrying_dagger_jungle_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "parrying_dagger"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}
