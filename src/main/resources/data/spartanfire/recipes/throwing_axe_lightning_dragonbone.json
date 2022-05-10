@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:tomahawk",
+  "ingredients": [
+        {
+            "item": "iceandfire:lightning_dragon_blood"
+        },
+        {
+            "item": "swiaf:tomahawk_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:tomahawk_lightning_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "tomahawk"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}
