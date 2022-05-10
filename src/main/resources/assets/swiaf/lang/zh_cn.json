@@ -1,0 +1,321 @@
+{
+// Items	
+// Daggers					
+"item.swiaf.dagger_dragonbone":"龙骨匕首",
+"item.swiaf.dagger_fire_dragonbone":"龙炎匕首",
+"item.swiaf.dagger_ice_dragonbone":"龙霜匕首",
+"item.swiaf.dagger_lightning_dragonbone":"龙霆匕首",
+"item.swiaf.dagger_fire_dragonsteel":"龙炎钢匕首",
+"item.swiaf.dagger_ice_dragonsteel":"龙霜钢匕首",
+"item.swiaf.dagger_lightning_dragonsteel":"龙霆钢匕首",
+"item.swiaf.dagger_jungle":"林蚁匕首",
+"item.swiaf.dagger_desert":"沙蚁匕首",
+"item.swiaf.dagger_jungle_venom":"林蚁蛰针匕首",
+"item.swiaf.dagger_desert_venom":"沙蚁蛰针匕首",
+
+"item.swiaf.longsword_dragonbone":"龙骨长剑",
+"item.swiaf.longsword_fire_dragonbone":"龙炎长剑",
+"item.swiaf.longsword_ice_dragonbone":"龙霜长剑",
+"item.swiaf.longsword_lightning_dragonbone":"龙霆长剑",
+"item.swiaf.longsword_fire_dragonsteel":"龙炎钢长剑",
+"item.swiaf.longsword_ice_dragonsteel":"龙霜钢长剑",
+"item.swiaf.longsword_lightning_dragonsteel":"龙霆钢长剑",
+"item.swiaf.longsword_jungle":"林蚁长剑",
+"item.swiaf.longsword_desert":"沙蚁长剑",
+"item.swiaf.longsword_jungle_venom":"林蚁蛰针长剑",
+"item.swiaf.longsword_desert_venom":"沙蚁蛰针长剑",
+
+"item.swiaf.battleaxe_dragonbone":"龙骨战斧",
+"item.swiaf.battleaxe_fire_dragonbone":"龙炎战斧",
+"item.swiaf.battleaxe_ice_dragonbone":"龙霜战斧",
+"item.swiaf.battleaxe_lightning_dragonbone":"龙霆战斧",
+"item.swiaf.battleaxe_fire_dragonsteel":"龙炎钢战斧",
+"item.swiaf.battleaxe_ice_dragonsteel":"龙霜钢战斧",
+"item.swiaf.battleaxe_lightning_dragonsteel":"龙霆钢战斧",
+"item.swiaf.battleaxe_jungle":"林蚁战斧",
+"item.swiaf.battleaxe_desert":"沙蚁战斧",
+"item.swiaf.battleaxe_jungle_venom":"林蚁蛰针战斧",
+"item.swiaf.battleaxe_desert_venom":"沙蚁蛰针战斧",
+
+// Maces
+"item.swiaf.flanged_mace_dragonbone":"龙骨凸缘钉头锤",
+"item.swiaf.flanged_mace_fire_dragonbone":"龙炎凸缘钉头锤",
+"item.swiaf.flanged_mace_ice_dragonbone":"龙霜凸缘钉头锤",
+"item.swiaf.flanged_mace_lightning_dragonbone":"龙霆凸缘钉头锤",
+"item.swiaf.flanged_mace_fire_dragonsteel":"龙炎钢凸缘钉头锤",
+"item.swiaf.flanged_mace_ice_dragonsteel":"龙霜钢凸缘钉头锤",
+"item.swiaf.flanged_mace_lightning_dragonsteel":"龙霆钢凸缘钉头锤",
+"item.swiaf.flanged_mace_jungle":"林蚁凸缘钉头锤",
+"item.swiaf.flanged_mace_desert":"沙蚁凸缘钉头锤",
+"item.swiaf.flanged_mace_jungle_venom":"林蚁蛰针凸缘钉头锤",
+"item.swiaf.flanged_mace_desert_venom":"沙蚁蛰针凸缘钉头锤",
+
+// Glaives
+"item.swiaf.glaive_dragonbone":"龙骨长戈",
+"item.swiaf.glaive_fire_dragonbone":"龙炎长戈",
+"item.swiaf.glaive_ice_dragonbone":"龙霜长戈",
+"item.swiaf.glaive_lightning_dragonbone":"龙霆长戈",
+"item.swiaf.glaive_fire_dragonsteel":"龙炎钢长戈",
+"item.swiaf.glaive_ice_dragonsteel":"龙霜钢长戈",
+"item.swiaf.glaive_lightning_dragonsteel":"龙霆钢长戈",
+"item.swiaf.glaive_jungle":"林蚁长戈",
+"item.swiaf.glaive_desert":"沙蚁长戈",
+"item.swiaf.glaive_jungle_venom":"林蚁蛰针长戈",
+"item.swiaf.glaive_desert_venom":"沙蚁蛰针长戈",
+
+// Halberds
+"item.swiaf.halberd_dragonbone":"龙骨骨戟",
+"item.swiaf.halberd_fire_dragonbone":"龙炎骨戟",
+"item.swiaf.halberd_ice_dragonbone":"龙霜骨戟",
+"item.swiaf.halberd_lightning_dragonbone":"龙霆骨戟",
+"item.swiaf.halberd_fire_dragonsteel":"龙炎钢骨戟",
+"item.swiaf.halberd_ice_dragonsteel":"龙霜钢骨戟",
+"item.swiaf.halberd_lightning_dragonsteel":"龙霆钢骨戟",
+"item.swiaf.halberd_jungle":"林蚁骨戟",
+"item.swiaf.halberd_desert":"沙蚁骨戟",
+"item.swiaf.halberd_jungle_venom":"林蚁蛰针骨戟",
+"item.swiaf.halberd_desert_venom":"沙蚁蛰针骨戟",
+
+// Battle Hammers
+"item.swiaf.hammer_dragonbone":"龙骨锤",
+"item.swiaf.hammer_fire_dragonbone":"龙炎锤",
+"item.swiaf.hammer_ice_dragonbone":"龙霜锤",
+"item.swiaf.hammer_lightning_dragonbone":"龙霆锤",
+"item.swiaf.hammer_fire_dragonsteel":"龙炎钢锤",
+"item.swiaf.hammer_ice_dragonsteel":"龙霜钢锤",
+"item.swiaf.hammer_lightning_dragonsteel":"龙霆钢锤",
+"item.swiaf.hammer_jungle":"林蚁锤",
+"item.swiaf.hammer_desert":"沙蚁锤",
+"item.swiaf.hammer_jungle_venom":"林蚁蛰针锤",
+"item.swiaf.hammer_desert_venom":"沙蚁蛰针锤",
+
+// Longbows
+"item.swiaf.longbow_dragonbone":"龙骨强化弓",
+"item.swiaf.longbow_fire_dragonbone":"龙炎强化弓",
+"item.swiaf.longbow_ice_dragonbone":"龙霜强化弓",
+"item.swiaf.longbow_lightning_dragonbone":"龙霆强化弓",
+"item.swiaf.longbow_fire_dragonsteel":"龙炎钢强化弓",
+"item.swiaf.longbow_ice_dragonsteel":"龙霜钢强化弓",
+"item.swiaf.longbow_lightning_dragonsteel":"龙霆钢强化弓",
+"item.swiaf.longbow_jungle":"林蚁强化弓",
+"item.swiaf.longbow_desert":"沙蚁强化弓",
+
+// Lances
+"item.swiaf.lance_dragonbone":"龙骨骑枪",
+"item.swiaf.lance_fire_dragonbone":"龙炎骑枪",
+"item.swiaf.lance_ice_dragonbone":"龙霜骑枪",
+"item.swiaf.lance_lightning_dragonbone":"龙霆骑枪",
+"item.swiaf.lance_fire_dragonsteel":"龙炎钢骑枪",
+"item.swiaf.lance_ice_dragonsteel":"龙霜钢骑枪",
+"item.swiaf.lance_lightning_dragonsteel":"龙霆钢骑枪",
+"item.swiaf.lance_jungle":"林蚁骑枪",
+"item.swiaf.lance_desert":"沙蚁骑枪",
+"item.swiaf.lance_jungle_venom":"林蚁蛰针骑枪",
+"item.swiaf.lance_desert_venom":"沙蚁蛰针骑枪",
+
+// Pikes
+"item.swiaf.pike_dragonbone":"龙骨长矛",
+"item.swiaf.pike_fire_dragonbone":"龙炎长矛",
+"item.swiaf.pike_ice_dragonbone":"龙霜长矛",
+"item.swiaf.pike_lightning_dragonbone":"龙霆长矛",
+"item.swiaf.pike_fire_dragonsteel":"龙炎钢长矛",
+"item.swiaf.pike_ice_dragonsteel":"龙霜钢长矛",
+"item.swiaf.pike_lightning_dragonsteel":"龙霆钢长矛",
+"item.swiaf.pike_jungle":"林蚁长矛",
+"item.swiaf.pike_desert":"沙蚁长矛",
+"item.swiaf.pike_jungle_venom":"林蚁蛰针长矛",
+"item.swiaf.pike_desert_venom":"沙蚁蛰针长矛",
+
+// Quarterstaffs
+"item.swiaf.quarterstaff_dragonbone":"龙骨锤头棍",
+"item.swiaf.quarterstaff_fire_dragonbone":"龙炎锤头棍",
+"item.swiaf.quarterstaff_ice_dragonbone":"龙霜锤头棍",
+"item.swiaf.quarterstaff_lightning_dragonbone":"龙霆锤头棍",
+"item.swiaf.quarterstaff_fire_dragonsteel":"龙炎钢锤头棍",
+"item.swiaf.quarterstaff_ice_dragonsteel":"龙霜钢锤头棍",
+"item.swiaf.quarterstaff_lightning_dragonsteel":"龙霆钢锤头棍",
+"item.swiaf.quarterstaff_jungle":"林蚁锤头棍",
+"item.swiaf.quarterstaff_desert":"沙蚁锤头棍",
+"item.swiaf.quarterstaff_jungle_venom":"林蚁蛰针锤头棍",
+"item.swiaf.quarterstaff_desert_venom":"沙蚁蛰针锤头棍",
+
+// Rapiers"",
+"item.swiaf.rapier_dragonbone":"龙骨迅捷剑",
+"item.swiaf.rapier_fire_dragonbone":"龙炎迅捷剑",
+"item.swiaf.rapier_ice_dragonbone":"龙霜迅捷剑",
+"item.swiaf.rapier_lightning_dragonbone":"龙霆迅捷剑",
+"item.swiaf.rapier_fire_dragonsteel":"龙炎钢迅捷剑",
+"item.swiaf.rapier_ice_dragonsteel":"龙霜钢迅捷剑",
+"item.swiaf.rapier_lightning_dragonsteel":"龙霆钢迅捷剑",
+"item.swiaf.rapier_jungle":"林蚁迅捷剑",
+"item.swiaf.rapier_desert":"沙蚁迅捷剑",
+"item.swiaf.rapier_jungle_venom":"林蚁蛰针迅捷剑",
+"item.swiaf.rapier_desert_venom":"沙蚁蛰针迅捷剑",
+
+// Sabers
+"item.swiaf.saber_dragonbone":"龙骨军刀",
+"item.swiaf.saber_fire_dragonbone":"龙炎军刀",
+"item.swiaf.saber_ice_dragonbone":"龙霜军刀",
+"item.swiaf.saber_lightning_dragonbone":"龙霆军刀",
+"item.swiaf.saber_fire_dragonsteel":"龙炎钢军刀",
+"item.swiaf.saber_ice_dragonsteel":"龙霜钢军刀",
+"item.swiaf.saber_lightning_dragonsteel":"龙霆钢军刀",
+"item.swiaf.saber_jungle":"林蚁军刀",
+"item.swiaf.saber_desert":"沙蚁军刀",
+"item.swiaf.saber_jungle_venom":"林蚁蛰针军刀",
+"item.swiaf.saber_desert_venom":"沙蚁蛰针军刀",
+
+// Spears
+"item.swiaf.spear_dragonbone":"龙骨长枪",
+"item.swiaf.spear_fire_dragonbone":"龙炎长枪",
+"item.swiaf.spear_ice_dragonbone":"龙霜长枪",
+"item.swiaf.spear_lightning_dragonbone":"龙霆长枪",
+"item.swiaf.spear_fire_dragonsteel":"龙炎钢长枪",
+"item.swiaf.spear_ice_dragonsteel":"龙霜钢长枪",
+"item.swiaf.spear_lightning_dragonsteel":"龙霆钢长枪",
+"item.swiaf.spear_jungle":"林蚁长枪",
+"item.swiaf.spear_desert":"沙蚁长枪",
+"item.swiaf.spear_jungle_venom":"林蚁蛰针长枪",
+"item.swiaf.spear_desert_venom":"沙蚁蛰针长枪",
+
+// Warhammers
+"item.swiaf.warhammer_dragonbone":"龙骨战锤",
+"item.swiaf.warhammer_fire_dragonbone":"龙炎战锤",
+"item.swiaf.warhammer_ice_dragonbone":"龙霜战锤",
+"item.swiaf.warhammer_lightning_dragonbone":"龙霆战锤",
+"item.swiaf.warhammer_fire_dragonsteel":"龙炎钢战锤",
+"item.swiaf.warhammer_ice_dragonsteel":"龙霜钢战锤",
+"item.swiaf.warhammer_lightning_dragonsteel":"龙霆钢战锤",
+"item.swiaf.warhammer_jungle":"林蚁战锤",
+"item.swiaf.warhammer_desert":"沙蚁战锤",
+"item.swiaf.warhammer_jungle_venom":"林蚁蛰针战锤",
+"item.swiaf.warhammer_desert_venom":"沙蚁蛰针战锤",
+
+// Katanas
+"item.swiaf.katana_dragonbone":"龙骨武士刀",
+"item.swiaf.katana_fire_dragonbone":"龙炎武士刀",
+"item.swiaf.katana_ice_dragonbone":"龙霜武士刀",
+"item.swiaf.katana_lightning_dragonbone":"龙霆武士刀",
+"item.swiaf.katana_fire_dragonsteel":"龙炎钢武士刀",
+"item.swiaf.katana_ice_dragonsteel":"龙霜钢武士刀",
+"item.swiaf.katana_lightning_dragonsteel":"龙霆钢武士刀",
+"item.swiaf.katana_jungle":"林蚁武士刀",
+"item.swiaf.katana_desert":"沙蚁武士刀",
+"item.swiaf.katana_jungle_venom":"林蚁蛰针武士刀",
+"item.swiaf.katana_desert_venom":"沙蚁蛰针武士刀",
+
+// Greatswords
+"item.swiaf.greatsword_dragonbone":"龙骨大剑",
+"item.swiaf.greatsword_fire_dragonbone":"龙炎大剑",
+"item.swiaf.greatsword_ice_dragonbone":"龙霜大剑",
+"item.swiaf.greatsword_lightning_dragonbone":"龙霆大剑",
+"item.swiaf.greatsword_fire_dragonsteel":"龙炎钢大剑",
+"item.swiaf.greatsword_ice_dragonsteel":"龙霜钢大剑",
+"item.swiaf.greatsword_lightning_dragonsteel":"龙霆钢大剑",
+"item.swiaf.greatsword_jungle":"林蚁大剑",
+"item.swiaf.greatsword_desert":"沙蚁大剑",
+"item.swiaf.greatsword_jungle_venom":"林蚁蛰针大剑",
+"item.swiaf.greatsword_desert_venom":"沙蚁蛰针大剑",
+
+// Boomerangs
+"item.swiaf.boomerang_dragonbone":"龙骨回旋镖",
+"item.swiaf.boomerang_fire_dragonbone":"龙炎回旋镖",
+"item.swiaf.boomerang_ice_dragonbone":"龙霜回旋镖",
+"item.swiaf.boomerang_lightning_dragonbone":"龙霆回旋镖",
+"item.swiaf.boomerang_fire_dragonsteel":"龙炎钢回旋镖",
+"item.swiaf.boomerang_ice_dragonsteel":"龙霜钢回旋镖",
+"item.swiaf.boomerang_lightning_dragonsteel":"龙霆钢回旋镖",
+"item.swiaf.boomerang_jungle":"林蚁回旋镖",
+"item.swiaf.boomerang_desert":"沙蚁回旋镖",
+"item.swiaf.boomerang_jungle_venom":"林蚁蛰针回旋镖",
+"item.swiaf.boomerang_desert_venom":"沙蚁蛰针回旋镖",
+
+// Crossbows
+"item.swiaf.heavy_crossbow_dragonbone":"龙骨强化重弩",
+"item.swiaf.heavy_crossbow_fire_dragonbone":"龙炎强化重弩",
+"item.swiaf.heavy_crossbow_ice_dragonbone":"龙霜强化重弩",
+"item.swiaf.heavy_crossbow_lightning_dragonbone":"龙霆强化重弩",
+"item.swiaf.heavy_crossbow_fire_dragonsteel":"龙炎钢强化重弩",
+"item.swiaf.heavy_crossbow_ice_dragonsteel":"龙霜钢强化重弩",
+"item.swiaf.heavy_crossbow_lightning_dragonsteel":"龙霆钢强化重弩",
+"item.swiaf.heavy_crossbow_jungle":"林蚁强化重弩",
+"item.swiaf.heavy_crossbow_desert":"沙蚁强化重弩",
+
+// Javelins
+"item.swiaf.javelin_dragonbone":"龙骨投枪",
+"item.swiaf.javelin_fire_dragonbone":"龙炎投枪",
+"item.swiaf.javelin_ice_dragonbone":"龙霜投枪",
+"item.swiaf.javelin_lightning_dragonbone":"龙霆投枪",
+"item.swiaf.javelin_fire_dragonsteel":"龙炎钢投枪",
+"item.swiaf.javelin_ice_dragonsteel":"龙霜钢投枪",
+"item.swiaf.javelin_lightning_dragonsteel":"龙霆钢投枪",
+"item.swiaf.javelin_jungle":"林蚁投枪",
+"item.swiaf.javelin_desert":"沙蚁投枪",
+"item.swiaf.javelin_jungle_venom":"林蚁蛰针投枪",
+"item.swiaf.javelin_desert_venom":"沙蚁蛰针投枪",
+
+// Throwing Knives
+"item.swiaf.throwing_knife_dragonbone":"龙骨飞刀",
+"item.swiaf.throwing_knife_fire_dragonbone":"龙炎飞刀",
+"item.swiaf.throwing_knife_ice_dragonbone":"龙霜飞刀",
+"item.swiaf.throwing_knife_lightning_dragonbone":"龙霆飞刀",
+"item.swiaf.throwing_knife_fire_dragonsteel":"龙炎钢飞刀",
+"item.swiaf.throwing_knife_ice_dragonsteel":"龙霜钢飞刀",
+"item.swiaf.throwing_knife_lightning_dragonsteel":"龙霆钢飞刀",
+"item.swiaf.throwing_knife_jungle":"林蚁飞刀",
+"item.swiaf.throwing_knife_desert":"沙蚁飞刀",
+"item.swiaf.throwing_knife_jungle_venom":"林蚁蛰针飞刀",
+"item.swiaf.throwing_knife_desert_venom":"沙蚁蛰针飞刀",
+
+// Tomahawks
+"item.swiaf.tomahawk_dragonbone":"龙骨第安战斧",
+"item.swiaf.tomahawk_fire_dragonbone":"龙炎第安战斧",
+"item.swiaf.tomahawk_ice_dragonbone":"龙霜第安战斧",
+"item.swiaf.tomahawk_lightning_dragonbone":"龙霆第安战斧",
+"item.swiaf.tomahawk_fire_dragonsteel":"龙炎钢第安战斧",
+"item.swiaf.tomahawk_ice_dragonsteel":"龙霜钢第安战斧",
+"item.swiaf.tomahawk_lightning_dragonsteel":"龙霆钢第安战斧",
+"item.swiaf.tomahawk_jungle":"林蚁第安战斧",
+"item.swiaf.tomahawk_desert":"沙蚁第安战斧",
+"item.swiaf.tomahawk_jungle_venom":"林蚁蛰针第安战斧",
+"item.swiaf.tomahawk_desert_venom":"沙蚁蛰针第安战斧",
+
+// Misc
+"item.swiaf.witherbone_handle":"凋零手柄",
+"item.swiaf.witherbone_pole":"凋零长手柄",
+
+
+	
+// Tooltips
+		
+// Flamed
+"tooltip.swiaf.trait.flamed"= "点燃 I",
+"tooltip.swiaf.trait.flamed.desc": "击中目标时点燃并击退目标，对冰龙造成额外伤害",
+"tooltip.swiaf.trait.flamedii"= "点燃 II",
+"tooltip.swiaf.trait.flamedii.desc": "击中目标时点燃并击退目标",
+		
+// Iced
+"tooltip.swiaf.trait.iced"= "冻结 I",
+"tooltip.swiaf.trait.iced.desc": "击中目标时冻结目标， 对火龙造成额外伤害",
+"tooltip.swiaf.trait.icedii"= "冻结 II",
+"tooltip.swiaf.trait.icedii.desc": "击中目标时冻结目标",
+		
+// Shocked
+"tooltip.swiaf.trait.shocked"= "雷击 I",
+"tooltip.swiaf.trait.shocked.desc": "击中目标时召唤闪电打击目标，对火龙和冰龙造成额外伤害",
+"tooltip.swiaf.trait.shockedii"= "雷击 II",
+"tooltip.swiaf.trait.shockedii.desc": "击中目标时召唤闪电打击目标",
+		
+// Myrmex
+"tooltip.swiaf.trait.myrmex"= "恐蚁",
+"tooltip.swiaf.trait.myrmex.desc": "对非节肢生物和死亡蠕虫造成额外伤害",
+		
+// Poisoned
+"tooltip.swiaf.trait.poisoned"= "剧毒",
+"tooltip.swiaf.trait.poisoned.desc": "击中目标时对其造成中毒",
+		
+// Tabs
+		
+// SWIaF
+"itemGroup.sw_iaf": "斯巴达武器：冰与火之歌"
+}
