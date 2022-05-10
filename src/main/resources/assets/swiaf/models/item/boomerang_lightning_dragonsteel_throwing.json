@@ -1,0 +1,6 @@
+{
+    "parent": "spartanweaponry:item/boomerang_wood_throwing",
+    "textures": {
+        "layer0": "swiaf:items/boomerang_dragonsteel_lightning"
+    }
+}
