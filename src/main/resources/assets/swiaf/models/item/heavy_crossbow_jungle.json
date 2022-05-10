@@ -1,0 +1,41 @@
+{
+    "parent": "spartanweaponry:item/heavy_crossbow_wood",
+    "textures": {
+        "layer0": "swiaf:items/crossbow_jungle_standby"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "swiaf:item/heavy_crossbow_jungle_pulling_0"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "swiaf:item/heavy_crossbow_jungle_pulling_1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "swiaf:item/heavy_crossbow_jungle_pulling_2"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "swiaf:item/heavy_crossbow_jungle_loaded"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "charged": 1
+            },
+            "model": "swiaf:item/heavy_crossbow_jungle_firing"
+        }
+    ]
+}
