@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:halberd",
+  "ingredients": [
+        {
+            "item": "iceandfire:ice_dragon_blood"
+        },
+        {
+            "item": "swiaf:halberd_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:halberd_ice_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "halberd"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

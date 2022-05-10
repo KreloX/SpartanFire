@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:halberd",
+  "pattern": [
+    " m ",
+	"mm ",
+	"mh "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:dragonbone"
+    },
+	"h": {
+      "item": "swiaf:witherbone_pole"
+	}
+  },
+  "result": {
+    "item": "swiaf:halberd_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "halberd"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

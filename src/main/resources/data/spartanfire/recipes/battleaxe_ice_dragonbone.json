@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:battleaxe",
+  "ingredients": [
+        {
+            "item": "iceandfire:ice_dragon_blood"
+        },
+        {
+            "item": "swiaf:battleaxe_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:battleaxe_ice_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battleaxe"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

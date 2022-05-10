@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:handle",
+  "ingredients": [
+    {
+      "item": "iceandfire:witherbone"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    },
+    {
+      "item": "iceandfire:witherbone"
+    },
+    {
+      "tag": "forge:leather"
+    }
+  ],
+  "result": {
+    "item": "swiaf:witherbone_handle",
+    "count": 4
+  }
+}

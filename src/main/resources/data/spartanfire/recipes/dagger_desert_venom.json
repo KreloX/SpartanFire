@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:dagger",
+  "ingredients": [
+    {
+      "item": "swiaf:dagger_desert"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:dagger_desert_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "dagger"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

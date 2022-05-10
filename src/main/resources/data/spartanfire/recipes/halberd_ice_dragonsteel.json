@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:halberd",
+  "pattern": [
+    " m ",
+	"mm ",
+	"mh "
+  ],
+  "key": {
+    "m": {
+      "tag": "forge:ingots/dragonsteel_ice"
+    },
+	"h": {
+      "item": "swiaf:witherbone_pole"
+	}
+  },
+  "result": {
+    "item": "swiaf:halberd_ice_dragonsteel"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "halberd"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

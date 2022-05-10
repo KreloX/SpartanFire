@@ -1,0 +1,32 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:battleaxe",
+  "pattern": [
+    "mmm",
+	"msm",
+	" h "
+  ],
+  "key": {
+    "m": {
+      "tag": "forge:ingots/dragonsteel_fire"
+    },
+	"s": {
+      "item": "iceandfire:witherbone"
+	},
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	}
+  },
+  "result": {
+    "item": "swiaf:battleaxe_fire_dragonsteel"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battleaxe"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:boomerang",
+  "pattern": [
+    "mpp",
+	"p  ",
+	"p  "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:dragonbone"
+    },
+    "p": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "swiaf:boomerang_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "boomerang"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

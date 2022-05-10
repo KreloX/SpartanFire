@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:greatsword",
+  "pattern": [
+    " m ",
+	"mmm",
+	"mhm"
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:dragonbone"
+    },
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	}
+  },
+  "result": {
+    "item": "swiaf:greatsword_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "greatsword"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

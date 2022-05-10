@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:dagger",
+  "ingredients": [
+        {
+            "item": "iceandfire:lightning_dragon_blood"
+        },
+        {
+            "item": "swiaf:dagger_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:dagger_lightning_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "dagger"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

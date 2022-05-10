@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:heavy_crossbow",
+  "pattern": [
+    "ibi",
+    "pkp",
+    " h "
+  ],
+  "key": {
+    "i": {
+      "item": "iceandfire:dragonbone"
+    },
+	"h": {
+      "item": "swiaf:witherbone_handle"
+	},
+    "p": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:bow"
+    },
+    "k": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "swiaf:heavy_crossbow_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "heavy_crossbow"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

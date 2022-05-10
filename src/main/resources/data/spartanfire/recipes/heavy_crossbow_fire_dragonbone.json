@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:heavy_crossbow",
+  "ingredients": [
+        {
+            "item": "iceandfire:fire_dragon_blood"
+        },
+        {
+            "item": "swiaf:heavy_crossbow_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:heavy_crossbow_fire_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "heavy_crossbow"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:greatsword",
+  "ingredients": [
+    {
+      "item": "swiaf:greatsword_desert"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:greatsword_desert_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "greatsword"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

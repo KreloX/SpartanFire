@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:glaive",
+  "ingredients": [
+        {
+            "item": "iceandfire:fire_dragon_blood"
+        },
+        {
+            "item": "swiaf:glaive_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:glaive_fire_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "glaive"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

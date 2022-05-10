@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:glaive",
+  "pattern": [
+    " m ",
+	" m ",
+	" h "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:myrmex_jungle_chitin"
+    },
+	"h": {
+      "item": "swiaf:witherbone_pole"
+	}
+  },
+  "result": {
+    "item": "swiaf:glaive_jungle"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "glaive"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

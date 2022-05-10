@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:battleaxe",
+  "ingredients": [
+    {
+      "item": "swiaf:battleaxe_jungle"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:battleaxe_jungle_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battleaxe"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

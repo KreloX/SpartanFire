@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:battle_hammer",
+  "ingredients": [
+    {
+      "item": "swiaf:hammer_jungle"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:hammer_jungle_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battle_hammer"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

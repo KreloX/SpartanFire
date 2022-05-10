@@ -1,0 +1,24 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:battle_hammer",
+  "ingredients": [
+        {
+            "item": "iceandfire:lightning_dragon_blood"
+        },
+        {
+            "item": "swiaf:hammer_dragonbone"
+        }
+    ],
+  "result": {
+    "item": "swiaf:hammer_lightning_dragonbone"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battle_hammer"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

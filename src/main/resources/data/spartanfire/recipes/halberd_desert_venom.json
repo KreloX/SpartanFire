@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:halberd",
+  "ingredients": [
+    {
+      "item": "swiaf:halberd_desert"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:halberd_desert_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "halberd"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

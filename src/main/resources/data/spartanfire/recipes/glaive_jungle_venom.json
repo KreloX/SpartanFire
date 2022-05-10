@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:glaive",
+  "ingredients": [
+    {
+      "item": "swiaf:glaive_jungle"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "swiaf:glaive_jungle_venom"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "glaive"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

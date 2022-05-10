@@ -1,0 +1,29 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:halberd",
+  "pattern": [
+    " m ",
+	"mm ",
+	"mh "
+  ],
+  "key": {
+    "m": {
+      "item": "iceandfire:myrmex_jungle_chitin"
+    },
+	"h": {
+      "item": "swiaf:witherbone_pole"
+	}
+  },
+  "result": {
+    "item": "swiaf:halberd_jungle"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "halberd"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}
