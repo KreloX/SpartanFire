@@ -1,0 +1,348 @@
+{
+	// Items
+	
+		// Daggers
+		"item.swiaf.dagger_dragonbone": "Dragon Bone Dagger",
+		"item.swiaf.dagger_fire_dragonbone": "Flamed Dragon Bone Dagger",
+		"item.swiaf.dagger_ice_dragonbone": "Iced Dragon Bone Dagger",
+		"item.swiaf.dagger_lightning_dragonbone": "Lightning Dragon Bone Dagger",
+		"item.swiaf.dagger_fire_dragonsteel": "Fire Dragonsteel Dagger",
+		"item.swiaf.dagger_ice_dragonsteel": "Ice Dragonsteel Dagger",
+		"item.swiaf.dagger_lightning_dragonsteel": "Lightning Dragonsteel Dagger",
+		"item.swiaf.dagger_jungle": "Jungle Myrmex Chitin Dagger",
+		"item.swiaf.dagger_desert": "Desert Myrmex Chitin Dagger",
+		"item.swiaf.dagger_jungle_venom": "Jungle Myrmex Stinger Dagger",
+		"item.swiaf.dagger_desert_venom": "Desert Myrmex Stinger Dagger",
+		
+		// Longsword
+		"item.swiaf.longsword_dragonbone": "Dragon Bone Longsword",
+		"item.swiaf.longsword_fire_dragonbone": "Flamed Dragon Bone Longsword",
+		"item.swiaf.longsword_ice_dragonbone": "Iced Dragon Bone Longsword",
+		"item.swiaf.longsword_lightning_dragonbone": "Lightning Dragon Bone Longsword",
+		"item.swiaf.longsword_fire_dragonsteel": "Fire Dragonsteel Longsword",
+		"item.swiaf.longsword_ice_dragonsteel": "Ice Dragonsteel Longsword",
+		"item.swiaf.longsword_lightning_dragonsteel": "Lightning Dragonsteel Longsword",
+		"item.swiaf.longsword_jungle": "Jungle Myrmex Chitin Longsword",
+		"item.swiaf.longsword_desert": "Desert Myrmex Chitin Longsword",
+		"item.swiaf.longsword_jungle_venom": "Jungle Myrmex Stinger Longsword",
+		"item.swiaf.longsword_desert_venom": "Desert Myrmex Stinger Longsword",
+		
+		// Battleaxes
+		"item.swiaf.battleaxe_dragonbone": "Dragon Bone Battleaxe",
+		"item.swiaf.battleaxe_fire_dragonbone": "Flamed Dragon Bone Battleaxe",
+		"item.swiaf.battleaxe_ice_dragonbone": "Iced Dragon Bone Battleaxe",
+		"item.swiaf.battleaxe_lightning_dragonbone": "Lightning Dragon Bone Battleaxe",
+		"item.swiaf.battleaxe_fire_dragonsteel": "Fire Dragonsteel Battleaxe",
+		"item.swiaf.battleaxe_ice_dragonsteel": "Ice Dragonsteel Battleaxe",
+		"item.swiaf.battleaxe_lightning_dragonsteel": "Lightning Dragonsteel Battleaxe",
+		"item.swiaf.battleaxe_jungle": "Jungle Myrmex Chitin Battleaxe",
+		"item.swiaf.battleaxe_desert": "Desert Myrmex Chitin Battleaxe",
+		"item.swiaf.battleaxe_jungle_venom": "Jungle Myrmex Stinger Battleaxe",
+		"item.swiaf.battleaxe_desert_venom": "Desert Myrmex Stinger Battleaxe",
+		
+		// Maces
+		"item.swiaf.flanged_mace_dragonbone": "Dragon Bone Flanged Mace",
+		"item.swiaf.flanged_mace_fire_dragonbone": "Flamed Dragon Bone Flanged Mace",
+		"item.swiaf.flanged_mace_ice_dragonbone": "Iced Dragon Bone Flanged Mace",
+		"item.swiaf.flanged_mace_lightning_dragonbone": "Lightning Dragon Bone Flanged Mace",
+		"item.swiaf.flanged_mace_fire_dragonsteel": "Fire Dragonsteel Flanged Mace",
+		"item.swiaf.flanged_mace_ice_dragonsteel": "Ice Dragonsteel Flanged Mace",
+		"item.swiaf.flanged_mace_lightning_dragonsteel": "Lightning Dragonsteel Flanged Mace",
+		"item.swiaf.flanged_mace_jungle": "Jungle Myrmex Chitin Flanged Mace",
+		"item.swiaf.flanged_mace_desert": "Desert Myrmex Chitin Flanged Mace",
+		"item.swiaf.flanged_mace_jungle_venom": "Jungle Myrmex Stinger Flanged Mace",
+		"item.swiaf.flanged_mace_desert_venom": "Desert Myrmex Stinger Flanged Mace",
+		
+		// Glaives
+		"item.swiaf.glaive_dragonbone": "Dragon Bone Glaive",
+		"item.swiaf.glaive_fire_dragonbone": "Flamed Dragon Bone Glaive",
+		"item.swiaf.glaive_ice_dragonbone": "Iced Dragon Bone Glaive",
+		"item.swiaf.glaive_lightning_dragonbone": "Lightning Dragon Bone Glaive",
+		"item.swiaf.glaive_fire_dragonsteel": "Fire Dragonsteel Glaive",
+		"item.swiaf.glaive_ice_dragonsteel": "Ice Dragonsteel Glaive",
+		"item.swiaf.glaive_lightning_dragonsteel": "Lightning Dragonsteel Glaive",
+		"item.swiaf.glaive_jungle": "Jungle Myrmex Chitin Glaive",
+		"item.swiaf.glaive_desert": "Desert Myrmex Chitin Glaive",
+		"item.swiaf.glaive_jungle_venom": "Jungle Myrmex Stinger Glaive",
+		"item.swiaf.glaive_desert_venom": "Desert Myrmex Stinger Glaive",
+		
+		// Halberds
+		"item.swiaf.halberd_dragonbone": "Dragon Bone Halberd",
+		"item.swiaf.halberd_fire_dragonbone": "Flamed Dragon Bone Halberd",
+		"item.swiaf.halberd_ice_dragonbone": "Iced Dragon Bone Halberd",
+		"item.swiaf.halberd_lightning_dragonbone": "Lightning Dragon Bone Halberd",
+		"item.swiaf.halberd_fire_dragonsteel": "Fire Dragonsteel Halberd",
+		"item.swiaf.halberd_ice_dragonsteel": "Ice Dragonsteel Halberd",
+		"item.swiaf.halberd_lightning_dragonsteel": "Lightning Dragonsteel Halberd",
+		"item.swiaf.halberd_jungle": "Jungle Myrmex Chitin Halberd",
+		"item.swiaf.halberd_desert": "Desert Myrmex Chitin Halberd",
+		"item.swiaf.halberd_jungle_venom": "Jungle Myrmex Stinger Halberd",
+		"item.swiaf.halberd_desert_venom": "Desert Myrmex Stinger Halberd",
+		
+		// Battle Hammers
+		"item.swiaf.hammer_dragonbone": "Dragon Bone Battle Hammer",
+		"item.swiaf.hammer_fire_dragonbone": "Flamed Dragon Bone Battle Hammer",
+		"item.swiaf.hammer_ice_dragonbone": "Iced Dragon Bone Battle Hammer",
+		"item.swiaf.hammer_lightning_dragonbone": "Lightning Dragon Bone Battle Hammer",
+		"item.swiaf.hammer_fire_dragonsteel": "Fire Dragonsteel Battle Hammer",
+		"item.swiaf.hammer_ice_dragonsteel": "Ice Dragonsteel Battle Hammer",
+		"item.swiaf.hammer_lightning_dragonsteel": "Lightning Dragonsteel Battle Hammer",
+		"item.swiaf.hammer_jungle": "Jungle Myrmex Chitin Battle Hammer",
+		"item.swiaf.hammer_desert": "Desert Myrmex Chitin Battle Hammer",
+		"item.swiaf.hammer_jungle_venom": "Jungle Myrmex Stinger Battle Hammer",
+		"item.swiaf.hammer_desert_venom": "Desert Myrmex Stinger Battle Hammer",
+		
+		// Longbows
+		"item.swiaf.longbow_dragonbone": "Dragon Bone-Strengthened Longbow",
+		"item.swiaf.longbow_fire_dragonbone": "Flamed Dragon Bone-Strengthened Longbow",
+		"item.swiaf.longbow_ice_dragonbone": "Iced Dragon Bone-Strengthened Longbow",
+		"item.swiaf.longbow_lightning_dragonbone": "Lightning Dragon Bone-Strengthened Longbow",
+		"item.swiaf.longbow_fire_dragonsteel": "Fire Dragonsteel-Strengthened Longbow",
+		"item.swiaf.longbow_ice_dragonsteel": "Ice Dragonsteel-Strengthened Longbow",
+		"item.swiaf.longbow_lightning_dragonsteel": "Lightning Dragonsteel-Strengthened Longbow",
+		"item.swiaf.longbow_jungle": "Jungle Myrmex Chitin-Strengthened Longbow",
+		"item.swiaf.longbow_desert": "Desert Myrmex Chitin-Strengthened Longbow",
+		
+		// Lances
+		"item.swiaf.lance_dragonbone": "Dragon Bone Lance",
+		"item.swiaf.lance_fire_dragonbone": "Flamed Dragon Bone Lance",
+		"item.swiaf.lance_ice_dragonbone": "Iced Dragon Bone Lance",
+		"item.swiaf.lance_lightning_dragonbone": "Lightning Dragon Bone Lance",
+		"item.swiaf.lance_fire_dragonsteel": "Fire Dragonsteel Lance",
+		"item.swiaf.lance_ice_dragonsteel": "Ice Dragonsteel Lance",
+		"item.swiaf.lance_lightning_dragonsteel": "Lightning Dragonsteel Lance",
+		"item.swiaf.lance_jungle": "Jungle Myrmex Chitin Lance",
+		"item.swiaf.lance_desert": "Desert Myrmex Chitin Lance",
+		"item.swiaf.lance_jungle_venom": "Jungle Myrmex Stinger Lance",
+		"item.swiaf.lance_desert_venom": "Desert Myrmex Stinger Lance",
+		
+		// Pikes
+		"item.swiaf.pike_dragonbone": "Dragon Bone Pike",
+		"item.swiaf.pike_fire_dragonbone": "Flamed Dragon Bone Pike",
+		"item.swiaf.pike_ice_dragonbone": "Iced Dragon Bone Pike",
+		"item.swiaf.pike_lightning_dragonbone": "Lightning Dragon Bone Pike",
+		"item.swiaf.pike_fire_dragonsteel": "Fire Dragonsteel Pike",
+		"item.swiaf.pike_ice_dragonsteel": "Ice Dragonsteel Pike",
+		"item.swiaf.pike_lightning_dragonsteel": "Lightning Dragonsteel Pike",
+		"item.swiaf.pike_jungle": "Jungle Myrmex Chitin Pike",
+		"item.swiaf.pike_desert": "Desert Myrmex Chitin Pike",
+		"item.swiaf.pike_jungle_venom": "Jungle Myrmex Stinger Pike",
+		"item.swiaf.pike_desert_venom": "Desert Myrmex Stinger Pike",
+		
+		// Quarterstaffs
+		"item.swiaf.quarterstaff_dragonbone": "Dragon Bone Quarterstaff",
+		"item.swiaf.quarterstaff_fire_dragonbone": "Flamed Dragon Bone Quarterstaff",
+		"item.swiaf.quarterstaff_ice_dragonbone": "Iced Dragon Bone Quarterstaff",
+		"item.swiaf.quarterstaff_lightning_dragonbone": "Lightning Dragon Bone Quarterstaff",
+		"item.swiaf.quarterstaff_fire_dragonsteel": "Fire Dragonsteel Quarterstaff",
+		"item.swiaf.quarterstaff_ice_dragonsteel": "Ice Dragonsteel Quarterstaff",
+		"item.swiaf.quarterstaff_lightning_dragonsteel": "Lightning Dragonsteel Quarterstaff",
+		"item.swiaf.quarterstaff_jungle": "Jungle Myrmex Chitin Quarterstaff",
+		"item.swiaf.quarterstaff_desert": "Desert Myrmex Chitin Quarterstaff",
+		"item.swiaf.quarterstaff_jungle_venom": "Jungle Myrmex Stinger Quarterstaff",
+		"item.swiaf.quarterstaff_desert_venom": "Desert Myrmex Stinger Quarterstaff",
+		
+		// Rapiers
+		"item.swiaf.rapier_dragonbone": "Dragon Bone Rapier",
+		"item.swiaf.rapier_fire_dragonbone": "Flamed Dragon Bone Rapier",
+		"item.swiaf.rapier_ice_dragonbone": "Iced Dragon Bone Rapier",
+		"item.swiaf.rapier_lightning_dragonbone": "Lightning Dragon Bone Rapier",
+		"item.swiaf.rapier_fire_dragonsteel": "Fire Dragonsteel Rapier",
+		"item.swiaf.rapier_ice_dragonsteel": "Ice Dragonsteel Rapier",
+		"item.swiaf.rapier_lightning_dragonsteel": "Lightning Dragonsteel Rapier",
+		"item.swiaf.rapier_jungle": "Jungle Myrmex Chitin Rapier",
+		"item.swiaf.rapier_desert": "Desert Myrmex Chitin Rapier",
+		"item.swiaf.rapier_jungle_venom": "Jungle Myrmex Stinger Rapier",
+		"item.swiaf.rapier_desert_venom": "Desert Myrmex Stinger Rapier",
+		
+		// Sabers
+		"item.swiaf.saber_dragonbone": "Dragon Bone Saber",
+		"item.swiaf.saber_fire_dragonbone": "Flamed Dragon Bone Saber",
+		"item.swiaf.saber_ice_dragonbone": "Iced Dragon Bone Saber",
+		"item.swiaf.saber_lightning_dragonbone": "Lightning Dragon Bone Saber",
+		"item.swiaf.saber_fire_dragonsteel": "Fire Dragonsteel Saber",
+		"item.swiaf.saber_ice_dragonsteel": "Ice Dragonsteel Saber",
+		"item.swiaf.saber_lightning_dragonsteel": "Lightning Dragonsteel Saber",
+		"item.swiaf.saber_jungle": "Jungle Myrmex Chitin Saber",
+		"item.swiaf.saber_desert": "Desert Myrmex Chitin Saber",
+		"item.swiaf.saber_jungle_venom": "Jungle Myrmex Stinger Saber",
+		"item.swiaf.saber_desert_venom": "Desert Myrmex Stinger Saber",
+		
+		// Spears
+		"item.swiaf.spear_dragonbone": "Dragon Bone Spear",
+		"item.swiaf.spear_fire_dragonbone": "Flamed Dragon Bone Spear",
+		"item.swiaf.spear_ice_dragonbone": "Iced Dragon Bone Spear",
+		"item.swiaf.spear_lightning_dragonbone": "Lightning Dragon Bone Spear",
+		"item.swiaf.spear_fire_dragonsteel": "Fire Dragonsteel Spear",
+		"item.swiaf.spear_ice_dragonsteel": "Ice Dragonsteel Spear",
+		"item.swiaf.spear_lightning_dragonsteel": "Lightning Dragonsteel Spear",
+		"item.swiaf.spear_jungle": "Jungle Myrmex Chitin Spear",
+		"item.swiaf.spear_desert": "Desert Myrmex Chitin Spear",
+		"item.swiaf.spear_jungle_venom": "Jungle Myrmex Stinger Spear",
+		"item.swiaf.spear_desert_venom": "Desert Myrmex Stinger Spear",
+		
+		// Warhammers
+		"item.swiaf.warhammer_dragonbone": "Dragon Bone Warhammer",
+		"item.swiaf.warhammer_fire_dragonbone": "Flamed Dragon Bone Warhammer",
+		"item.swiaf.warhammer_ice_dragonbone": "Iced Dragon Bone Warhammer",
+		"item.swiaf.warhammer_lightning_dragonbone": "Lightning Dragon Bone Warhammer",
+		"item.swiaf.warhammer_fire_dragonsteel": "Fire Dragonsteel Warhammer",
+		"item.swiaf.warhammer_ice_dragonsteel": "Ice Dragonsteel Warhammer",
+		"item.swiaf.warhammer_lightning_dragonsteel": "Lightning Dragonsteel Warhammer",
+		"item.swiaf.warhammer_jungle": "Jungle Myrmex Chitin Warhammer",
+		"item.swiaf.warhammer_desert": "Desert Myrmex Chitin Warhammer",
+		"item.swiaf.warhammer_jungle_venom": "Jungle Myrmex Stinger Warhammer",
+		"item.swiaf.warhammer_desert_venom": "Desert Myrmex Stinger Warhammer",
+		
+		// Katanas
+		"item.swiaf.katana_dragonbone": "Dragon Bone Katana",
+		"item.swiaf.katana_fire_dragonbone": "Flamed Dragon Bone Katana",
+		"item.swiaf.katana_ice_dragonbone": "Iced Dragon Bone Katana",
+		"item.swiaf.katana_lightning_dragonbone": "Lightning Dragon Bone Katana",
+		"item.swiaf.katana_fire_dragonsteel": "Fire Dragonsteel Katana",
+		"item.swiaf.katana_ice_dragonsteel": "Ice Dragonsteel Katana",
+		"item.swiaf.katana_lightning_dragonsteel": "Lightning Dragonsteel Katana",
+		"item.swiaf.katana_jungle": "Jungle Myrmex Chitin Katana",
+		"item.swiaf.katana_desert": "Desert Myrmex Chitin Katana",
+		"item.swiaf.katana_jungle_venom": "Jungle Myrmex Stinger Katana",
+		"item.swiaf.katana_desert_venom": "Desert Myrmex Stinger Katana",
+		
+		// Greatswords
+		"item.swiaf.greatsword_dragonbone": "Dragon Bone Greatsword",
+		"item.swiaf.greatsword_fire_dragonbone": "Flamed Dragon Bone Greatsword",
+		"item.swiaf.greatsword_ice_dragonbone": "Iced Dragon Bone Greatsword",
+		"item.swiaf.greatsword_lightning_dragonbone": "Lightning Dragon Bone Greatsword",
+		"item.swiaf.greatsword_fire_dragonsteel": "Fire Dragonsteel Greatsword",
+		"item.swiaf.greatsword_ice_dragonsteel": "Ice Dragonsteel Greatsword",
+		"item.swiaf.greatsword_lightning_dragonsteel": "Lightning Dragonsteel Greatsword",
+		"item.swiaf.greatsword_jungle": "Jungle Myrmex Chitin Greatsword",
+		"item.swiaf.greatsword_desert": "Desert Myrmex Chitin Greatsword",
+		"item.swiaf.greatsword_jungle_venom": "Jungle Myrmex Stinger Greatsword",
+		"item.swiaf.greatsword_desert_venom": "Desert Myrmex Stinger Greatsword",
+		
+		// Boomerangs
+		"item.swiaf.boomerang_dragonbone": "Dragon Bone Boomerang",
+		"item.swiaf.boomerang_fire_dragonbone": "Flamed Dragon Bone Boomerang",
+		"item.swiaf.boomerang_ice_dragonbone": "Iced Dragon Bone Boomerang",
+		"item.swiaf.boomerang_lightning_dragonbone": "Lightning Dragon Bone Boomerang",
+		"item.swiaf.boomerang_fire_dragonsteel": "Fire Dragonsteel Boomerang",
+		"item.swiaf.boomerang_ice_dragonsteel": "Ice Dragonsteel Boomerang",
+		"item.swiaf.boomerang_lightning_dragonsteel": "Lightning Dragonsteel Boomerang",
+		"item.swiaf.boomerang_jungle": "Jungle Myrmex Chitin Boomerang",
+		"item.swiaf.boomerang_desert": "Desert Myrmex Chitin Boomerang",
+		"item.swiaf.boomerang_jungle_venom": "Jungle Myrmex Stinger Boomerang",
+		"item.swiaf.boomerang_desert_venom": "Desert Myrmex Stinger Boomerang",
+		
+		// Crossbows
+		"item.swiaf.heavy_crossbow_dragonbone": "Dragon Bone-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_fire_dragonbone": "Flamed Dragon Bone-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_ice_dragonbone": "Iced Dragon Bone-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_lightning_dragonbone": "Lightning Dragon Bone-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_fire_dragonsteel": "Fire Dragonsteel-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_ice_dragonsteel": "Ice Dragonsteel-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_lightning_dragonsteel": "Lightning Dragonsteel-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_jungle": "Jungle Myrmex Chitin-Strengthened Heavy Crossbow",
+		"item.swiaf.heavy_crossbow_desert": "Desert Myrmex Chitin-Strengthened Heavy Crossbow",
+		
+		// Javelins
+		"item.swiaf.javelin_dragonbone": "Dragon Bone Javelin",
+		"item.swiaf.javelin_fire_dragonbone": "Flamed Dragon Bone Javelin",
+		"item.swiaf.javelin_ice_dragonbone": "Iced Dragon Bone Javelin",
+		"item.swiaf.javelin_lightning_dragonbone": "Lightning Dragon Bone Javelin",
+		"item.swiaf.javelin_fire_dragonsteel": "Fire Dragonsteel Javelin",
+		"item.swiaf.javelin_ice_dragonsteel": "Ice Dragonsteel Javelin",
+		"item.swiaf.javelin_lightning_dragonsteel": "Lightning Dragonsteel Javelin",
+		"item.swiaf.javelin_jungle": "Jungle Myrmex Chitin Javelin",
+		"item.swiaf.javelin_desert": "Desert Myrmex Chitin Javelin",
+		"item.swiaf.javelin_jungle_venom": "Jungle Myrmex Stinger Javelin",
+		"item.swiaf.javelin_desert_venom": "Desert Myrmex Stinger Javelin",
+		
+		// Throwing Knives
+		"item.swiaf.throwing_knife_dragonbone": "Dragon Bone Throwing Knife",
+		"item.swiaf.throwing_knife_fire_dragonbone": "Flamed Dragon Bone Throwing Knife",
+		"item.swiaf.throwing_knife_ice_dragonbone": "Iced Dragon Bone Throwing Knife",
+		"item.swiaf.throwing_knife_lightning_dragonbone": "Lightning Dragon Bone Throwing Knife",
+		"item.swiaf.throwing_knife_fire_dragonsteel": "Fire Dragonsteel Throwing Knife",
+		"item.swiaf.throwing_knife_ice_dragonsteel": "Ice Dragonsteel Throwing Knife",
+		"item.swiaf.throwing_knife_lightning_dragonsteel": "Lightning Dragonsteel Throwing Knife",
+		"item.swiaf.throwing_knife_jungle": "Jungle Myrmex Chitin Throwing Knife",
+		"item.swiaf.throwing_knife_desert": "Desert Myrmex Chitin Throwing Knife",
+		"item.swiaf.throwing_knife_jungle_venom": "Jungle Myrmex Stinger Throwing Knife",
+		"item.swiaf.throwing_knife_desert_venom": "Desert Myrmex Stinger Throwing Knife",
+		
+		// Tomahawks
+		"item.swiaf.tomahawk_dragonbone": "Dragon Bone Tomahawk",
+		"item.swiaf.tomahawk_fire_dragonbone": "Flamed Dragon Bone Tomahawk",
+		"item.swiaf.tomahawk_ice_dragonbone": "Iced Dragon Bone Tomahawk",
+		"item.swiaf.tomahawk_lightning_dragonbone": "Lightning Dragon Bone Tomahawk",
+		"item.swiaf.tomahawk_fire_dragonsteel": "Fire Dragonsteel Tomahawk",
+		"item.swiaf.tomahawk_ice_dragonsteel": "Ice Dragonsteel Tomahawk",
+		"item.swiaf.tomahawk_lightning_dragonsteel": "Lightning Dragonsteel Tomahawk",
+		"item.swiaf.tomahawk_jungle": "Jungle Myrmex Chitin Tomahawk",
+		"item.swiaf.tomahawk_desert": "Desert Myrmex Chitin Tomahawk",
+		"item.swiaf.tomahawk_jungle_venom": "Jungle Myrmex Stinger Tomahawk",
+		"item.swiaf.tomahawk_desert_venom": "Desert Myrmex Stinger Tomahawk",
+		
+		// Parrying Daggers
+		"item.swiaf.parrying_dagger_dragonbone": "Dragon Bone Parrying Dagger",
+		"item.swiaf.parrying_dagger_fire_dragonbone": "Flamed Dragon Bone Parrying Dagger",
+		"item.swiaf.parrying_dagger_ice_dragonbone": "Iced Dragon Bone Parrying Dagger",
+		"item.swiaf.parrying_dagger_lightning_dragonbone": "Lightning Dragon Bone Parrying Dagger",
+		"item.swiaf.parrying_dagger_fire_dragonsteel": "Fire Dragonsteel Parrying Dagger",
+		"item.swiaf.parrying_dagger_ice_dragonsteel": "Ice Dragonsteel Parrying Dagger",
+		"item.swiaf.parrying_dagger_lightning_dragonsteel": "Lightning Dragonsteel Parrying Dagger",
+		"item.swiaf.parrying_dagger_jungle": "Jungle Myrmex Chitin Parrying Dagger",
+		"item.swiaf.parrying_dagger_desert": "Desert Myrmex Chitin Parrying Dagger",
+		"item.swiaf.parrying_dagger_jungle_venom": "Jungle Myrmex Stinger Parrying Dagger",
+		"item.swiaf.parrying_dagger_desert_venom": "Desert Myrmex Stinger Parrying Dagger",
+		
+		// Scythes
+		"item.swiaf.scythe_dragonbone": "Dragon Bone Scythe",
+		"item.swiaf.scythe_fire_dragonbone": "Flamed Dragon Bone Scythe",
+		"item.swiaf.scythe_ice_dragonbone": "Iced Dragon Bone Scythe",
+		"item.swiaf.scythe_lightning_dragonbone": "Lightning Dragon Bone Scythe",
+		"item.swiaf.scythe_fire_dragonsteel": "Fire Dragonsteel Scythe",
+		"item.swiaf.scythe_ice_dragonsteel": "Ice Dragonsteel Scythe",
+		"item.swiaf.scythe_lightning_dragonsteel": "Lightning Dragonsteel Scythe",
+		"item.swiaf.scythe_jungle": "Jungle Myrmex Chitin Scythe",
+		"item.swiaf.scythe_desert": "Desert Myrmex Chitin Scythe",
+		"item.swiaf.scythe_jungle_venom": "Jungle Myrmex Stinger Scythe",
+		"item.swiaf.scythe_desert_venom": "Desert Myrmex Stinger Scythe",
+		
+		// Misc
+		"item.swiaf.witherbone_handle": "Witherbone Handle",
+		"item.swiaf.witherbone_pole": "Witherbone Pole",
+	
+	// Tooltips
+		
+		// Flamed
+		"tooltip.swiaf.trait.flamed"= "Flamed I",
+		"tooltip.swiaf.trait.flamed.desc": "Ignites and knocks back targets on hit. Deals extra damage to Ice Dragons",
+		"tooltip.swiaf.trait.flamedii"= "Flamed II",
+		"tooltip.swiaf.trait.flamedii.desc": "Ignites and knocks back targets on hit",
+		
+		// Iced
+		"tooltip.swiaf.trait.iced"= "Iced I",
+		"tooltip.swiaf.trait.iced.desc": "Freezes targets on hit. Deals extra damage to Fire Dragons",
+		"tooltip.swiaf.trait.icedii"= "Iced II",
+		"tooltip.swiaf.trait.icedii.desc": "Freezes targets on hit",
+		
+		// Shocked
+		"tooltip.swiaf.trait.shocked"= "Shocked I",
+		"tooltip.swiaf.trait.shocked.desc": "Strikes targets with lightning on hit. Deals extra damage to Fire Dragons and Ice Dragons",
+		"tooltip.swiaf.trait.shockedii"= "Shocked II",
+		"tooltip.swiaf.trait.shockedii.desc": "Strikes targets with lightning on hit",
+		
+		// Myrmex
+		"tooltip.swiaf.trait.myrmex"= "Myrmex",
+		"tooltip.swiaf.trait.myrmex.desc": "Deals extra damage to non-arthropods and Death Worms",
+		
+		// Poisoned
+		"tooltip.swiaf.trait.poisoned"= "Poisoned",
+		"tooltip.swiaf.trait.poisoned.desc": "Poisons targets on hit",
+		
+	// Tabs
+		
+		// SWIaF
+		"itemGroup.sw_iaf": "Spartan Weaponry: Ice and Fire"
+}
