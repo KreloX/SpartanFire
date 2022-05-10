@@ -1,0 +1,9 @@
+{"textures": {"layer0": "swiaf:items/throwing_axe_jungle_venom"}, "parent": "spartanweaponry:item/tomahawk_wood",
+    "overrides": [
+        {
+            "predicate": {
+                "throwing": 1
+            },
+            "model": "swiaf:item/tomahawk_jungle_venom_throwing"
+        }
+    ]}

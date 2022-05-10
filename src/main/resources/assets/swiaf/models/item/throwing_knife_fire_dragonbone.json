@@ -1,0 +1,9 @@
+{"textures": {"layer0": "swiaf:items/throwing_knife_fire_dragon"}, "parent": "spartanweaponry:item/throwing_knife_wood",
+    "overrides": [
+        {
+            "predicate": {
+                "throwing": 1
+            },
+            "model": "swiaf:item/throwing_knife_fire_dragonbone_throwing"
+        }
+    ]}

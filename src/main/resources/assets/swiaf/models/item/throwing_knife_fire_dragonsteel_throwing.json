@@ -1,0 +1,6 @@
+{
+    "parent": "spartanweaponry:item/throwing_knife_wood_throwing",
+    "textures": {
+        "layer0": "swiaf:items/throwing_knife_dragonsteel_fire"
+    }
+}

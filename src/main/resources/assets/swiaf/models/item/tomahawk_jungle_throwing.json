@@ -1,0 +1,6 @@
+{
+    "parent": "spartanweaponry:item/tomahawk_wood_throwing",
+    "textures": {
+        "layer0": "swiaf:items/throwing_axe_jungle"
+    }
+}

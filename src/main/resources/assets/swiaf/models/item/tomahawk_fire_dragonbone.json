@@ -1,0 +1,9 @@
+{"textures": {"layer0": "swiaf:items/throwing_axe_fire_dragon"}, "parent": "spartanweaponry:item/tomahawk_wood",
+    "overrides": [
+        {
+            "predicate": {
+                "throwing": 1
+            },
+            "model": "swiaf:item/tomahawk_fire_dragonbone_throwing"
+        }
+    ]}
