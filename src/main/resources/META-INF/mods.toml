@@ -8,8 +8,8 @@ version="1.16.5-1.0.0"
 displayName="Spartan Weaponry: Ice and Fire"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-ice-and-fire"
 logoFile="logo.png"
-credits="Thanks to Alexthe666 for making Ice and Fire: Dragons and to ObliviousSpartan for making Spartan Weaponry. Another thanks goes to cbkovak for creating the original Spartan and Fire."
-authors="KreloX, textures by ChoglixVT"
+credits="Thanks to ChoglixVT for providing textures and to sellsugar for Chinese translation."
+authors="KreloX"
 description='''
 Spicing up Spartan Weaponry by implementing materials from the mythological legends of Ice and Fire.'''
 [[dependencies.swiaf]]
