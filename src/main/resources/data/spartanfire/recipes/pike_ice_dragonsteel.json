@@ -3,9 +3,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:pike",
   "pattern": [
-    " m ",
-	" p ",
-	" p "
+    "m",
+	"p",
+	"p"
   ],
   "key": {
     "m": {

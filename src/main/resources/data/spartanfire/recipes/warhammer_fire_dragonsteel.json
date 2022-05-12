@@ -3,9 +3,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:warhammer",
   "pattern": [
-    " m ",
-	"mm ",
-	" h "
+    " m",
+	"mm",
+	" h"
   ],
   "key": {
     "m": {

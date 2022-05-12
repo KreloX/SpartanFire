@@ -3,9 +3,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:saber",
   "pattern": [
-    " m ",
-	" m ",
-	"mh "
+    " m",
+	" m",
+	"mh"
   ],
   "key": {
     "m": {

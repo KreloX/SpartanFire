@@ -3,9 +3,8 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:spear",
   "pattern": [
-    " m ",
-	" p ",
-	"   "
+    "m",
+	"p"
   ],
   "key": {
     "m": {

@@ -3,9 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:javelin",
   "pattern": [
-    "   ",
-	"hm ",
-	"   "
+	"hm"
   ],
   "key": {
     "m": {
