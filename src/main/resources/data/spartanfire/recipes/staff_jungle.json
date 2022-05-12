@@ -3,9 +3,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:quarterstaff",
   "pattern": [
-    " p ",
-	" m ",
-	"   "
+    "  m",
+	" p ",
+	"m  "
   ],
   "key": {
     "m": {
