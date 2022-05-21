@@ -3,9 +3,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:glaive",
   "pattern": [
-    " m ",
-	" m ",
-	" h "
+    "m",
+	"m",
+	"h"
   ],
   "key": {
     "m": {

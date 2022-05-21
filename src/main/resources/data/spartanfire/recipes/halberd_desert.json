@@ -3,9 +3,9 @@
   "type": "minecraft:crafting_shaped",
   "group": "spartanweaponry:halberd",
   "pattern": [
-    " m ",
-	"mm ",
-	"mh "
+    " m",
+	"mm",
+	"mh"
   ],
   "key": {
     "m": {
