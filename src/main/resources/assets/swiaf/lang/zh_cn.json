@@ -1,10 +1,9 @@
 {
-// Items	
-// Daggers					
+// Daggers
 "item.swiaf.dagger_dragonbone":"龙骨匕首",
-"item.swiaf.dagger_fire_dragonbone":"龙炎匕首",
-"item.swiaf.dagger_ice_dragonbone":"龙霜匕首",
-"item.swiaf.dagger_lightning_dragonbone":"龙霆匕首",
+"item.swiaf.dagger_fire_dragonbone":"龙炎骨血匕首",
+"item.swiaf.dagger_ice_dragonbone":"龙霜骨血匕首",
+"item.swiaf.dagger_lightning_dragonbone":"龙霆骨血匕首",
 "item.swiaf.dagger_fire_dragonsteel":"龙炎钢匕首",
 "item.swiaf.dagger_ice_dragonsteel":"龙霜钢匕首",
 "item.swiaf.dagger_lightning_dragonsteel":"龙霆钢匕首",
@@ -13,10 +12,11 @@
 "item.swiaf.dagger_jungle_venom":"林蚁蛰针匕首",
 "item.swiaf.dagger_desert_venom":"沙蚁蛰针匕首",
 
+// Longsword
 "item.swiaf.longsword_dragonbone":"龙骨长剑",
-"item.swiaf.longsword_fire_dragonbone":"龙炎长剑",
-"item.swiaf.longsword_ice_dragonbone":"龙霜长剑",
-"item.swiaf.longsword_lightning_dragonbone":"龙霆长剑",
+"item.swiaf.longsword_fire_dragonbone":"龙炎骨血长剑",
+"item.swiaf.longsword_ice_dragonbone":"龙霜骨血长剑",
+"item.swiaf.longsword_lightning_dragonbone":"龙霆骨血长剑",
 "item.swiaf.longsword_fire_dragonsteel":"龙炎钢长剑",
 "item.swiaf.longsword_ice_dragonsteel":"龙霜钢长剑",
 "item.swiaf.longsword_lightning_dragonsteel":"龙霆钢长剑",
@@ -25,10 +25,11 @@
 "item.swiaf.longsword_jungle_venom":"林蚁蛰针长剑",
 "item.swiaf.longsword_desert_venom":"沙蚁蛰针长剑",
 
+// Battleaxes
 "item.swiaf.battleaxe_dragonbone":"龙骨战斧",
-"item.swiaf.battleaxe_fire_dragonbone":"龙炎战斧",
-"item.swiaf.battleaxe_ice_dragonbone":"龙霜战斧",
-"item.swiaf.battleaxe_lightning_dragonbone":"龙霆战斧",
+"item.swiaf.battleaxe_fire_dragonbone":"龙炎骨血战斧",
+"item.swiaf.battleaxe_ice_dragonbone":"龙霜骨血战斧",
+"item.swiaf.battleaxe_lightning_dragonbone":"龙霆骨血战斧",
 "item.swiaf.battleaxe_fire_dragonsteel":"龙炎钢战斧",
 "item.swiaf.battleaxe_ice_dragonsteel":"龙霜钢战斧",
 "item.swiaf.battleaxe_lightning_dragonsteel":"龙霆钢战斧",
@@ -39,9 +40,9 @@
 
 // Maces
 "item.swiaf.flanged_mace_dragonbone":"龙骨凸缘钉头锤",
-"item.swiaf.flanged_mace_fire_dragonbone":"龙炎凸缘钉头锤",
-"item.swiaf.flanged_mace_ice_dragonbone":"龙霜凸缘钉头锤",
-"item.swiaf.flanged_mace_lightning_dragonbone":"龙霆凸缘钉头锤",
+"item.swiaf.flanged_mace_fire_dragonbone":"龙炎骨血凸缘钉头锤",
+"item.swiaf.flanged_mace_ice_dragonbone":"龙霜骨血凸缘钉头锤",
+"item.swiaf.flanged_mace_lightning_dragonbone":"龙霆骨血凸缘钉头锤",
 "item.swiaf.flanged_mace_fire_dragonsteel":"龙炎钢凸缘钉头锤",
 "item.swiaf.flanged_mace_ice_dragonsteel":"龙霜钢凸缘钉头锤",
 "item.swiaf.flanged_mace_lightning_dragonsteel":"龙霆钢凸缘钉头锤",
@@ -52,9 +53,9 @@
 
 // Glaives
 "item.swiaf.glaive_dragonbone":"龙骨长戈",
-"item.swiaf.glaive_fire_dragonbone":"龙炎长戈",
-"item.swiaf.glaive_ice_dragonbone":"龙霜长戈",
-"item.swiaf.glaive_lightning_dragonbone":"龙霆长戈",
+"item.swiaf.glaive_fire_dragonbone":"龙炎骨血长戈",
+"item.swiaf.glaive_ice_dragonbone":"龙霜骨血长戈",
+"item.swiaf.glaive_lightning_dragonbone":"龙霆骨血长戈",
 "item.swiaf.glaive_fire_dragonsteel":"龙炎钢长戈",
 "item.swiaf.glaive_ice_dragonsteel":"龙霜钢长戈",
 "item.swiaf.glaive_lightning_dragonsteel":"龙霆钢长戈",
@@ -65,9 +66,9 @@
 
 // Halberds
 "item.swiaf.halberd_dragonbone":"龙骨骨戟",
-"item.swiaf.halberd_fire_dragonbone":"龙炎骨戟",
-"item.swiaf.halberd_ice_dragonbone":"龙霜骨戟",
-"item.swiaf.halberd_lightning_dragonbone":"龙霆骨戟",
+"item.swiaf.halberd_fire_dragonbone":"龙炎骨血骨戟",
+"item.swiaf.halberd_ice_dragonbone":"龙霜骨血骨戟",
+"item.swiaf.halberd_lightning_dragonbone":"龙霆骨血骨戟",
 "item.swiaf.halberd_fire_dragonsteel":"龙炎钢骨戟",
 "item.swiaf.halberd_ice_dragonsteel":"龙霜钢骨戟",
 "item.swiaf.halberd_lightning_dragonsteel":"龙霆钢骨戟",
@@ -78,9 +79,9 @@
 
 // Battle Hammers
 "item.swiaf.hammer_dragonbone":"龙骨锤",
-"item.swiaf.hammer_fire_dragonbone":"龙炎锤",
-"item.swiaf.hammer_ice_dragonbone":"龙霜锤",
-"item.swiaf.hammer_lightning_dragonbone":"龙霆锤",
+"item.swiaf.hammer_fire_dragonbone":"龙炎骨血锤",
+"item.swiaf.hammer_ice_dragonbone":"龙霜骨血锤",
+"item.swiaf.hammer_lightning_dragonbone":"龙霆骨血锤",
 "item.swiaf.hammer_fire_dragonsteel":"龙炎钢锤",
 "item.swiaf.hammer_ice_dragonsteel":"龙霜钢锤",
 "item.swiaf.hammer_lightning_dragonsteel":"龙霆钢锤",
@@ -91,9 +92,9 @@
 
 // Longbows
 "item.swiaf.longbow_dragonbone":"龙骨强化弓",
-"item.swiaf.longbow_fire_dragonbone":"龙炎强化弓",
-"item.swiaf.longbow_ice_dragonbone":"龙霜强化弓",
-"item.swiaf.longbow_lightning_dragonbone":"龙霆强化弓",
+"item.swiaf.longbow_fire_dragonbone":"龙炎骨血强化弓",
+"item.swiaf.longbow_ice_dragonbone":"龙霜骨血强化弓",
+"item.swiaf.longbow_lightning_dragonbone":"龙霆骨血强化弓",
 "item.swiaf.longbow_fire_dragonsteel":"龙炎钢强化弓",
 "item.swiaf.longbow_ice_dragonsteel":"龙霜钢强化弓",
 "item.swiaf.longbow_lightning_dragonsteel":"龙霆钢强化弓",
@@ -102,9 +103,9 @@
 
 // Lances
 "item.swiaf.lance_dragonbone":"龙骨骑枪",
-"item.swiaf.lance_fire_dragonbone":"龙炎骑枪",
-"item.swiaf.lance_ice_dragonbone":"龙霜骑枪",
-"item.swiaf.lance_lightning_dragonbone":"龙霆骑枪",
+"item.swiaf.lance_fire_dragonbone":"龙炎骨血骑枪",
+"item.swiaf.lance_ice_dragonbone":"龙霜骨血骑枪",
+"item.swiaf.lance_lightning_dragonbone":"龙霆骨血骑枪",
 "item.swiaf.lance_fire_dragonsteel":"龙炎钢骑枪",
 "item.swiaf.lance_ice_dragonsteel":"龙霜钢骑枪",
 "item.swiaf.lance_lightning_dragonsteel":"龙霆钢骑枪",
@@ -115,9 +116,9 @@
 
 // Pikes
 "item.swiaf.pike_dragonbone":"龙骨长矛",
-"item.swiaf.pike_fire_dragonbone":"龙炎长矛",
-"item.swiaf.pike_ice_dragonbone":"龙霜长矛",
-"item.swiaf.pike_lightning_dragonbone":"龙霆长矛",
+"item.swiaf.pike_fire_dragonbone":"龙炎骨血长矛",
+"item.swiaf.pike_ice_dragonbone":"龙霜骨血长矛",
+"item.swiaf.pike_lightning_dragonbone":"龙霆骨血长矛",
 "item.swiaf.pike_fire_dragonsteel":"龙炎钢长矛",
 "item.swiaf.pike_ice_dragonsteel":"龙霜钢长矛",
 "item.swiaf.pike_lightning_dragonsteel":"龙霆钢长矛",
@@ -128,9 +129,9 @@
 
 // Quarterstaffs
 "item.swiaf.quarterstaff_dragonbone":"龙骨锤头棍",
-"item.swiaf.quarterstaff_fire_dragonbone":"龙炎锤头棍",
-"item.swiaf.quarterstaff_ice_dragonbone":"龙霜锤头棍",
-"item.swiaf.quarterstaff_lightning_dragonbone":"龙霆锤头棍",
+"item.swiaf.quarterstaff_fire_dragonbone":"龙炎骨血锤头棍",
+"item.swiaf.quarterstaff_ice_dragonbone":"龙霜骨血锤头棍",
+"item.swiaf.quarterstaff_lightning_dragonbone":"龙霆骨血锤头棍",
 "item.swiaf.quarterstaff_fire_dragonsteel":"龙炎钢锤头棍",
 "item.swiaf.quarterstaff_ice_dragonsteel":"龙霜钢锤头棍",
 "item.swiaf.quarterstaff_lightning_dragonsteel":"龙霆钢锤头棍",
@@ -141,9 +142,9 @@
 
 // Rapiers"",
 "item.swiaf.rapier_dragonbone":"龙骨迅捷剑",
-"item.swiaf.rapier_fire_dragonbone":"龙炎迅捷剑",
-"item.swiaf.rapier_ice_dragonbone":"龙霜迅捷剑",
-"item.swiaf.rapier_lightning_dragonbone":"龙霆迅捷剑",
+"item.swiaf.rapier_fire_dragonbone":"龙炎骨血迅捷剑",
+"item.swiaf.rapier_ice_dragonbone":"龙霜骨血迅捷剑",
+"item.swiaf.rapier_lightning_dragonbone":"龙霆骨血迅捷剑",
 "item.swiaf.rapier_fire_dragonsteel":"龙炎钢迅捷剑",
 "item.swiaf.rapier_ice_dragonsteel":"龙霜钢迅捷剑",
 "item.swiaf.rapier_lightning_dragonsteel":"龙霆钢迅捷剑",
@@ -154,9 +155,9 @@
 
 // Sabers
 "item.swiaf.saber_dragonbone":"龙骨军刀",
-"item.swiaf.saber_fire_dragonbone":"龙炎军刀",
-"item.swiaf.saber_ice_dragonbone":"龙霜军刀",
-"item.swiaf.saber_lightning_dragonbone":"龙霆军刀",
+"item.swiaf.saber_fire_dragonbone":"龙炎骨血军刀",
+"item.swiaf.saber_ice_dragonbone":"龙霜骨血军刀",
+"item.swiaf.saber_lightning_dragonbone":"龙霆骨血军刀",
 "item.swiaf.saber_fire_dragonsteel":"龙炎钢军刀",
 "item.swiaf.saber_ice_dragonsteel":"龙霜钢军刀",
 "item.swiaf.saber_lightning_dragonsteel":"龙霆钢军刀",
@@ -167,9 +168,9 @@
 
 // Spears
 "item.swiaf.spear_dragonbone":"龙骨长枪",
-"item.swiaf.spear_fire_dragonbone":"龙炎长枪",
-"item.swiaf.spear_ice_dragonbone":"龙霜长枪",
-"item.swiaf.spear_lightning_dragonbone":"龙霆长枪",
+"item.swiaf.spear_fire_dragonbone":"龙炎骨血长枪",
+"item.swiaf.spear_ice_dragonbone":"龙霜骨血长枪",
+"item.swiaf.spear_lightning_dragonbone":"龙霆骨血长枪",
 "item.swiaf.spear_fire_dragonsteel":"龙炎钢长枪",
 "item.swiaf.spear_ice_dragonsteel":"龙霜钢长枪",
 "item.swiaf.spear_lightning_dragonsteel":"龙霆钢长枪",
@@ -180,9 +181,9 @@
 
 // Warhammers
 "item.swiaf.warhammer_dragonbone":"龙骨战锤",
-"item.swiaf.warhammer_fire_dragonbone":"龙炎战锤",
-"item.swiaf.warhammer_ice_dragonbone":"龙霜战锤",
-"item.swiaf.warhammer_lightning_dragonbone":"龙霆战锤",
+"item.swiaf.warhammer_fire_dragonbone":"龙炎骨血战锤",
+"item.swiaf.warhammer_ice_dragonbone":"龙霜骨血战锤",
+"item.swiaf.warhammer_lightning_dragonbone":"龙霆骨血战锤",
 "item.swiaf.warhammer_fire_dragonsteel":"龙炎钢战锤",
 "item.swiaf.warhammer_ice_dragonsteel":"龙霜钢战锤",
 "item.swiaf.warhammer_lightning_dragonsteel":"龙霆钢战锤",
@@ -193,9 +194,9 @@
 
 // Katanas
 "item.swiaf.katana_dragonbone":"龙骨武士刀",
-"item.swiaf.katana_fire_dragonbone":"龙炎武士刀",
-"item.swiaf.katana_ice_dragonbone":"龙霜武士刀",
-"item.swiaf.katana_lightning_dragonbone":"龙霆武士刀",
+"item.swiaf.katana_fire_dragonbone":"龙炎骨血武士刀",
+"item.swiaf.katana_ice_dragonbone":"龙霜骨血武士刀",
+"item.swiaf.katana_lightning_dragonbone":"龙霆骨血武士刀",
 "item.swiaf.katana_fire_dragonsteel":"龙炎钢武士刀",
 "item.swiaf.katana_ice_dragonsteel":"龙霜钢武士刀",
 "item.swiaf.katana_lightning_dragonsteel":"龙霆钢武士刀",
@@ -206,9 +207,9 @@
 
 // Greatswords
 "item.swiaf.greatsword_dragonbone":"龙骨大剑",
-"item.swiaf.greatsword_fire_dragonbone":"龙炎大剑",
-"item.swiaf.greatsword_ice_dragonbone":"龙霜大剑",
-"item.swiaf.greatsword_lightning_dragonbone":"龙霆大剑",
+"item.swiaf.greatsword_fire_dragonbone":"龙炎骨血大剑",
+"item.swiaf.greatsword_ice_dragonbone":"龙霜骨血大剑",
+"item.swiaf.greatsword_lightning_dragonbone":"龙霆骨血大剑",
 "item.swiaf.greatsword_fire_dragonsteel":"龙炎钢大剑",
 "item.swiaf.greatsword_ice_dragonsteel":"龙霜钢大剑",
 "item.swiaf.greatsword_lightning_dragonsteel":"龙霆钢大剑",
@@ -219,9 +220,9 @@
 
 // Boomerangs
 "item.swiaf.boomerang_dragonbone":"龙骨回旋镖",
-"item.swiaf.boomerang_fire_dragonbone":"龙炎回旋镖",
-"item.swiaf.boomerang_ice_dragonbone":"龙霜回旋镖",
-"item.swiaf.boomerang_lightning_dragonbone":"龙霆回旋镖",
+"item.swiaf.boomerang_fire_dragonbone":"龙炎骨血回旋镖",
+"item.swiaf.boomerang_ice_dragonbone":"龙霜骨血回旋镖",
+"item.swiaf.boomerang_lightning_dragonbone":"龙霆骨血回旋镖",
 "item.swiaf.boomerang_fire_dragonsteel":"龙炎钢回旋镖",
 "item.swiaf.boomerang_ice_dragonsteel":"龙霜钢回旋镖",
 "item.swiaf.boomerang_lightning_dragonsteel":"龙霆钢回旋镖",
@@ -232,9 +233,9 @@
 
 // Crossbows
 "item.swiaf.heavy_crossbow_dragonbone":"龙骨强化重弩",
-"item.swiaf.heavy_crossbow_fire_dragonbone":"龙炎强化重弩",
-"item.swiaf.heavy_crossbow_ice_dragonbone":"龙霜强化重弩",
-"item.swiaf.heavy_crossbow_lightning_dragonbone":"龙霆强化重弩",
+"item.swiaf.heavy_crossbow_fire_dragonbone":"龙炎骨血强化重弩",
+"item.swiaf.heavy_crossbow_ice_dragonbone":"龙霜骨血强化重弩",
+"item.swiaf.heavy_crossbow_lightning_dragonbone":"龙霆骨血强化重弩",
 "item.swiaf.heavy_crossbow_fire_dragonsteel":"龙炎钢强化重弩",
 "item.swiaf.heavy_crossbow_ice_dragonsteel":"龙霜钢强化重弩",
 "item.swiaf.heavy_crossbow_lightning_dragonsteel":"龙霆钢强化重弩",
@@ -243,9 +244,9 @@
 
 // Javelins
 "item.swiaf.javelin_dragonbone":"龙骨投枪",
-"item.swiaf.javelin_fire_dragonbone":"龙炎投枪",
-"item.swiaf.javelin_ice_dragonbone":"龙霜投枪",
-"item.swiaf.javelin_lightning_dragonbone":"龙霆投枪",
+"item.swiaf.javelin_fire_dragonbone":"龙炎骨血投枪",
+"item.swiaf.javelin_ice_dragonbone":"龙霜骨血投枪",
+"item.swiaf.javelin_lightning_dragonbone":"龙霆骨血投枪",
 "item.swiaf.javelin_fire_dragonsteel":"龙炎钢投枪",
 "item.swiaf.javelin_ice_dragonsteel":"龙霜钢投枪",
 "item.swiaf.javelin_lightning_dragonsteel":"龙霆钢投枪",
@@ -256,9 +257,9 @@
 
 // Throwing Knives
 "item.swiaf.throwing_knife_dragonbone":"龙骨飞刀",
-"item.swiaf.throwing_knife_fire_dragonbone":"龙炎飞刀",
-"item.swiaf.throwing_knife_ice_dragonbone":"龙霜飞刀",
-"item.swiaf.throwing_knife_lightning_dragonbone":"龙霆飞刀",
+"item.swiaf.throwing_knife_fire_dragonbone":"龙炎骨血飞刀",
+"item.swiaf.throwing_knife_ice_dragonbone":"龙霜骨血飞刀",
+"item.swiaf.throwing_knife_lightning_dragonbone":"龙霆骨血飞刀",
 "item.swiaf.throwing_knife_fire_dragonsteel":"龙炎钢飞刀",
 "item.swiaf.throwing_knife_ice_dragonsteel":"龙霜钢飞刀",
 "item.swiaf.throwing_knife_lightning_dragonsteel":"龙霆钢飞刀",
@@ -269,9 +270,9 @@
 
 // Tomahawks
 "item.swiaf.tomahawk_dragonbone":"龙骨第安战斧",
-"item.swiaf.tomahawk_fire_dragonbone":"龙炎第安战斧",
-"item.swiaf.tomahawk_ice_dragonbone":"龙霜第安战斧",
-"item.swiaf.tomahawk_lightning_dragonbone":"龙霆第安战斧",
+"item.swiaf.tomahawk_fire_dragonbone":"龙炎骨血第安战斧",
+"item.swiaf.tomahawk_ice_dragonbone":"龙霜骨血第安战斧",
+"item.swiaf.tomahawk_lightning_dragonbone":"龙霆骨血第安战斧",
 "item.swiaf.tomahawk_fire_dragonsteel":"龙炎钢第安战斧",
 "item.swiaf.tomahawk_ice_dragonsteel":"龙霜钢第安战斧",
 "item.swiaf.tomahawk_lightning_dragonsteel":"龙霆钢第安战斧",
@@ -280,9 +281,36 @@
 "item.swiaf.tomahawk_jungle_venom":"林蚁蛰针第安战斧",
 "item.swiaf.tomahawk_desert_venom":"沙蚁蛰针第安战斧",
 
+// Parrying Daggers
+"item.swiaf.parrying_dagger_dragonbone":"龙骨格挡匕首",
+"item.swiaf.parrying_dagger_fire_dragonbone":"龙炎骨血格挡匕首",
+"item.swiaf.parrying_dagger_ice_dragonbone":"龙霜骨血格挡匕首",
+"item.swiaf.parrying_dagger_lightning_dragonbone":"龙霆骨血格挡匕首",
+"item.swiaf.parrying_dagger_fire_dragonsteel":"龙炎钢格挡匕首",
+"item.swiaf.parrying_dagger_ice_dragonsteel":"龙霜钢格挡匕首",
+"item.swiaf.parrying_dagger_lightning_dragonsteel":"龙霆钢格挡匕首",
+"item.swiaf.parrying_dagger_jungle":"林蚁格挡匕首",
+"item.swiaf.parrying_dagger_desert":"沙蚁格挡匕首",
+"item.swiaf.parrying_dagger_jungle_venom":"林蚁蛰针格挡匕首",
+"item.swiaf.parrying_dagger_desert_venom":"沙蚁蛰针格挡匕首",
+
+// Scythes
+"item.swiaf.scythe_dragonbone":"龙骨镰刀",
+"item.swiaf.scythe_fire_dragonbone":"龙炎骨血镰刀",
+"item.swiaf.scythe_ice_dragonbone":"龙霜骨血镰刀",
+"item.swiaf.scythe_lightning_dragonbone":"龙霆骨血镰刀",
+"item.swiaf.scythe_fire_dragonsteel":"龙炎钢镰刀",
+"item.swiaf.scythe_ice_dragonsteel":"龙霜钢镰刀",
+"item.swiaf.scythe_lightning_dragonsteel":"龙霆钢镰刀",
+"item.swiaf.scythe_jungle":"林蚁镰刀",
+"item.swiaf.scythe_desert":"沙蚁镰刀",
+"item.swiaf.scythe_jungle_venom":"林蚁蛰针镰刀",
+"item.swiaf.scythe_desert_venom":"沙蚁蛰针镰刀",
+
 // Misc
 "item.swiaf.witherbone_handle":"凋零手柄",
 "item.swiaf.witherbone_pole":"凋零长手柄",
+
 
 
 	
