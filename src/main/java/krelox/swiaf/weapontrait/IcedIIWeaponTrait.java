@@ -1,7 +1,6 @@
 package krelox.swiaf.weapontrait;
 
-import com.github.alexthe666.citadel.server.entity.datatracker.EntityPropertiesHandler;
-import com.github.alexthe666.iceandfire.entity.props.FrozenEntityProperties;
+import com.github.alexthe666.iceandfire.entity.props.FrozenProperties;
 import com.oblivioussp.spartanweaponry.api.WeaponMaterial;
 import com.oblivioussp.spartanweaponry.api.trait.MeleeCallbackWeaponTrait;
 
@@ -12,7 +11,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 
-@SuppressWarnings("deprecation")
 public class IcedIIWeaponTrait extends MeleeCallbackWeaponTrait
 {
 	public IcedIIWeaponTrait()
@@ -23,8 +21,7 @@ public class IcedIIWeaponTrait extends MeleeCallbackWeaponTrait
 	@Override
 	public void onHitEntity(WeaponMaterial material, ItemStack stack, LivingEntity target, LivingEntity attacker, Entity projectile) 
 	{
-        FrozenEntityProperties frozenProps = EntityPropertiesHandler.INSTANCE.getProperties(target, FrozenEntityProperties.class);
-        frozenProps.setFrozenFor(300);
+		FrozenProperties.setFrozenFor(target, 200);
         
         target.addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 300, 2));
 	}
