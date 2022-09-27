@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/KreloX/SpartanFire/issues"
 license="MIT License"
 [[mods]] #mandatory
 modId="swiaf"
-version="1.16.5-1.0.0"
+version="1.16.5-1.1.1"
 displayName="Spartan Weaponry: Ice and Fire"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-ice-and-fire"
 logoFile="logo.png"
@@ -22,5 +22,17 @@ Spicing up Spartan Weaponry by implementing materials from the mythological lege
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.swiaf]]
+    modId="iceandfire"
+    mandatory=true
+    versionRange="[2.1.10-1.16.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.swiaf]]
+    modId="spartanweaponry"
+    mandatory=true
+    versionRange="[2.2.0,)"
     ordering="NONE"
     side="BOTH"
