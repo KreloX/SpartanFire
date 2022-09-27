@@ -1,1 +1,21 @@
-{"textures": {"layer0": "swiaf:items/javelin_dragonsteel_ice"}, "parent": "spartanweaponry:item/javelin_wood"}
+{
+  "parent": "spartanweaponry:item/base/javelin",
+  "textures": {
+    "layer0": "swiaf:items/javelin_dragonsteel_ice"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:throwing": 1.0,
+        "minecraft:empty": 0.0
+      },
+      "model": "swiaf:item/javelin_ice_dragonsteel_throwing"
+    },
+    {
+      "predicate": {
+        "minecraft:empty": 1.0
+      },
+      "model": "spartanweaponry:item/base/javelin_empty"
+    }
+  ]
+}
