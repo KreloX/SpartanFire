@@ -4,11 +4,11 @@ issueTrackerURL="https://github.com/KreloX/SpartanFire/issues"
 license="MIT License"
 [[mods]] #mandatory
 modId="swiaf"
-version="1.16.5-1.1.1"
+version="1.16.5-1.1.2"
 displayName="Spartan Weaponry: Ice and Fire"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-ice-and-fire"
 logoFile="logo.png"
-credits="Thanks to ChoglixVT for providing textures and to dering999 for Chinese translation."
+credits="Thanks to ChoglixVT for providing textures and to dering999 for Chinese translation. Thanks to alebentod for Russian translation."
 authors="KreloX"
 description='''
 Spicing up Spartan Weaponry by implementing materials from the mythological legends of Ice and Fire.'''
