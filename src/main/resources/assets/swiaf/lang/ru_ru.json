@@ -1,0 +1,348 @@
+{
+	// Items
+	
+		//daggers
+		"item.swiaf.dagger_dragonbone": "Кинжал из кости дракона",
+		"item.swiaf.dagger_fire_dragonbone": "Огненный кинжал из кости дракона",
+		"item.swiaf.dagger_ice_dragonbone": "Ледяной кинжал из кости дракона",
+		"item.swiaf.dagger_lightning_dragonbone": "Грозовой кинжал из кости дракона",
+		"item.swiaf.dagger_fire_dragonsteel": "Кинжал из огненной драконостали",
+		"item.swiaf.dagger_ice_dragonsteel": "Кинжал из ледяной драконостали",
+		"item.swiaf.dagger_lightning_dragonsteel": "Кинжал из грозовой драконостали",
+		"item.swiaf.dagger_jungle": "Кинжал из хитина тропических мирмексов",
+		"item.swiaf.dagger_desert": "Кинжал из хитина пустынных мирмексов",
+		"item.swiaf.dagger_jungle_venom": "Кинжал из жала тропического мирмекса",
+		"item.swiaf.dagger_desert_venom": "Кинжал из жала пустынного мирмекса",
+		
+		//longswords 
+		"item.swiaf.longsword_dragonbone": "Полутораручный меч из кости дракона",
+		"item.swiaf.longsword_fire_dragonbone": "Огненный полутораручный меч из кости дракона",
+		"item.swiaf.longsword_ice_dragonbone": "Ледяной полутораручный меч из кости дракона",
+		"item.swiaf.longsword_lightning_dragonbone": "Грозовой полутораручный меч из кости дракона",
+		"item.swiaf.longsword_fire_dragonsteel": "Полутораручный меч из огненной драконостали",
+		"item.swiaf.longsword_ice_dragonsteel": "Полутораручный меч из ледяной драконостали",
+		"item.swiaf.longsword_lightning_dragonsteel": "Полутораручный меч из грозовой драконостали",
+		"item.swiaf.longsword_jungle": "Полутораручный меч из хитина тропических мирмексов",
+		"item.swiaf.longsword_desert": "Полутораручный меч из хитина пустынных мирмексов",
+		"item.swiaf.longsword_jungle_venom": "Полутораручный меч из жала тропического мирмекса",
+		"item.swiaf.longsword_desert_venom": "Полутораручный меч из жала пустынного мирмекса",
+		
+		//Battleaxes
+		"item.swiaf.battleaxe_dragonbone": "Боевой топор из кости дракона",
+		"item.swiaf.battleaxe_fire_dragonbone": "Огненный боевой топор из кости дракона",
+		"item.swiaf.battleaxe_ice_dragonbone": "Ледяной боевой топор из кости дракона",
+		"item.swiaf.battleaxe_lightning_dragonbone": "Грозовой боевой топор из кости дракона",
+		"item.swiaf.battleaxe_fire_dragonsteel": "Боевой топор из огненной драконостали",
+		"item.swiaf.battleaxe_ice_dragonsteel": "Боевой топор из ледяной драконостали",
+		"item.swiaf.battleaxe_lightning_dragonsteel": "Боевой топор из грозовой драконостали",
+		"item.swiaf.battleaxe_jungle": "Боевой топор из хитина тропических мирмексов",
+		"item.swiaf.battleaxe_desert": "Боевой топор из хитина пустынных мирмексов",
+		"item.swiaf.battleaxe_jungle_venom": "Боевой топор из жала тропического мирмекса",
+		"item.swiaf.battleaxe_desert_venom": "Боевой топор из жала пустынного мирмекса",
+		
+		// Maces
+		"item.swiaf.flanged_mace_dragonbone": "Пернач из кости дракона",
+		"item.swiaf.flanged_mace_fire_dragonbone": "Огненный пернач из кости дракона",
+		"item.swiaf.flanged_mace_ice_dragonbone": "Ледяной пернач из кости дракона",
+		"item.swiaf.flanged_mace_lightning_dragonbone": "Грозовой пернач из кости дракона",
+		"item.swiaf.flanged_mace_fire_dragonsteel": "Пернач из огненной драконостали",
+		"item.swiaf.flanged_mace_ice_dragonsteel": "Пернач из ледяной драконостали",
+		"item.swiaf.flanged_mace_lightning_dragonsteel": "Пернач из грозовой драконостали",
+		"item.swiaf.flanged_mace_jungle": "Пернач из хитина тропических мирмексов",
+		"item.swiaf.flanged_mace_desert": "Пернач из хитина пустынных мирмексов",
+		"item.swiaf.flanged_mace_jungle_venom": "Пернач из жала тропического мирмекса",
+		"item.swiaf.flanged_mace_desert_venom": "Пернач из жала пустынного мирмекса",
+		
+		// Glaives
+		"item.swiaf.glaive_dragonbone": "Глефа из кости дракона",
+		"item.swiaf.glaive_fire_dragonbone": "Огненная глефа из кости дракона",
+		"item.swiaf.glaive_ice_dragonbone": "Ледяная глефа из кости дракона",
+		"item.swiaf.glaive_lightning_dragonbone": "Грозовая глефа из кости дракона",
+		"item.swiaf.glaive_fire_dragonsteel": "Глефа из огненной драконостали",
+		"item.swiaf.glaive_ice_dragonsteel": "Глефа из ледяной драконостали",
+		"item.swiaf.glaive_lightning_dragonsteel": "Глефа из грозовой драконостали",
+		"item.swiaf.glaive_jungle": "Глефа из хитина тропических мирмексов",
+		"item.swiaf.glaive_desert": "Глефа из хитина пустынных мирмексов",
+		"item.swiaf.glaive_jungle_venom": "Глефа из жала тропического мирмекса",
+		"item.swiaf.glaive_desert_venom": "Глефа из жала пустынного мирмекса",
+		
+		// Halberds
+		"item.swiaf.halberd_dragonbone": "Алебарда из кости дракона",
+		"item.swiaf.halberd_fire_dragonbone": "Огненная алебарда из кости дракона",
+		"item.swiaf.halberd_ice_dragonbone": "Ледяная алебарда из кости дракона",
+		"item.swiaf.halberd_lightning_dragonbone": "Грозовая алебарда из кости дракона",
+		"item.swiaf.halberd_fire_dragonsteel": "Алебарда из огненной драконостали",
+		"item.swiaf.halberd_ice_dragonsteel": "Алебарда из ледяной драконостали",
+		"item.swiaf.halberd_lightning_dragonsteel": "Алебарда из грозовой драконостали",
+		"item.swiaf.halberd_jungle": "Алебарда из хитина тропических мирмексов",
+		"item.swiaf.halberd_desert": "Алебарда из хитина пустынных мирмексов",
+		"item.swiaf.halberd_jungle_venom": "Алебарда из жала тропического мирмекса",
+		"item.swiaf.halberd_desert_venom": "Алебарда из жала пустынного мирмекса",
+		
+		// Battle Hammers
+		"item.swiaf.hammer_dragonbone": "Боевой молот из кости дракона",
+		"item.swiaf.hammer_fire_dragonbone": "Огненный боевой молот из кости дракона",
+		"item.swiaf.hammer_ice_dragonbone": "Ледяной боевой молот из кости дракона",
+		"item.swiaf.hammer_lightning_dragonbone": "Грозовой боевой молот из кости дракона",
+		"item.swiaf.hammer_fire_dragonsteel": "Боевой молот из огненной драконостали",
+		"item.swiaf.hammer_ice_dragonsteel": "Боевой молот из ледяной драконостали",
+		"item.swiaf.hammer_lightning_dragonsteel": "Боевой молот из грозовой драконостали",
+		"item.swiaf.hammer_jungle": "Боевой молот из хитина тропических мирмексов",
+		"item.swiaf.hammer_desert": "Боевой молот из хитина пустынных мирмексов",
+		"item.swiaf.hammer_jungle_venom": "Боевой молот из жала тропического мирмекса",
+		"item.swiaf.hammer_desert_venom": "Боевой молот из жала пустынного мирмекса",
+		
+		// Longbows
+		"item.swiaf.longbow_dragonbone": "Длинный лук усиленный костью дракона",
+		"item.swiaf.longbow_fire_dragonbone": "Огненный длинный лук усиленный костью дракона",
+		"item.swiaf.longbow_ice_dragonbone": "Ледяной длинный лук усиленный костью дракона",
+		"item.swiaf.longbow_lightning_dragonbone": "Грозовой длинный лук усиленный костью дракона",
+		"item.swiaf.longbow_fire_dragonsteel": "Длинный лук усиленный огненной драконосталью",
+		"item.swiaf.longbow_ice_dragonsteel": "Длинный лук усиленный ледяной драконосталью",
+		"item.swiaf.longbow_lightning_dragonsteel": "Длинный лук усиленный грозовой драконосталью",
+		"item.swiaf.longbow_jungle": "Длинный лук усиленный хитином тропических мирмексов",
+		"item.swiaf.longbow_desert": "Длинный лук усиленный хитином пустынных мирмексов",
+		
+		// Lances
+		"item.swiaf.lance_dragonbone": "Лэнс из кости дракона",
+		"item.swiaf.lance_fire_dragonbone": "Огненный лэнс из кости дракона",
+		"item.swiaf.lance_ice_dragonbone": "Ледяной лэнс из кости дракона",
+		"item.swiaf.lance_lightning_dragonbone": "Грозовой лэнс из кости дракона",
+		"item.swiaf.lance_fire_dragonsteel": "Лэнс из огненной драконостали",
+		"item.swiaf.lance_ice_dragonsteel": "Лэнс из ледяной драконостали",
+		"item.swiaf.lance_lightning_dragonsteel": "Лэнс из грозовой драконостали",
+		"item.swiaf.lance_jungle": "Лэнс из хитина тропических мирмексов",
+		"item.swiaf.lance_desert": "Лэнс из хитина пустынных мирмексов",
+		"item.swiaf.lance_jungle_venom": "Лэнс из жала тропического мирмекса",
+		"item.swiaf.lance_desert_venom": "Лэнс из жала пустынного мирмекса",
+		
+		// Pikes
+		"item.swiaf.pike_dragonbone": "Пика из кости дракона",
+		"item.swiaf.pike_fire_dragonbone": "Огненная пика из кости дракона",
+		"item.swiaf.pike_ice_dragonbone": "Ледяная пика из кости дракона",
+		"item.swiaf.pike_lightning_dragonbone": "Грозовая пика из кости дракона",
+		"item.swiaf.pike_fire_dragonsteel": "Пика из огненной драконостали",
+		"item.swiaf.pike_ice_dragonsteel": "Пика из ледяной драконостали",
+		"item.swiaf.pike_lightning_dragonsteel": "Пика из грозовой драконостали",
+		"item.swiaf.pike_jungle": "Пика из хитина тропических мирмексов",
+		"item.swiaf.pike_desert": "Пика из хитина пустынных мирмексов",
+		"item.swiaf.pike_jungle_venom": "Пика из жала тропического мирмекса",
+		"item.swiaf.pike_desert_venom": "Пика из жала пустынного мирмекса",
+		
+		// Quarterstaffs
+		"item.swiaf.quarterstaff_dragonbone": "Боевой посох из кости дракона",
+		"item.swiaf.quarterstaff_fire_dragonbone": "Огненный боевой посох из кости дракона",
+		"item.swiaf.quarterstaff_ice_dragonbone": "Ледяной боевой посох из кости дракона",
+		"item.swiaf.quarterstaff_lightning_dragonbone": "Грозовой боевой посох из кости дракона",
+		"item.swiaf.quarterstaff_fire_dragonsteel": "Боевой посох из огненной драконостали",
+		"item.swiaf.quarterstaff_ice_dragonsteel": "Боевой посох из ледяной драконостали",
+		"item.swiaf.quarterstaff_lightning_dragonsteel": "Боевой посох из грозовой драконостали",
+		"item.swiaf.quarterstaff_jungle": "Боевой посох из хитина тропических мирмексов",
+		"item.swiaf.quarterstaff_desert": "Боевой посох из хитина пустынных мирмексов",
+		"item.swiaf.quarterstaff_jungle_venom": "Боевой посох из жала тропического мирмекса",
+		"item.swiaf.quarterstaff_desert_venom": "Боевой посох из жала пустынного мирмекса",
+		
+		// Rapiers
+		"item.swiaf.rapier_dragonbone": "Рапира из кости дракона",
+		"item.swiaf.rapier_fire_dragonbone": "Огненная рапира из кости дракона",
+		"item.swiaf.rapier_ice_dragonbone": "Ледяная рапира из кости дракона",
+		"item.swiaf.rapier_lightning_dragonbone": "Грозовая рапира из кости дракона",
+		"item.swiaf.rapier_fire_dragonsteel": "Рапира из огненной драконостали",
+		"item.swiaf.rapier_ice_dragonsteel": "Рапира из ледяной драконостали",
+		"item.swiaf.rapier_lightning_dragonsteel": "Рапира из грозовой драконостали",
+		"item.swiaf.rapier_jungle": "Рапира из хитина тропических мирмексов",
+		"item.swiaf.rapier_desert": "Рапира из хитина пустынных мирмексов",
+		"item.swiaf.rapier_jungle_venom": "Рапира из жала тропического мирмекса",
+		"item.swiaf.rapier_desert_venom": "Рапира из жала пустынного мирмекса",
+		
+		// Sabers
+		"item.swiaf.saber_dragonbone": "Сабля из кости дракона",
+		"item.swiaf.saber_fire_dragonbone": "Огненная сабля из кости дракона",
+		"item.swiaf.saber_ice_dragonbone": "Ледяная сабля из кости дракона",
+		"item.swiaf.saber_lightning_dragonbone": "Грозовая сабля из кости дракона",
+		"item.swiaf.saber_fire_dragonsteel": "Сабля из огненной драконостали",
+		"item.swiaf.saber_ice_dragonsteel": "Сабля из ледяной драконостали",
+		"item.swiaf.saber_lightning_dragonsteel": "Сабля из грозовой драконостали",
+		"item.swiaf.saber_jungle": "Сабля из хитина тропических мирмексов",
+		"item.swiaf.saber_desert": "Сабля из хитина пустынных мирмексов",
+		"item.swiaf.saber_jungle_venom": "Сабля из жала тропического мирмекса",
+		"item.swiaf.saber_desert_venom": "Сабля из жала пустынного мирмекса",
+		
+		// Spears
+		"item.swiaf.spear_dragonbone": "Копьё из кости дракона",
+		"item.swiaf.spear_fire_dragonbone": "Огненное копьё из кости дракона",
+		"item.swiaf.spear_ice_dragonbone": "Ледяное копьё из кости дракона",
+		"item.swiaf.spear_lightning_dragonbone": "Грозовое копьё из кости дракона",
+		"item.swiaf.spear_fire_dragonsteel": "Копьё из огненной драконостали",
+		"item.swiaf.spear_ice_dragonsteel": "Копьё из ледяной драконостали",
+		"item.swiaf.spear_lightning_dragonsteel": "Копьё из грозовой драконостали",
+		"item.swiaf.spear_jungle": "Копьё из хитина тропических мирмексов",
+		"item.swiaf.spear_desert": "Копьё из хитина пустынных мирмексов",
+		"item.swiaf.spear_jungle_venom": "Копьё из жала тропического мирмекса",
+		"item.swiaf.spear_desert_venom": "Копьё из жала пустынного мирмекса",
+		
+		// Warhammers
+		"item.swiaf.warhammer_dragonbone": "Клевец из кости дракона",
+		"item.swiaf.warhammer_fire_dragonbone": "Огненный клевец из кости дракона",
+		"item.swiaf.warhammer_ice_dragonbone": "Ледяной клевец из кости дракона",
+		"item.swiaf.warhammer_lightning_dragonbone": "Грозовой клевец из кости дракона",
+		"item.swiaf.warhammer_fire_dragonsteel": "Клевец из огненной драконостали",
+		"item.swiaf.warhammer_ice_dragonsteel": "Клевец из ледяной драконостали",
+		"item.swiaf.warhammer_lightning_dragonsteel": "Клевец из грозовой драконостали",
+		"item.swiaf.warhammer_jungle": "Клевец из хитина тропических мирмексов",
+		"item.swiaf.warhammer_desert": "Клевец из хитина пустынных мирмексов",
+		"item.swiaf.warhammer_jungle_venom": "Клевец из жала тропического мирмекса",
+		"item.swiaf.warhammer_desert_venom": "Клевец из жала пустынного мирмекса",
+		
+		// Katanas
+		"item.swiaf.katana_dragonbone": "Катана из кости дракона",
+		"item.swiaf.katana_fire_dragonbone": "Огненная катана из кости дракона",
+		"item.swiaf.katana_ice_dragonbone": "Ледяная катана из кости дракона",
+		"item.swiaf.katana_lightning_dragonbone": "Грозовая катана из кости дракона",
+		"item.swiaf.katana_fire_dragonsteel": "Катана из огненной драконостали",
+		"item.swiaf.katana_ice_dragonsteel": "Катана из ледяной драконостали",
+		"item.swiaf.katana_lightning_dragonsteel": "Катана из грозовой драконостали",
+		"item.swiaf.katana_jungle": "Катана из хитина тропических мирмексов",
+		"item.swiaf.katana_desert": "Катана из хитина пустынных мирмексов",
+		"item.swiaf.katana_jungle_venom": "Катана из жала тропического мирмекса",
+		"item.swiaf.katana_desert_venom": "Катана из жала пустынного мирмекса",
+		
+		// Greatswords
+		"item.swiaf.greatsword_dragonbone": "Двуручный меч из кости дракона",
+		"item.swiaf.greatsword_fire_dragonbone": "Огненный двуручный меч из кости дракона",
+		"item.swiaf.greatsword_ice_dragonbone": "Ледяной двуручный меч из кости дракона",
+		"item.swiaf.greatsword_lightning_dragonbone": "Грозовой двуручный меч из кости дракона",
+		"item.swiaf.greatsword_fire_dragonsteel": "Двуручный меч из огненной драконостали",
+		"item.swiaf.greatsword_ice_dragonsteel": "Двуручный меч из ледяной драконостали",
+		"item.swiaf.greatsword_lightning_dragonsteel": "Двуручный меч из грозовой драконостали",
+		"item.swiaf.greatsword_jungle": "Двуручный меч из хитина тропических мирмексов",
+		"item.swiaf.greatsword_desert": "Двуручный меч из хитина пустынных мирмексов",
+		"item.swiaf.greatsword_jungle_venom": "Двуручный меч из жала тропического мирмекса",
+		"item.swiaf.greatsword_desert_venom": "Двуручный меч из жала пустынного мирмекса",
+		
+		// Boomerangs
+		"item.swiaf.boomerang_dragonbone": "Бумеранг из кости дракона",
+		"item.swiaf.boomerang_fire_dragonbone": "Огненный бумеранг из кости дракона",
+		"item.swiaf.boomerang_ice_dragonbone": "Ледяной бумеранг из кости дракона",
+		"item.swiaf.boomerang_lightning_dragonbone": "Грозовой бумеранг из кости дракона",
+		"item.swiaf.boomerang_fire_dragonsteel": "Бумеранг из огненной драконостали",
+		"item.swiaf.boomerang_ice_dragonsteel": "Бумеранг из ледяной драконостали",
+		"item.swiaf.boomerang_lightning_dragonsteel": "Бумеранг из грозовой драконостали",
+		"item.swiaf.boomerang_jungle": "Бумеранг из хитина тропических мирмексов",
+		"item.swiaf.boomerang_desert": "Бумеранг из хитина пустынных мирмексов",
+		"item.swiaf.boomerang_jungle_venom": "Бумеранг из жала тропического мирмекса",
+		"item.swiaf.boomerang_desert_venom": "Бумеранг из жала пустынного мирмекса",
+		
+		// Crossbows
+		"item.swiaf.heavy_crossbow_dragonbone": "Крупный арбалет усиленный костью дракона",
+		"item.swiaf.heavy_crossbow_fire_dragonbone": "Огненный крупный арбалет усиленный костью дракона",
+		"item.swiaf.heavy_crossbow_ice_dragonbone": "Ледяной крупный арбалет усиленный костью дракона",
+		"item.swiaf.heavy_crossbow_lightning_dragonbone": "Грозовой крупный арбалет усиленный костью дракона",
+		"item.swiaf.heavy_crossbow_fire_dragonsteel": "Крупный арбалет усиленный огненной драконосталью",
+		"item.swiaf.heavy_crossbow_ice_dragonsteel": "Крупный арбалет усиленный ледяной драконосталью",
+		"item.swiaf.heavy_crossbow_lightning_dragonsteel": "Крупный арбалет усиленный грозовой драконосталью",
+		"item.swiaf.heavy_crossbow_jungle": "Крупный арбалет усиленный хитином тропических мирмексов",
+		"item.swiaf.heavy_crossbow_desert": "Крупный арбалет усиленный хитином пустынных мирмексов",
+		
+		// Javelins
+		"item.swiaf.javelin_dragonbone": "Дротик из кости дракона",
+		"item.swiaf.javelin_fire_dragonbone": "Огненный дротик из кости дракона",
+		"item.swiaf.javelin_ice_dragonbone": "Ледяной дротик из кости дракона",
+		"item.swiaf.javelin_lightning_dragonbone": "Грозовой дротик из кости дракона",
+		"item.swiaf.javelin_fire_dragonsteel": "Дротик из огненной драконостали",
+		"item.swiaf.javelin_ice_dragonsteel": "Дротик из ледяной драконостали",
+		"item.swiaf.javelin_lightning_dragonsteel": "Дротик из грозовой драконостали",
+		"item.swiaf.javelin_jungle": "Дротик из хитина тропических мирмексов",
+		"item.swiaf.javelin_desert": "Дротик из хитина пустынных мирмексов",
+		"item.swiaf.javelin_jungle_venom": "Дротик из жала тропического мирмекса",
+		"item.swiaf.javelin_desert_venom": "Дротик из жала пустынного мирмекса",
+		
+		// Throwing Knives
+		"item.swiaf.throwing_knife_dragonbone": "Метательный нож из кости дракона",
+		"item.swiaf.throwing_knife_fire_dragonbone": "Огненный метательный нож из кости дракона",
+		"item.swiaf.throwing_knife_ice_dragonbone": "Ледяной метательный нож из кости дракона",
+		"item.swiaf.throwing_knife_lightning_dragonbone": "Грозовой метательный нож из кости дракона",
+		"item.swiaf.throwing_knife_fire_dragonsteel": "Метательный нож из огненной драконостали",
+		"item.swiaf.throwing_knife_ice_dragonsteel": "Метательный нож из ледяной драконостали",
+		"item.swiaf.throwing_knife_lightning_dragonsteel": "Метательный нож из грозовой драконостали",
+		"item.swiaf.throwing_knife_jungle": "Метательный нож из хитина тропических мирмексов",
+		"item.swiaf.throwing_knife_desert": "Метательный нож из хитина пустынных мирмексов",
+		"item.swiaf.throwing_knife_jungle_venom": "Метательный нож из жала тропического мирмекса",
+		"item.swiaf.throwing_knife_desert_venom": "Метательный нож из жала пустынного мирмекса",
+		
+		// Tomahawks
+		"item.swiaf.tomahawk_dragonbone": "Томагавк из кости дракона",
+		"item.swiaf.tomahawk_fire_dragonbone": "Огненный томагавк из кости дракона",
+		"item.swiaf.tomahawk_ice_dragonbone": "Ледяной томагавк из кости дракона",
+		"item.swiaf.tomahawk_lightning_dragonbone": "Грозовой томагавк из кости дракона",
+		"item.swiaf.tomahawk_fire_dragonsteel": "Томагавк из огненной драконостали",
+		"item.swiaf.tomahawk_ice_dragonsteel": "Томагавк из ледяной драконостали",
+		"item.swiaf.tomahawk_lightning_dragonsteel": "Томагавк из грозовой драконостали",
+		"item.swiaf.tomahawk_jungle": "Томагавк из хитина тропических мирмексов",
+		"item.swiaf.tomahawk_desert": "Томагавк из хитина пустынных мирмексов",
+		"item.swiaf.tomahawk_jungle_venom": "Томагавк из жала тропического мирмекса",
+		"item.swiaf.tomahawk_desert_venom": "Томагавк из жала пустынного мирмекса",
+		
+		// Parrying daggers
+		"item.swiaf.parrying_dagger_dragonbone": "Дага из кости дракона",
+		"item.swiaf.parrying_dagger_fire_dragonbone": "Огненная дага из кости дракона",
+		"item.swiaf.parrying_dagger_ice_dragonbone": "Ледяная дага из кости дракона",
+		"item.swiaf.parrying_dagger_lightning_dragonbone": "Грозовая дага из кости дракона",
+		"item.swiaf.parrying_dagger_fire_dragonsteel": "Дага из огненной драконостали",
+		"item.swiaf.parrying_dagger_ice_dragonsteel": "Дага из ледяной драконостали",
+		"item.swiaf.parrying_dagger_lightning_dragonsteel": "Дага из грозовой драконостали",
+		"item.swiaf.parrying_dagger_jungle": "Дага из хитина тропических мирмексов",
+		"item.swiaf.parrying_dagger_desert": "Дага из хитина пустынных мирмексов",
+		"item.swiaf.parrying_dagger_jungle_venom": "Дага из жала тропического мирмекса",
+		"item.swiaf.parrying_dagger_desert_venom": "Дага из жала пустынного мирмекса",
+		
+		// Scythes
+		"item.swiaf.scythe_dragonbone": "Коса из кости дракона",
+		"item.swiaf.scythe_fire_dragonbone": "Огненная коса из кости дракона",
+		"item.swiaf.scythe_ice_dragonbone": "Ледяная коса из кости дракона",
+		"item.swiaf.scythe_lightning_dragonbone": "Грозовая коса из кости дракона",
+		"item.swiaf.scythe_fire_dragonsteel": "Коса из огненной драконостали",
+		"item.swiaf.scythe_ice_dragonsteel": "Коса из ледяной драконостали",
+		"item.swiaf.scythe_lightning_dragonsteel": "Коса из грозовой драконостали",
+		"item.swiaf.scythe_jungle": "Коса из хитина тропических мирмексов",
+		"item.swiaf.scythe_desert": "Коса из хитина пустынных мирмексов",
+		"item.swiaf.scythe_jungle_venom": "Коса из жала тропического мирмекса",
+		"item.swiaf.scythe_desert_venom": "Коса из жала пустынного мирмекса",
+		
+		// Misc
+		"item.swiaf.witherbone_handle": "Рукоятка из кости иссушителя",
+		"item.swiaf.witherbone_pole": "Шест из кости иссушителя",
+	
+	// Tooltips
+		
+		// Flamed
+		"tooltip.swiaf.trait.flamed"= "Огненный I",
+		"tooltip.swiaf.trait.flamed.desc": "Воспламеняет и отбрасывает цели при попадании. Наносит дополнительный урон ледяным драконам",
+		"tooltip.swiaf.trait.flamedii"= "Огненный II",
+		"tooltip.swiaf.trait.flamedii.desc": "Воспламеняет и отбрасывает цели при попадании. Наносит дополнительный урон ледяным драконам",
+		
+		// Iced
+		"tooltip.swiaf.trait.iced"= "Ледяной I",
+		"tooltip.swiaf.trait.iced.desc": "Замораживает цели при попадании. Наносит дополнительный урон огненным драконам",
+		"tooltip.swiaf.trait.icedii"= "Ледяной II",
+		"tooltip.swiaf.trait.icedii.desc": "Замораживает цели при попадании. Наносит дополнительный урон огненным драконам",
+		
+		// Shocked
+		"tooltip.swiaf.trait.shocked"= "Грозовой I",
+		"tooltip.swiaf.trait.shocked.desc": "Поражает цели молнией при попадании. Наносит дополнительный урон огненным и ледяным драконам",
+		"tooltip.swiaf.trait.shockedii"= "Грозовой II",
+		"tooltip.swiaf.trait.shockedii.desc": "Поражает цели молнией при попадании. Наносит дополнительный урон огненным и ледяным драконам",
+		
+		// Myrmex
+		"tooltip.swiaf.trait.myrmex"= "Мирмекс",
+		"tooltip.swiaf.trait.myrmex.desc": "Наносит дополнительный урон не членистоногим и червям смерти",
+		
+		// Poisoned
+		"tooltip.swiaf.trait.poisoned"= "Отравленный",
+		"tooltip.swiaf.trait.poisoned.desc": "Отравляет цель при попадании",
+		
+	// Tabs
+		
+		// SWIaF
+		"itemGroup.sw_iaf": "Spartan Weaponry: Ice and Fire"
+}
