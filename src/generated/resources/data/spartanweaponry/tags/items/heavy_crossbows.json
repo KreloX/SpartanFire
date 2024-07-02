@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_heavy_crossbow",
+    "spartanfire:flamed_dragon_bone_heavy_crossbow",
+    "spartanfire:iced_dragon_bone_heavy_crossbow",
+    "spartanfire:lightning_dragon_bone_heavy_crossbow",
+    "spartanfire:desert_myrmex_chitin_heavy_crossbow",
+    "spartanfire:desert_myrmex_stinger_heavy_crossbow",
+    "spartanfire:jungle_myrmex_chitin_heavy_crossbow",
+    "spartanfire:jungle_myrmex_stinger_heavy_crossbow",
+    "spartanfire:fire_dragonsteel_heavy_crossbow",
+    "spartanfire:ice_dragonsteel_heavy_crossbow",
+    "spartanfire:lightning_dragonsteel_heavy_crossbow"
+  ]
+}

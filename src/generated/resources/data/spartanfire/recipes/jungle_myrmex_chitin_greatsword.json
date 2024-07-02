@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:greatsword",
+  "pattern": [
+    " # ",
+    "###",
+    "#|#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:chitin_jungle"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "result": {
+    "item": "spartanfire:jungle_myrmex_chitin_greatsword"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "greatsword"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

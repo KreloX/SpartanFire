@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanfire:witherbone_handle",
+  "ingredients": [
+    {
+      "tag": "forge:bones/wither"
+    },
+    {
+      "tag": "forge:bones/wither"
+    },
+    {
+      "tag": "forge:bones/wither"
+    },
+    {
+      "tag": "forge:bones/wither"
+    },
+    {
+      "tag": "forge:leather"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:witherbone_handle",
+    "count": 4
+  }
+}

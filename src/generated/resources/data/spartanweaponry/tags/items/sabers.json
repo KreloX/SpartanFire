@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_saber",
+    "spartanfire:flamed_dragon_bone_saber",
+    "spartanfire:iced_dragon_bone_saber",
+    "spartanfire:lightning_dragon_bone_saber",
+    "spartanfire:desert_myrmex_chitin_saber",
+    "spartanfire:desert_myrmex_stinger_saber",
+    "spartanfire:jungle_myrmex_chitin_saber",
+    "spartanfire:jungle_myrmex_stinger_saber",
+    "spartanfire:fire_dragonsteel_saber",
+    "spartanfire:ice_dragonsteel_saber",
+    "spartanfire:lightning_dragonsteel_saber"
+  ]
+}

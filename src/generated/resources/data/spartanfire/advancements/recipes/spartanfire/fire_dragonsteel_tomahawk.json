@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:fire_dragonsteel_tomahawk"
+    ]
+  },
+  "criteria": {
+    "has_fire_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/dragonsteel_fire"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:fire_dragonsteel_tomahawk"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fire_dragonsteel",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:scythe",
+  "ingredients": [
+    {
+      "item": "spartanfire:jungle_myrmex_chitin_scythe"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:jungle_myrmex_stinger_scythe",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "scythe"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

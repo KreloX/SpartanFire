@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_glaive",
+    "spartanfire:flamed_dragon_bone_glaive",
+    "spartanfire:iced_dragon_bone_glaive",
+    "spartanfire:lightning_dragon_bone_glaive",
+    "spartanfire:desert_myrmex_chitin_glaive",
+    "spartanfire:desert_myrmex_stinger_glaive",
+    "spartanfire:jungle_myrmex_chitin_glaive",
+    "spartanfire:jungle_myrmex_stinger_glaive",
+    "spartanfire:fire_dragonsteel_glaive",
+    "spartanfire:ice_dragonsteel_glaive",
+    "spartanfire:lightning_dragonsteel_glaive"
+  ]
+}

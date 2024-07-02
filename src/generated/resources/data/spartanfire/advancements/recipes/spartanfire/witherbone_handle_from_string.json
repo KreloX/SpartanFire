@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:witherbone_handle_from_string"
+    ]
+  },
+  "criteria": {
+    "has_witherbone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:bones/wither"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:witherbone_handle_from_string"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_witherbone",
+      "has_the_recipe"
+    ]
+  ]
+}

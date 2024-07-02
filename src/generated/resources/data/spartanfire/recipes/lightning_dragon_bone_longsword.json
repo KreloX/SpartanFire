@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:longsword",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_longsword"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:lightning_dragon_bone_longsword",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "longsword"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:flanged_mace",
+  "pattern": [
+    " ##",
+    " /#",
+    "|  "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_lightning"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    },
+    "/": {
+      "tag": "forge:bones/wither"
+    }
+  },
+  "result": {
+    "item": "spartanfire:lightning_dragonsteel_flanged_mace"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "flanged_mace"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

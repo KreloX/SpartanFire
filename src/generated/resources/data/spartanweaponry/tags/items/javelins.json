@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_javelin",
+    "spartanfire:flamed_dragon_bone_javelin",
+    "spartanfire:iced_dragon_bone_javelin",
+    "spartanfire:lightning_dragon_bone_javelin",
+    "spartanfire:desert_myrmex_chitin_javelin",
+    "spartanfire:desert_myrmex_stinger_javelin",
+    "spartanfire:jungle_myrmex_chitin_javelin",
+    "spartanfire:jungle_myrmex_stinger_javelin",
+    "spartanfire:fire_dragonsteel_javelin",
+    "spartanfire:ice_dragonsteel_javelin",
+    "spartanfire:lightning_dragonsteel_javelin"
+  ]
+}

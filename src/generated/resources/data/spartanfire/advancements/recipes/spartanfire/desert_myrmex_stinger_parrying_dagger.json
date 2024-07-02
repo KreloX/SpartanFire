@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:desert_myrmex_stinger_parrying_dagger"
+    ]
+  },
+  "criteria": {
+    "has_myrmex_stinger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:myrmex_stinger"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:desert_myrmex_stinger_parrying_dagger"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_myrmex_stinger",
+      "has_the_recipe"
+    ]
+  ]
+}

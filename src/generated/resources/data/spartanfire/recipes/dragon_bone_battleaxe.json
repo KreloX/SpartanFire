@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:battleaxe",
+  "pattern": [
+    "###",
+    "#/#",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:bones/dragon"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    },
+    "/": {
+      "tag": "forge:bones/wither"
+    }
+  },
+  "result": {
+    "item": "spartanfire:dragon_bone_battleaxe"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "battleaxe"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

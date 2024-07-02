@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/boomerang_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/iced_dragon_bone_boomerang"
+  }
+}

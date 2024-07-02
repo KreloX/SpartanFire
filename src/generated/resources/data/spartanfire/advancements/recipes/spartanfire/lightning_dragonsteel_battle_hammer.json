@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:lightning_dragonsteel_battle_hammer"
+    ]
+  },
+  "criteria": {
+    "has_lightning_dragonsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/dragonsteel_lightning"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:lightning_dragonsteel_battle_hammer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lightning_dragonsteel",
+      "has_the_recipe"
+    ]
+  ]
+}

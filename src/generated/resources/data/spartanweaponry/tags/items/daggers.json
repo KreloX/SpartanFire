@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_dagger",
+    "spartanfire:flamed_dragon_bone_dagger",
+    "spartanfire:iced_dragon_bone_dagger",
+    "spartanfire:lightning_dragon_bone_dagger",
+    "spartanfire:desert_myrmex_chitin_dagger",
+    "spartanfire:desert_myrmex_stinger_dagger",
+    "spartanfire:jungle_myrmex_chitin_dagger",
+    "spartanfire:jungle_myrmex_stinger_dagger",
+    "spartanfire:fire_dragonsteel_dagger",
+    "spartanfire:ice_dragonsteel_dagger",
+    "spartanfire:lightning_dragonsteel_dagger"
+  ]
+}

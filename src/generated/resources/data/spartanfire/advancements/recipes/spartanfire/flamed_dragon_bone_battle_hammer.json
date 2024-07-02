@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:flamed_dragon_bone_battle_hammer"
+    ]
+  },
+  "criteria": {
+    "has_fire_dragon_blood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:fire_dragon_blood"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:flamed_dragon_bone_battle_hammer"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_fire_dragon_blood",
+      "has_the_recipe"
+    ]
+  ]
+}

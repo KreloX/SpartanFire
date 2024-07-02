@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:jungle_myrmex_stinger_battleaxe"
+    ]
+  },
+  "criteria": {
+    "has_myrmex_stinger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:myrmex_stinger"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:jungle_myrmex_stinger_battleaxe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_myrmex_stinger",
+      "has_the_recipe"
+    ]
+  ]
+}

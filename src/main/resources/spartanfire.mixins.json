@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "krelox.spartanfire.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "spartanfire.refmap.json",
+  "mixins": [
+    "ItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

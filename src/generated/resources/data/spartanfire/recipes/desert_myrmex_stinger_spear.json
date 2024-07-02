@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:spear",
+  "ingredients": [
+    {
+      "item": "spartanfire:desert_myrmex_chitin_spear"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:desert_myrmex_stinger_spear",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "spear"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

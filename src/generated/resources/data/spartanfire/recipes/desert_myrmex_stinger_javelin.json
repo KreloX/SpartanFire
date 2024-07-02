@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:javelin",
+  "ingredients": [
+    {
+      "item": "spartanfire:desert_myrmex_chitin_javelin"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:desert_myrmex_stinger_javelin",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "javelin"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

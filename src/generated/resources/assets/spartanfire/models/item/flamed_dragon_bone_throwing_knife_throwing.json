@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/throwing_knife_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/flamed_dragon_bone_throwing_knife"
+  }
+}

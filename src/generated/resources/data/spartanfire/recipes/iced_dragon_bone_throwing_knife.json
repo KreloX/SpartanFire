@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:throwing_knife",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_throwing_knife"
+    },
+    {
+      "item": "iceandfire:ice_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:iced_dragon_bone_throwing_knife",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "throwing_knife"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

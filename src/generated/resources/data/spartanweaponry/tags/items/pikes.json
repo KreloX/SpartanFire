@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_pike",
+    "spartanfire:flamed_dragon_bone_pike",
+    "spartanfire:iced_dragon_bone_pike",
+    "spartanfire:lightning_dragon_bone_pike",
+    "spartanfire:desert_myrmex_chitin_pike",
+    "spartanfire:desert_myrmex_stinger_pike",
+    "spartanfire:jungle_myrmex_chitin_pike",
+    "spartanfire:jungle_myrmex_stinger_pike",
+    "spartanfire:fire_dragonsteel_pike",
+    "spartanfire:ice_dragonsteel_pike",
+    "spartanfire:lightning_dragonsteel_pike"
+  ]
+}

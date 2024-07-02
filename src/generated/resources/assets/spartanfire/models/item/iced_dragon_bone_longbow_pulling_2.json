@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/longbow_pulling",
+  "textures": {
+    "layer0": "spartanfire:item/iced_dragon_bone_longbow_pulling_2"
+  }
+}

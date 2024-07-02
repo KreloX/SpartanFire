@@ -1,6 +1,0 @@
-{
-  "parent": "spartanweaponry:item/base/parrying_dagger_blocking",
-  "textures": {
-    "layer0": "swiaf:items/parrying_dagger_desert_venom"
-  }
-}

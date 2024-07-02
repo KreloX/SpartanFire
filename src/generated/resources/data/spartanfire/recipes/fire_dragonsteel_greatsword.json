@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:greatsword",
+  "pattern": [
+    " # ",
+    "###",
+    "#|#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_fire"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "result": {
+    "item": "spartanfire:fire_dragonsteel_greatsword"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "greatsword"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

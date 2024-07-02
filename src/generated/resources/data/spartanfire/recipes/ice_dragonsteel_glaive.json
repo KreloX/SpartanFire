@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:glaive",
+  "pattern": [
+    " #",
+    " #",
+    " /"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_ice"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "result": {
+    "item": "spartanfire:ice_dragonsteel_glaive"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "glaive"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

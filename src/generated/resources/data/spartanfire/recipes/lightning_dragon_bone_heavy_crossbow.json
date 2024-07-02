@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:heavy_crossbow",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_heavy_crossbow"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:lightning_dragon_bone_heavy_crossbow",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "heavy_crossbow"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

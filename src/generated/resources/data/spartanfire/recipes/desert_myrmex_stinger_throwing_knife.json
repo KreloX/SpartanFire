@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:throwing_knife",
+  "ingredients": [
+    {
+      "item": "spartanfire:desert_myrmex_chitin_throwing_knife"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:desert_myrmex_stinger_throwing_knife",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "throwing_knife"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

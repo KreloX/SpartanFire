@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:dagger",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_dagger"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:flamed_dragon_bone_dagger",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "dagger"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

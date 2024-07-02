@@ -1,0 +1,8 @@
+{
+  "parent": "spartanweaponry:item/base/spear_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/jungle_myrmex_stinger_spear",
+    "coating": "spartanweaponry:item/coating/spear"
+  },
+  "loader": "spartanweaponry:oil_coated_item"
+}

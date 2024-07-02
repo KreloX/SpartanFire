@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/tomahawk_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/jungle_myrmex_chitin_tomahawk"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:boomerang",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_boomerang"
+    },
+    {
+      "item": "iceandfire:lightning_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:lightning_dragon_bone_boomerang",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "boomerang"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:lance",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_lance"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:flamed_dragon_bone_lance",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "lance"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

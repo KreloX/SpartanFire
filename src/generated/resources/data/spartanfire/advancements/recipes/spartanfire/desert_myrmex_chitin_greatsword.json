@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:desert_myrmex_chitin_greatsword"
+    ]
+  },
+  "criteria": {
+    "has_desert_myrmex_chitin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:chitin_desert"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:desert_myrmex_chitin_greatsword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_desert_myrmex_chitin",
+      "has_the_recipe"
+    ]
+  ]
+}

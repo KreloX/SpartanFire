@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/pole",
+  "textures": {
+    "layer0": "spartanfire:item/witherbone_pole"
+  }
+}

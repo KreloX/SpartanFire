@@ -1,0 +1,8 @@
+{
+  "parent": "spartanweaponry:item/base/battleaxe_blocking",
+  "textures": {
+    "layer0": "spartanfire:item/jungle_myrmex_chitin_battleaxe",
+    "coating": "spartanweaponry:item/coating/battleaxe"
+  },
+  "loader": "spartanweaponry:oil_coated_item"
+}

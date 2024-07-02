@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_greatsword",
+    "spartanfire:flamed_dragon_bone_greatsword",
+    "spartanfire:iced_dragon_bone_greatsword",
+    "spartanfire:lightning_dragon_bone_greatsword",
+    "spartanfire:desert_myrmex_chitin_greatsword",
+    "spartanfire:desert_myrmex_stinger_greatsword",
+    "spartanfire:jungle_myrmex_chitin_greatsword",
+    "spartanfire:jungle_myrmex_stinger_greatsword",
+    "spartanfire:fire_dragonsteel_greatsword",
+    "spartanfire:ice_dragonsteel_greatsword",
+    "spartanfire:lightning_dragonsteel_greatsword"
+  ]
+}

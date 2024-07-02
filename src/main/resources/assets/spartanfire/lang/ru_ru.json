@@ -1,0 +1,346 @@
+{
+	// Items
+
+		//daggers
+		"item.spartanfire.dragon_bone_dagger": "Кинжал из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_dagger": "Огненный кинжал из кости дракона",
+		"item.spartanfire.iced_dragon_bone_dagger": "Ледяной кинжал из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_dagger": "Грозовой кинжал из кости дракона",
+		"item.spartanfire.fire_dragonsteel_dagger": "Кинжал из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_dagger": "Кинжал из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_dagger": "Кинжал из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_dagger": "Кинжал из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_dagger": "Кинжал из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_dagger": "Кинжал из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_dagger": "Кинжал из жала пустынного мирмекса",
+
+		//longswords
+		"item.spartanfire.dragon_bone_longsword": "Полутораручный меч из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_longsword": "Огненный полутораручный меч из кости дракона",
+		"item.spartanfire.iced_dragon_bone_longsword": "Ледяной полутораручный меч из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_longsword": "Грозовой полутораручный меч из кости дракона",
+		"item.spartanfire.fire_dragonsteel_longsword": "Полутораручный меч из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_longsword": "Полутораручный меч из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_longsword": "Полутораручный меч из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_longsword": "Полутораручный меч из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_longsword": "Полутораручный меч из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_longsword": "Полутораручный меч из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_longsword": "Полутораручный меч из жала пустынного мирмекса",
+
+		//Battleaxes
+		"item.spartanfire.dragon_bone_battleaxe": "Боевой топор из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_battleaxe": "Огненный боевой топор из кости дракона",
+		"item.spartanfire.iced_dragon_bone_battleaxe": "Ледяной боевой топор из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_battleaxe": "Грозовой боевой топор из кости дракона",
+		"item.spartanfire.fire_dragonsteel_battleaxe": "Боевой топор из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_battleaxe": "Боевой топор из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_battleaxe": "Боевой топор из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_battleaxe": "Боевой топор из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_battleaxe": "Боевой топор из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_battleaxe": "Боевой топор из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_battleaxe": "Боевой топор из жала пустынного мирмекса",
+
+		// Maces
+		"item.spartanfire.dragon_bone_flanged_mace": "Пернач из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_flanged_mace": "Огненный пернач из кости дракона",
+		"item.spartanfire.iced_dragon_bone_flanged_mace": "Ледяной пернач из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_flanged_mace": "Грозовой пернач из кости дракона",
+		"item.spartanfire.fire_dragonsteel_flanged_mace": "Пернач из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_flanged_mace": "Пернач из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_flanged_mace": "Пернач из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_flanged_mace": "Пернач из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_flanged_mace": "Пернач из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_flanged_mace": "Пернач из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_flanged_mace": "Пернач из жала пустынного мирмекса",
+
+		// Glaives
+		"item.spartanfire.dragon_bone_glaive": "Глефа из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_glaive": "Огненная глефа из кости дракона",
+		"item.spartanfire.iced_dragon_bone_glaive": "Ледяная глефа из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_glaive": "Грозовая глефа из кости дракона",
+		"item.spartanfire.fire_dragonsteel_glaive": "Глефа из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_glaive": "Глефа из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_glaive": "Глефа из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_glaive": "Глефа из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_glaive": "Глефа из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_glaive": "Глефа из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_glaive": "Глефа из жала пустынного мирмекса",
+
+		// Halberds
+		"item.spartanfire.dragon_bone_halberd": "Алебарда из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_halberd": "Огненная алебарда из кости дракона",
+		"item.spartanfire.iced_dragon_bone_halberd": "Ледяная алебарда из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_halberd": "Грозовая алебарда из кости дракона",
+		"item.spartanfire.fire_dragonsteel_halberd": "Алебарда из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_halberd": "Алебарда из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_halberd": "Алебарда из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_halberd": "Алебарда из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_halberd": "Алебарда из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_halberd": "Алебарда из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_halberd": "Алебарда из жала пустынного мирмекса",
+
+		// Battle Hammers
+		"item.spartanfire.dragon_bone_battle_hammer": "Боевой молот из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_battle_hammer": "Огненный боевой молот из кости дракона",
+		"item.spartanfire.iced_dragon_bone_battle_hammer": "Ледяной боевой молот из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_battle_hammer": "Грозовой боевой молот из кости дракона",
+		"item.spartanfire.fire_dragonsteel_battle_hammer": "Боевой молот из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_battle_hammer": "Боевой молот из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_battle_hammer": "Боевой молот из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_battle_hammer": "Боевой молот из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_battle_hammer": "Боевой молот из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_battle_hammer": "Боевой молот из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_battle_hammer": "Боевой молот из жала пустынного мирмекса",
+
+		// Longbows
+		"item.spartanfire.dragon_bone_longbow": "Длинный лук усиленный костью дракона",
+		"item.spartanfire.flamed_dragon_bone_longbow": "Огненный длинный лук усиленный костью дракона",
+		"item.spartanfire.iced_dragon_bone_longbow": "Ледяной длинный лук усиленный костью дракона",
+		"item.spartanfire.lightning_dragon_bone_longbow": "Грозовой длинный лук усиленный костью дракона",
+		"item.spartanfire.fire_dragonsteel_longbow": "Длинный лук усиленный огненной драконосталью",
+		"item.spartanfire.ice_dragonsteel_longbow": "Длинный лук усиленный ледяной драконосталью",
+		"item.spartanfire.lightning_dragonsteel_longbow": "Длинный лук усиленный грозовой драконосталью",
+		"item.spartanfire.jungle_myrmex_chitin_longbow": "Длинный лук усиленный хитином тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_longbow": "Длинный лук усиленный хитином пустынных мирмексов",
+
+		// Lances
+		"item.spartanfire.dragon_bone_lance": "Лэнс из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_lance": "Огненный лэнс из кости дракона",
+		"item.spartanfire.iced_dragon_bone_lance": "Ледяной лэнс из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_lance": "Грозовой лэнс из кости дракона",
+		"item.spartanfire.fire_dragonsteel_lance": "Лэнс из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_lance": "Лэнс из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_lance": "Лэнс из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_lance": "Лэнс из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_lance": "Лэнс из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_lance": "Лэнс из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_lance": "Лэнс из жала пустынного мирмекса",
+
+		// Pikes
+		"item.spartanfire.dragon_bone_pike": "Пика из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_pike": "Огненная пика из кости дракона",
+		"item.spartanfire.iced_dragon_bone_pike": "Ледяная пика из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_pike": "Грозовая пика из кости дракона",
+		"item.spartanfire.fire_dragonsteel_pike": "Пика из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_pike": "Пика из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_pike": "Пика из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_pike": "Пика из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_pike": "Пика из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_pike": "Пика из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_pike": "Пика из жала пустынного мирмекса",
+
+		// Quarterstaffs
+		"item.spartanfire.dragon_bone_quarterstaff": "Боевой посох из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_quarterstaff": "Огненный боевой посох из кости дракона",
+		"item.spartanfire.iced_dragon_bone_quarterstaff": "Ледяной боевой посох из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_quarterstaff": "Грозовой боевой посох из кости дракона",
+		"item.spartanfire.fire_dragonsteel_quarterstaff": "Боевой посох из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_quarterstaff": "Боевой посох из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_quarterstaff": "Боевой посох из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_quarterstaff": "Боевой посох из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_quarterstaff": "Боевой посох из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_quarterstaff": "Боевой посох из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_quarterstaff": "Боевой посох из жала пустынного мирмекса",
+
+		// Rapiers
+		"item.spartanfire.dragon_bone_rapier": "Рапира из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_rapier": "Огненная рапира из кости дракона",
+		"item.spartanfire.iced_dragon_bone_rapier": "Ледяная рапира из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_rapier": "Грозовая рапира из кости дракона",
+		"item.spartanfire.fire_dragonsteel_rapier": "Рапира из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_rapier": "Рапира из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_rapier": "Рапира из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_rapier": "Рапира из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_rapier": "Рапира из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_rapier": "Рапира из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_rapier": "Рапира из жала пустынного мирмекса",
+
+		// Sabers
+		"item.spartanfire.dragon_bone_saber": "Сабля из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_saber": "Огненная сабля из кости дракона",
+		"item.spartanfire.iced_dragon_bone_saber": "Ледяная сабля из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_saber": "Грозовая сабля из кости дракона",
+		"item.spartanfire.fire_dragonsteel_saber": "Сабля из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_saber": "Сабля из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_saber": "Сабля из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_saber": "Сабля из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_saber": "Сабля из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_saber": "Сабля из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_saber": "Сабля из жала пустынного мирмекса",
+
+		// Spears
+		"item.spartanfire.dragon_bone_spear": "Копьё из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_spear": "Огненное копьё из кости дракона",
+		"item.spartanfire.iced_dragon_bone_spear": "Ледяное копьё из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_spear": "Грозовое копьё из кости дракона",
+		"item.spartanfire.fire_dragonsteel_spear": "Копьё из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_spear": "Копьё из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_spear": "Копьё из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_spear": "Копьё из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_spear": "Копьё из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_spear": "Копьё из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_spear": "Копьё из жала пустынного мирмекса",
+
+		// Warhammers
+		"item.spartanfire.dragon_bone_warhammer": "Клевец из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_warhammer": "Огненный клевец из кости дракона",
+		"item.spartanfire.iced_dragon_bone_warhammer": "Ледяной клевец из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_warhammer": "Грозовой клевец из кости дракона",
+		"item.spartanfire.fire_dragonsteel_warhammer": "Клевец из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_warhammer": "Клевец из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_warhammer": "Клевец из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_warhammer": "Клевец из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_warhammer": "Клевец из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_warhammer": "Клевец из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_warhammer": "Клевец из жала пустынного мирмекса",
+
+		// Katanas
+		"item.spartanfire.dragon_bone_katana": "Катана из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_katana": "Огненная катана из кости дракона",
+		"item.spartanfire.iced_dragon_bone_katana": "Ледяная катана из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_katana": "Грозовая катана из кости дракона",
+		"item.spartanfire.fire_dragonsteel_katana": "Катана из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_katana": "Катана из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_katana": "Катана из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_katana": "Катана из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_katana": "Катана из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_katana": "Катана из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_katana": "Катана из жала пустынного мирмекса",
+
+		// Greatswords
+		"item.spartanfire.dragon_bone_greatsword": "Двуручный меч из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_greatsword": "Огненный двуручный меч из кости дракона",
+		"item.spartanfire.iced_dragon_bone_greatsword": "Ледяной двуручный меч из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_greatsword": "Грозовой двуручный меч из кости дракона",
+		"item.spartanfire.fire_dragonsteel_greatsword": "Двуручный меч из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_greatsword": "Двуручный меч из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_greatsword": "Двуручный меч из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_greatsword": "Двуручный меч из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_greatsword": "Двуручный меч из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_greatsword": "Двуручный меч из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_greatsword": "Двуручный меч из жала пустынного мирмекса",
+
+		// Boomerangs
+		"item.spartanfire.dragon_bone_boomerang": "Бумеранг из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_boomerang": "Огненный бумеранг из кости дракона",
+		"item.spartanfire.iced_dragon_bone_boomerang": "Ледяной бумеранг из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_boomerang": "Грозовой бумеранг из кости дракона",
+		"item.spartanfire.fire_dragonsteel_boomerang": "Бумеранг из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_boomerang": "Бумеранг из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_boomerang": "Бумеранг из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_boomerang": "Бумеранг из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_boomerang": "Бумеранг из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_boomerang": "Бумеранг из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_boomerang": "Бумеранг из жала пустынного мирмекса",
+
+		// Crossbows
+		"item.spartanfire.dragon_bone_heavy_crossbow": "Крупный арбалет усиленный костью дракона",
+		"item.spartanfire.flamed_dragon_bone_heavy_crossbow": "Огненный крупный арбалет усиленный костью дракона",
+		"item.spartanfire.iced_dragon_bone_heavy_crossbow": "Ледяной крупный арбалет усиленный костью дракона",
+		"item.spartanfire.lightning_dragon_bone_heavy_crossbow": "Грозовой крупный арбалет усиленный костью дракона",
+		"item.spartanfire.fire_dragonsteel_heavy_crossbow": "Крупный арбалет усиленный огненной драконосталью",
+		"item.spartanfire.ice_dragonsteel_heavy_crossbow": "Крупный арбалет усиленный ледяной драконосталью",
+		"item.spartanfire.lightning_dragonsteel_heavy_crossbow": "Крупный арбалет усиленный грозовой драконосталью",
+		"item.spartanfire.jungle_myrmex_chitin_heavy_crossbow": "Крупный арбалет усиленный хитином тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_heavy_crossbow": "Крупный арбалет усиленный хитином пустынных мирмексов",
+
+		// Javelins
+		"item.spartanfire.dragon_bone_javelin": "Дротик из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_javelin": "Огненный дротик из кости дракона",
+		"item.spartanfire.iced_dragon_bone_javelin": "Ледяной дротик из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_javelin": "Грозовой дротик из кости дракона",
+		"item.spartanfire.fire_dragonsteel_javelin": "Дротик из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_javelin": "Дротик из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_javelin": "Дротик из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_javelin": "Дротик из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_javelin": "Дротик из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_javelin": "Дротик из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_javelin": "Дротик из жала пустынного мирмекса",
+
+		// Throwing Knives
+		"item.spartanfire.dragon_bone_throwing_knife": "Метательный нож из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_throwing_knife": "Огненный метательный нож из кости дракона",
+		"item.spartanfire.iced_dragon_bone_throwing_knife": "Ледяной метательный нож из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_throwing_knife": "Грозовой метательный нож из кости дракона",
+		"item.spartanfire.fire_dragonsteel_throwing_knife": "Метательный нож из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_throwing_knife": "Метательный нож из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_throwing_knife": "Метательный нож из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_throwing_knife": "Метательный нож из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_throwing_knife": "Метательный нож из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_throwing_knife": "Метательный нож из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_throwing_knife": "Метательный нож из жала пустынного мирмекса",
+
+		// Tomahawks
+		"item.spartanfire.dragon_bone_tomahawk": "Томагавк из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_tomahawk": "Огненный томагавк из кости дракона",
+		"item.spartanfire.iced_dragon_bone_tomahawk": "Ледяной томагавк из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_tomahawk": "Грозовой томагавк из кости дракона",
+		"item.spartanfire.fire_dragonsteel_tomahawk": "Томагавк из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_tomahawk": "Томагавк из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_tomahawk": "Томагавк из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_tomahawk": "Томагавк из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_tomahawk": "Томагавк из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_tomahawk": "Томагавк из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_tomahawk": "Томагавк из жала пустынного мирмекса",
+
+		// Parrying daggers
+		"item.spartanfire.dragon_bone_parrying_dagger": "Дага из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_parrying_dagger": "Огненная дага из кости дракона",
+		"item.spartanfire.iced_dragon_bone_parrying_dagger": "Ледяная дага из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_parrying_dagger": "Грозовая дага из кости дракона",
+		"item.spartanfire.fire_dragonsteel_parrying_dagger": "Дага из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_parrying_dagger": "Дага из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_parrying_dagger": "Дага из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_parrying_dagger": "Дага из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_parrying_dagger": "Дага из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_parrying_dagger": "Дага из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_parrying_dagger": "Дага из жала пустынного мирмекса",
+
+		// Scythes
+		"item.spartanfire.dragon_bone_scythe": "Коса из кости дракона",
+		"item.spartanfire.flamed_dragon_bone_scythe": "Огненная коса из кости дракона",
+		"item.spartanfire.iced_dragon_bone_scythe": "Ледяная коса из кости дракона",
+		"item.spartanfire.lightning_dragon_bone_scythe": "Грозовая коса из кости дракона",
+		"item.spartanfire.fire_dragonsteel_scythe": "Коса из огненной драконостали",
+		"item.spartanfire.ice_dragonsteel_scythe": "Коса из ледяной драконостали",
+		"item.spartanfire.lightning_dragonsteel_scythe": "Коса из грозовой драконостали",
+		"item.spartanfire.jungle_myrmex_chitin_scythe": "Коса из хитина тропических мирмексов",
+		"item.spartanfire.desert_myrmex_chitin_scythe": "Коса из хитина пустынных мирмексов",
+		"item.spartanfire.jungle_myrmex_stinger_scythe": "Коса из жала тропического мирмекса",
+		"item.spartanfire.desert_myrmex_stinger_scythe": "Коса из жала пустынного мирмекса",
+
+		// Misc
+		"item.spartanfire.witherbone_handle": "Рукоятка из кости иссушителя",
+		"item.spartanfire.witherbone_pole": "Шест из кости иссушителя",
+
+	// Tooltips
+
+		// Flamed
+		"tooltip.spartanfire.trait.flamed_i": "Огненный I",
+		"tooltip.spartanfire.trait.flamed_i.desc": "Воспламеняет и отбрасывает цели при попадании",
+		"tooltip.spartanfire.trait.flamed_ii": "Огненный II",
+		"tooltip.spartanfire.trait.flamed_ii.desc": "Воспламеняет и отбрасывает цели при попадании",
+
+		// Iced
+		"tooltip.spartanfire.trait.iced_i": "Ледяной I",
+		"tooltip.spartanfire.trait.iced_i.desc": "Замораживает цели при попадании",
+		"tooltip.spartanfire.trait.iced_ii": "Ледяной II",
+		"tooltip.spartanfire.trait.iced_ii.desc": "Замораживает цели при попадании",
+
+		// Shocked
+		"tooltip.spartanfire.trait.shocked": "Грозовой",
+		"tooltip.spartanfire.trait.shocked.desc": "Поражает цели молнией при попадании",
+
+		// Myrmex
+		"tooltip.spartanfire.trait.non-arthropod_damage_bonus": "Мирмекс",
+		"tooltip.spartanfire.trait.non-arthropod_damage_bonus.desc": "Наносит дополнительный урон не членистоногим и червям смерти",
+
+		// Poisoned
+		"tooltip.spartanfire.trait.poisoned": "Отравленный",
+		"tooltip.spartanfire.trait.poisoned.desc": "Отравляет цель при попадании",
+
+	// Tabs
+
+		// spartanfire
+		"itemGroup.spartanfire": "Spartan Weaponry: Ice and Fire"
+}

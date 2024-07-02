@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:boomerang",
+  "pattern": [
+    "#PP",
+    "P  ",
+    "P  "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:chitin_desert"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "spartanfire:desert_myrmex_chitin_boomerang"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "boomerang"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

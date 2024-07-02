@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "spartanfire:lightning_dragon_bone_boomerang"
+    ]
+  },
+  "criteria": {
+    "has_lightning_dragon_blood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:lightning_dragon_blood"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spartanfire:lightning_dragon_bone_boomerang"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lightning_dragon_blood",
+      "has_the_recipe"
+    ]
+  ]
+}

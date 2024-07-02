@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_parrying_dagger",
+    "spartanfire:flamed_dragon_bone_parrying_dagger",
+    "spartanfire:iced_dragon_bone_parrying_dagger",
+    "spartanfire:lightning_dragon_bone_parrying_dagger",
+    "spartanfire:desert_myrmex_chitin_parrying_dagger",
+    "spartanfire:desert_myrmex_stinger_parrying_dagger",
+    "spartanfire:jungle_myrmex_chitin_parrying_dagger",
+    "spartanfire:jungle_myrmex_stinger_parrying_dagger",
+    "spartanfire:fire_dragonsteel_parrying_dagger",
+    "spartanfire:ice_dragonsteel_parrying_dagger",
+    "spartanfire:lightning_dragonsteel_parrying_dagger"
+  ]
+}

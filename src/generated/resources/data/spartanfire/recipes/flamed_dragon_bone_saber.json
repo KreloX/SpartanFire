@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:saber",
+  "ingredients": [
+    {
+      "item": "spartanfire:dragon_bone_saber"
+    },
+    {
+      "item": "iceandfire:fire_dragon_blood"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:flamed_dragon_bone_saber",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "saber"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

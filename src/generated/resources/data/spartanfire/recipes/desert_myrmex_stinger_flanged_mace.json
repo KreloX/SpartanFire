@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:flanged_mace",
+  "ingredients": [
+    {
+      "item": "spartanfire:desert_myrmex_chitin_flanged_mace"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:desert_myrmex_stinger_flanged_mace",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "flanged_mace"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

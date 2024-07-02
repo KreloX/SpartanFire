@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/longbow_pulling",
+  "textures": {
+    "layer0": "spartanfire:item/jungle_myrmex_stinger_longbow_pulling_0"
+  }
+}

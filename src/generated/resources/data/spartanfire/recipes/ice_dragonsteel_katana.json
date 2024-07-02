@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:katana",
+  "pattern": [
+    "  #",
+    " # ",
+    "|  "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_ice"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
+  "result": {
+    "item": "spartanfire:ice_dragonsteel_katana"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "katana"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

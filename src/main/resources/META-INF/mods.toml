@@ -1,38 +1,43 @@
 modLoader="javafml"
-loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-issueTrackerURL="https://github.com/KreloX/SpartanFire/issues"
-license="MIT License"
-[[mods]] #mandatory
-modId="swiaf"
-version="1.16.5-1.1.2"
-displayName="Spartan Weaponry: Ice and Fire"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/spartan-weaponry-ice-and-fire"
+loaderVersion="${loader_version_range}"
+issueTrackerURL="${mod_issue_tracker}"
+license="${mod_license}"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="${mod_homepage}"
 logoFile="logo.png"
-credits="Thanks to ChoglixVT for providing textures and to dering999 for Chinese translation. Thanks to alebentod for Russian translation."
-authors="KreloX"
-description='''
-Spicing up Spartan Weaponry by implementing materials from the mythological legends of Ice and Fire.'''
-[[dependencies.swiaf]]
+credits="${mod_credits}"
+authors="${mod_authors}"
+description='''${mod_description}'''
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
-[[dependencies.swiaf]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
-[[dependencies.swiaf]]
+[[dependencies.${mod_id}]]
     modId="iceandfire"
     mandatory=true
-    versionRange="[2.1.10-1.16.5,)"
+    versionRange="[${ice_and_fire_version},)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.swiaf]]
+[[dependencies.${mod_id}]]
     modId="spartanweaponry"
     mandatory=true
-    versionRange="[2.2.0,)"
+    versionRange="[${spartan_weaponry_version},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="spartantoolkit"
+    mandatory=true
+    versionRange="[${toolkit_version},)"
     ordering="NONE"
     side="BOTH"

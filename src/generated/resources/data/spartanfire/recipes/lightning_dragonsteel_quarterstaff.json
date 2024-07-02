@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:quarterstaff",
+  "pattern": [
+    "  #",
+    " / ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_lightning"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "result": {
+    "item": "spartanfire:lightning_dragonsteel_quarterstaff"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "quarterstaff"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

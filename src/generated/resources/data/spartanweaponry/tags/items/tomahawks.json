@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_tomahawk",
+    "spartanfire:flamed_dragon_bone_tomahawk",
+    "spartanfire:iced_dragon_bone_tomahawk",
+    "spartanfire:lightning_dragon_bone_tomahawk",
+    "spartanfire:desert_myrmex_chitin_tomahawk",
+    "spartanfire:desert_myrmex_stinger_tomahawk",
+    "spartanfire:jungle_myrmex_chitin_tomahawk",
+    "spartanfire:jungle_myrmex_stinger_tomahawk",
+    "spartanfire:fire_dragonsteel_tomahawk",
+    "spartanfire:ice_dragonsteel_tomahawk",
+    "spartanfire:lightning_dragonsteel_tomahawk"
+  ]
+}

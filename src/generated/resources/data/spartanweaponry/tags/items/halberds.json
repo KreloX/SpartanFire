@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_halberd",
+    "spartanfire:flamed_dragon_bone_halberd",
+    "spartanfire:iced_dragon_bone_halberd",
+    "spartanfire:lightning_dragon_bone_halberd",
+    "spartanfire:desert_myrmex_chitin_halberd",
+    "spartanfire:desert_myrmex_stinger_halberd",
+    "spartanfire:jungle_myrmex_chitin_halberd",
+    "spartanfire:jungle_myrmex_stinger_halberd",
+    "spartanfire:fire_dragonsteel_halberd",
+    "spartanfire:ice_dragonsteel_halberd",
+    "spartanfire:lightning_dragonsteel_halberd"
+  ]
+}

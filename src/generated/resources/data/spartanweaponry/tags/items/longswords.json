@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_longsword",
+    "spartanfire:flamed_dragon_bone_longsword",
+    "spartanfire:iced_dragon_bone_longsword",
+    "spartanfire:lightning_dragon_bone_longsword",
+    "spartanfire:desert_myrmex_chitin_longsword",
+    "spartanfire:desert_myrmex_stinger_longsword",
+    "spartanfire:jungle_myrmex_chitin_longsword",
+    "spartanfire:jungle_myrmex_stinger_longsword",
+    "spartanfire:fire_dragonsteel_longsword",
+    "spartanfire:ice_dragonsteel_longsword",
+    "spartanfire:lightning_dragonsteel_longsword"
+  ]
+}

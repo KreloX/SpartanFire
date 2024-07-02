@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "spartanweaponry:dagger",
+  "ingredients": [
+    {
+      "item": "spartanfire:jungle_myrmex_chitin_dagger"
+    },
+    {
+      "item": "iceandfire:myrmex_stinger"
+    }
+  ],
+  "result": {
+    "item": "spartanfire:jungle_myrmex_stinger_dagger",
+    "nbt": "{Damage:0}"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "dagger"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

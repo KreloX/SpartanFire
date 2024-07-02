@@ -1,0 +1,22 @@
+{
+  "parent": "spartanweaponry:item/base/rapier",
+  "textures": {
+    "layer0": "spartanfire:item/jungle_myrmex_stinger_rapier",
+    "coating": "spartanweaponry:item/coating/rapier"
+  },
+  "loader": "spartanweaponry:oil_coated_item",
+  "overrides": [
+    {
+      "predicate": {
+        "spartanweaponry:blocking": 1.0
+      },
+      "model": "spartanfire:item/jungle_myrmex_stinger_rapier_blocking"
+    },
+    {
+      "predicate": {
+        "spartanweaponry:throwing": 1.0
+      },
+      "model": "spartanfire:item/jungle_myrmex_stinger_rapier_throwing"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "spartanweaponry:spear",
+  "pattern": [
+    "#",
+    "/"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:bones/dragon"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    }
+  },
+  "result": {
+    "item": "spartanfire:dragon_bone_spear"
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "spear"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}

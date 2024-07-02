@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "spartanfire:dragon_bone_warhammer",
+    "spartanfire:flamed_dragon_bone_warhammer",
+    "spartanfire:iced_dragon_bone_warhammer",
+    "spartanfire:lightning_dragon_bone_warhammer",
+    "spartanfire:desert_myrmex_chitin_warhammer",
+    "spartanfire:desert_myrmex_stinger_warhammer",
+    "spartanfire:jungle_myrmex_chitin_warhammer",
+    "spartanfire:jungle_myrmex_stinger_warhammer",
+    "spartanfire:fire_dragonsteel_warhammer",
+    "spartanfire:ice_dragonsteel_warhammer",
+    "spartanfire:lightning_dragonsteel_warhammer"
+  ]
+}

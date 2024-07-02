@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/throwing_knife_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/jungle_myrmex_chitin_throwing_knife"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "spartanweaponry:item/base/javelin_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/ice_dragonsteel_javelin"
+  }
+}

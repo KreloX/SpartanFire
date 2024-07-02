@@ -1,0 +1,8 @@
+{
+  "parent": "spartanweaponry:item/base/rapier_throwing",
+  "textures": {
+    "layer0": "spartanfire:item/flamed_dragon_bone_rapier",
+    "coating": "spartanweaponry:item/coating/rapier"
+  },
+  "loader": "spartanweaponry:oil_coated_item"
+}
