@@ -26,7 +26,7 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]]
     modId="iceandfire"
     mandatory=true
-    versionRange="[${ice_and_fire_version},)"
+    versionRange="1.0"
     ordering="NONE"
     side="BOTH"
 [[dependencies.${mod_id}]]

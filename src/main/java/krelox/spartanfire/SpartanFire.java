@@ -14,7 +14,7 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
-import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
@@ -33,6 +33,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.apache.logging.log4j.util.TriConsumer;
 
@@ -125,7 +126,7 @@ public class SpartanFire extends SpartanAddon {
     @SubscribeEvent
     public void gatherTooltipComponents(RenderTooltipEvent.GatherComponents event) {
         if (event.getItemStack().getItem() instanceof WeaponItem weapon && (weapon.getMaterial().equals(FLAMED_DRAGON_BONE) || weapon.getMaterial().equals(ICED_DRAGON_BONE) || weapon.getMaterial().equals(LIGHTNING_DRAGON_BONE))) {
-            event.getTooltipElements().add(1, Either.left(new TranslatableComponent("item.iceandfire.legendary_weapon.desc").withStyle(ChatFormatting.GOLD)));
+            event.getTooltipElements().add(1, Either.left(Component.translatable("item.iceandfire.legendary_weapon.desc").withStyle(ChatFormatting.GOLD)));
         }
     }
 
@@ -167,9 +168,9 @@ public class SpartanFire extends SpartanAddon {
         TriConsumer<ShapelessRecipeBuilder, Integer, TagKey<Item>> witherboneRecipe = (builder, witherboneCount, ingredient) -> builder
                 .requires(Ingredient.of(WITHERBONE), witherboneCount)
                 .requires(ingredient)
-                .group(builder.getResult().getRegistryName().toString())
+                .group(ForgeRegistries.ITEMS.getKey(builder.getResult()).toString())
                 .unlockedBy("has_witherbone", has(WITHERBONE))
-                .save(consumer, builder.getResult().getRegistryName() + "_from_" + ingredient.location().getPath());
+                .save(consumer, ForgeRegistries.ITEMS.getKey(builder.getResult()) + "_from_" + ingredient.location().getPath());
 
         witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_HANDLE.get()), 1, Tags.Items.STRING);
         witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_HANDLE.get(), 4), 4, ItemTags.WOOL);

@@ -21,7 +21,7 @@ import net.minecraftforge.fml.common.Mod;
 public class EntityListener {
     @SubscribeEvent
     public static void applyTraitEffects(LivingAttackEvent event) {
-        LivingEntity target = event.getEntityLiving();
+        LivingEntity target = event.getEntity();
 
         if (!(event.getSource().getEntity() instanceof LivingEntity attacker)) return;
         if (!(attacker.getMainHandItem().getItem() instanceof WeaponItem weapon)) return;
