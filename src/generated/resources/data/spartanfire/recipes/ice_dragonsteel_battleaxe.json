@@ -1,31 +1,31 @@
 {
   "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "battleaxe"
+      ]
+    }
+  ],
   "group": "spartanweaponry:battleaxe",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_ice"
+    },
+    "/": {
+      "tag": "forge:bones/wither"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
   "pattern": [
     "###",
     "#/#",
     " | "
   ],
-  "key": {
-    "#": {
-      "tag": "forge:ingots/dragonsteel_ice"
-    },
-    "|": {
-      "item": "spartanfire:witherbone_handle"
-    },
-    "/": {
-      "tag": "forge:bones/wither"
-    }
-  },
   "result": {
     "item": "spartanfire:ice_dragonsteel_battleaxe"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "battleaxe"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

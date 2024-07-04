@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "group": "spartanfire:witherbone_pole",
   "ingredients": [
     {
@@ -31,7 +32,7 @@
     }
   ],
   "result": {
-    "item": "spartanfire:witherbone_pole",
-    "count": 4
+    "count": 4,
+    "item": "spartanfire:witherbone_pole"
   }
 }

@@ -2,6 +2,7 @@ package krelox.spartanfire;
 
 import com.github.alexthe666.iceandfire.item.DragonSteelTier;
 import com.github.alexthe666.iceandfire.item.IafItemRegistry;
+import com.github.alexthe666.iceandfire.item.ItemGeneric;
 import com.mojang.datafixers.util.Either;
 import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 import com.oblivioussp.spartanweaponry.api.crafting.condition.TypeDisabledCondition;
@@ -12,6 +13,7 @@ import it.unimi.dsi.fastutil.Pair;
 import krelox.spartantoolkit.*;
 import net.minecraft.ChatFormatting;
 import net.minecraft.data.recipes.FinishedRecipe;
+import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.network.chat.Component;
@@ -51,6 +53,7 @@ public class SpartanFire extends SpartanAddon {
     public static final WeaponMap WEAPONS = new WeaponMap();
     public static final DeferredRegister<Item> ITEMS = itemRegister(MODID);
     public static final DeferredRegister<WeaponTrait> TRAITS = traitRegister(MODID);
+    public static final DeferredRegister<CreativeModeTab> TABS = tabRegister(MODID);
 
     // Traits
     public static final RegistryObject<WeaponTrait> ICE_DRAGON_DAMAGE_BONUS_I = registerTrait(TRAITS,
@@ -107,10 +110,12 @@ public class SpartanFire extends SpartanAddon {
     public static final SpartanMaterial JUNGLE_MYRMEX_STINGER = material("jungle_myrmex_stinger",
             IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_jungle", Set.of(NON_ARTHROPOD_DAMAGE_BONUS, POISONED), Map.of());
 
-    public static final CreativeModeTab SPARTAN_FIRE_TAB = tab(MODID, () -> WEAPONS.get(FLAMED_DRAGON_BONE, WeaponType.GREATSWORD).get());
+    @SuppressWarnings("unused")
+    public static final RegistryObject<CreativeModeTab> SPARTAN_FIRE_TAB = registerTab(TABS, MODID, () -> WEAPONS.get(FLAMED_DRAGON_BONE, WeaponType.GREATSWORD).get(),
+            (parameters, output) -> ITEMS.getEntries().forEach(item -> output.accept(item.get())));
 
-    public static final RegistryObject<Item> WITHERBONE_HANDLE = ITEMS.register("witherbone_handle", () -> new Item(new Item.Properties().tab(SPARTAN_FIRE_TAB)));
-    public static final RegistryObject<Item> WITHERBONE_POLE = ITEMS.register("witherbone_pole", () -> new Item(new Item.Properties().tab(SPARTAN_FIRE_TAB)));
+    public static final RegistryObject<Item> WITHERBONE_HANDLE = ITEMS.register("witherbone_handle", ItemGeneric::new);
+    public static final RegistryObject<Item> WITHERBONE_POLE = ITEMS.register("witherbone_pole", ItemGeneric::new);
 
     private static final TagKey<Item> WITHERBONE = ItemTags.create(new ResourceLocation("forge:bones/wither"));
 
@@ -121,6 +126,7 @@ public class SpartanFire extends SpartanAddon {
         registerSpartanWeapons(ITEMS);
         ITEMS.register(bus);
         TRAITS.register(bus);
+        TABS.register(bus);
     }
 
     @SubscribeEvent
@@ -170,16 +176,16 @@ public class SpartanFire extends SpartanAddon {
                 .requires(ingredient)
                 .group(ForgeRegistries.ITEMS.getKey(builder.getResult()).toString())
                 .unlockedBy("has_witherbone", has(WITHERBONE))
-                .save(consumer, ForgeRegistries.ITEMS.getKey(builder.getResult()) + "_from_" + ingredient.location().getPath());
+                .save(consumer, ForgeRegistries.ITEMS.getKey(builder.getResult()).withSuffix("_from_" + ingredient.location().getPath()));
 
-        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_HANDLE.get()), 1, Tags.Items.STRING);
-        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_HANDLE.get(), 4), 4, ItemTags.WOOL);
-        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_HANDLE.get(), 4), 4, Tags.Items.LEATHER);
+        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WITHERBONE_HANDLE.get()), 1, Tags.Items.STRING);
+        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WITHERBONE_HANDLE.get(), 4), 4, ItemTags.WOOL);
+        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WITHERBONE_HANDLE.get(), 4), 4, Tags.Items.LEATHER);
 
-        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_POLE.get(), 4), 8, ItemTags.WOOL);
-        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(WITHERBONE_POLE.get(), 4), 8, Tags.Items.LEATHER);
+        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WITHERBONE_POLE.get(), 4), 8, ItemTags.WOOL);
+        witherboneRecipe.accept(ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WITHERBONE_POLE.get(), 4), 8, Tags.Items.LEATHER);
 
-        ShapedRecipeBuilder.shaped(WITHERBONE_POLE.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, WITHERBONE_POLE.get())
                 .define('|', WITHERBONE)
                 .define('#', Tags.Items.STRING)
                 .pattern("| ")
@@ -254,11 +260,6 @@ public class SpartanFire extends SpartanAddon {
                 DESERT_MYRMEX_CHITIN, DESERT_MYRMEX_STINGER, JUNGLE_MYRMEX_CHITIN, JUNGLE_MYRMEX_STINGER,
                 FIRE_DRAGONSTEEL, ICE_DRAGONSTEEL, LIGHTNING_DRAGONSTEEL
         );
-    }
-
-    @Override
-    public CreativeModeTab getTab() {
-        return SPARTAN_FIRE_TAB;
     }
 
     @Override

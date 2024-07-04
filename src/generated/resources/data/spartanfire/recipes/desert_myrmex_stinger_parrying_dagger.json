@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "parrying_dagger"
+      ]
+    }
+  ],
   "group": "spartanweaponry:parrying_dagger",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:desert_myrmex_stinger_parrying_dagger",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "parrying_dagger"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,8 +1,7 @@
 {
-  "replace": false,
   "values": [
+    "spartanfire:fire_dragon_damage_bonus_i",
     "spartanfire:shocked",
-    "spartanfire:ice_dragon_damage_bonus_i",
-    "spartanfire:fire_dragon_damage_bonus_i"
+    "spartanfire:ice_dragon_damage_bonus_i"
   ]
 }

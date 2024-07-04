@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lightning_dragon_blood": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iceandfire:lightning_dragon_blood"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spartanfire:lightning_dragon_bone_throwing_knife"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_lightning_dragon_blood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spartanfire:lightning_dragon_bone_throwing_knife"
+    ]
+  },
+  "sends_telemetry_event": true
+}

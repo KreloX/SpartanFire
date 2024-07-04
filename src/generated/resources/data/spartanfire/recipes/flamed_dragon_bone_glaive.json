@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "glaive"
+      ]
+    }
+  ],
   "group": "spartanweaponry:glaive",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:flamed_dragon_bone_glaive",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "glaive"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

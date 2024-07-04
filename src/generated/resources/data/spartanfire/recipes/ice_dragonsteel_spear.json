@@ -1,10 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:spear",
-  "pattern": [
-    "#",
-    "/"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "spear"
+      ]
+    }
   ],
+  "group": "spartanweaponry:spear",
   "key": {
     "#": {
       "tag": "forge:ingots/dragonsteel_ice"
@@ -13,15 +17,11 @@
       "item": "spartanfire:witherbone_pole"
     }
   },
+  "pattern": [
+    "#",
+    "/"
+  ],
   "result": {
     "item": "spartanfire:ice_dragonsteel_spear"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "spear"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

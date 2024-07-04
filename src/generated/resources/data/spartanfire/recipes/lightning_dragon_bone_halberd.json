@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "halberd"
+      ]
+    }
+  ],
   "group": "spartanweaponry:halberd",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:lightning_dragon_bone_halberd",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "halberd"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

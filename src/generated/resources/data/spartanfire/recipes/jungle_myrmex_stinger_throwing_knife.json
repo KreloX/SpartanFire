@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "throwing_knife"
+      ]
+    }
+  ],
   "group": "spartanweaponry:throwing_knife",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:jungle_myrmex_stinger_throwing_knife",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "throwing_knife"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

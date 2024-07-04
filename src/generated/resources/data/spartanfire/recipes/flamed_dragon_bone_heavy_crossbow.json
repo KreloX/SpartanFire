@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "heavy_crossbow"
+      ]
+    }
+  ],
   "group": "spartanweaponry:heavy_crossbow",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:flamed_dragon_bone_heavy_crossbow",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "heavy_crossbow"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

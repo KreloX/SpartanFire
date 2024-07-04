@@ -1,31 +1,31 @@
 {
   "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "lance"
+      ]
+    }
+  ],
   "group": "spartanweaponry:lance",
+  "key": {
+    "#": {
+      "tag": "forge:ingots/dragonsteel_fire"
+    },
+    "/": {
+      "item": "spartanfire:witherbone_pole"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
   "pattern": [
     "  #",
     "#/ ",
     "|# "
   ],
-  "key": {
-    "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
-    },
-    "|": {
-      "item": "spartanfire:witherbone_handle"
-    },
-    "/": {
-      "item": "spartanfire:witherbone_pole"
-    }
-  },
   "result": {
     "item": "spartanfire:fire_dragonsteel_lance"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "lance"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "katana"
+      ]
+    }
+  ],
   "group": "spartanweaponry:katana",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:jungle_myrmex_stinger_katana",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "katana"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -3,10 +3,10 @@ package krelox.spartanfire.event;
 import com.github.alexthe666.iceandfire.entity.EntityDeathWorm;
 import com.github.alexthe666.iceandfire.entity.EntityFireDragon;
 import com.github.alexthe666.iceandfire.entity.EntityIceDragon;
-import com.github.alexthe666.iceandfire.entity.props.FrozenProperties;
+import com.github.alexthe666.iceandfire.entity.props.EntityDataProvider;
+import com.github.alexthe666.iceandfire.event.ServerEvents;
 import krelox.spartanfire.SpartanFire;
 import krelox.spartantoolkit.WeaponItem;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
@@ -26,25 +26,26 @@ public class EntityListener {
         if (!(event.getSource().getEntity() instanceof LivingEntity attacker)) return;
         if (!(attacker.getMainHandItem().getItem() instanceof WeaponItem weapon)) return;
 
+        var level = attacker.level();
         var traits = weapon.getMaterial().getBonusTraits();
 
 
         if (traits.contains(SpartanFire.ICE_DRAGON_DAMAGE_BONUS_I.get())) {
             if (target instanceof EntityIceDragon) {
-                target.hurt(DamageSource.LIGHTNING_BOLT, 9.5F);
+                target.hurt(level.damageSources().lightningBolt(), 9.5F);
             }
         } else if (traits.contains(SpartanFire.ICE_DRAGON_DAMAGE_BONUS_II.get())) {
             if (target instanceof EntityIceDragon) {
-                target.hurt(DamageSource.IN_FIRE, 13.5F);
+                target.hurt(level.damageSources().inFire(), 13.5F);
             }
         }
         if (traits.contains(SpartanFire.FIRE_DRAGON_DAMAGE_BONUS_I.get())) {
             if (target instanceof EntityFireDragon) {
-                target.hurt(DamageSource.LIGHTNING_BOLT, 9.5F);
+                target.hurt(level.damageSources().lightningBolt(), 9.5F);
             }
         } else if (traits.contains(SpartanFire.FIRE_DRAGON_DAMAGE_BONUS_II.get())) {
             if (target instanceof EntityFireDragon) {
-                target.hurt(DamageSource.DROWN, 13.5F);
+                target.hurt(level.damageSources().drown(), 13.5F);
             }
         }
         if (traits.contains(SpartanFire.FLAMED_I.get())) {
@@ -55,12 +56,12 @@ public class EntityListener {
             target.knockback(1F, attacker.getX() - target.getX(), attacker.getZ() - target.getZ());
         }
         if (traits.contains(SpartanFire.ICED_I.get())) {
-            FrozenProperties.setFrozenFor(target, 200);
+            EntityDataProvider.getCapability(target).ifPresent(data -> data.frozenData.setFrozen(target, 200));
 
             target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2));
             target.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 100, 2));
         } else if (traits.contains(SpartanFire.ICED_II.get())) {
-            FrozenProperties.setFrozenFor(target, 300);
+            EntityDataProvider.getCapability(target).ifPresent(data -> data.frozenData.setFrozen(target, 300));
 
             target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 300, 2));
         }
@@ -74,11 +75,13 @@ public class EntityListener {
                 }
             }
 
-            if (!attacker.level.isClientSide && flag) {
-                var lightning = EntityType.LIGHTNING_BOLT.create(target.level);
+            if (!level.isClientSide && flag) {
+                var lightning = EntityType.LIGHTNING_BOLT.create(target.level());
+                lightning.getTags().add(ServerEvents.BOLT_DONT_DESTROY_LOOT);
+                lightning.getTags().add(attacker.getStringUUID());
                 lightning.moveTo(target.position());
-                if (!target.level.isClientSide) {
-                    target.level.addFreshEntity(lightning);
+                if (!target.level().isClientSide) {
+                    target.level().addFreshEntity(lightning);
                 }
             }
         }
@@ -92,13 +95,11 @@ public class EntityListener {
 
             if (flag) {
                 if (target.getMobType() != MobType.ARTHROPOD) {
-                    target.hurt(DamageSource.GENERIC, 5F);
-                    target.invulnerableTime = 0;
+                    target.hurt(level.damageSources().generic(), 5F);
                 }
 
                 if (target instanceof EntityDeathWorm) {
-                    target.hurt(DamageSource.GENERIC, 5F);
-                    target.invulnerableTime = 0;
+                    target.hurt(level.damageSources().generic(), 5F);
                 }
             }
         }

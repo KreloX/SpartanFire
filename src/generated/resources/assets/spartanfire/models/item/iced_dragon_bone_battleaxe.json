@@ -1,22 +1,22 @@
 {
   "parent": "spartanweaponry:item/base/battleaxe",
-  "textures": {
-    "layer0": "spartanfire:item/iced_dragon_bone_battleaxe",
-    "coating": "spartanweaponry:item/coating/battleaxe"
-  },
   "loader": "spartanweaponry:oil_coated_item",
   "overrides": [
     {
+      "model": "spartanfire:item/iced_dragon_bone_battleaxe_blocking",
       "predicate": {
         "spartanweaponry:blocking": 1.0
-      },
-      "model": "spartanfire:item/iced_dragon_bone_battleaxe_blocking"
+      }
     },
     {
+      "model": "spartanfire:item/iced_dragon_bone_battleaxe_throwing",
       "predicate": {
         "spartanweaponry:throwing": 1.0
-      },
-      "model": "spartanfire:item/iced_dragon_bone_battleaxe_throwing"
+      }
     }
-  ]
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/battleaxe",
+    "layer0": "spartanfire:item/iced_dragon_bone_battleaxe"
+  }
 }

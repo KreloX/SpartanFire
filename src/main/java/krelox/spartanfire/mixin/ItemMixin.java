@@ -15,7 +15,10 @@ public class ItemMixin {
     private void spartanfire_isFoil(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
         if (stack.getItem() instanceof WeaponItem weapon) {
             var material = weapon.getMaterial();
-            cir.setReturnValue(cir.getReturnValue() || material.equals(SpartanFire.FLAMED_DRAGON_BONE) || material.equals(SpartanFire.ICED_DRAGON_BONE) || material.equals(SpartanFire.LIGHTNING_DRAGON_BONE));
+            cir.setReturnValue(cir.getReturnValue()
+                    || material.equals(SpartanFire.FLAMED_DRAGON_BONE)
+                    || material.equals(SpartanFire.ICED_DRAGON_BONE)
+                    || material.equals(SpartanFire.LIGHTNING_DRAGON_BONE));
         }
     }
 }
