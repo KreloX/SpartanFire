@@ -11,7 +11,7 @@
   "group": "spartanweaponry:boomerang",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "P": {
       "tag": "minecraft:planks"

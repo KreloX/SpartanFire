@@ -11,7 +11,7 @@
   "group": "spartanweaponry:heavy_crossbow",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_ice"
+      "tag": "forge:ingots/ice_dragonsteel"
     },
     "D": {
       "item": "minecraft:bow"

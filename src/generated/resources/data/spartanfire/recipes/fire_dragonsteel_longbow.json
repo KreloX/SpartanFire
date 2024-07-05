@@ -11,7 +11,7 @@
   "group": "spartanweaponry:longbow",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "/": {
       "tag": "forge:bones/wither"

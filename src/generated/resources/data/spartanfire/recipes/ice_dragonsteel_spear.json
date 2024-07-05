@@ -11,7 +11,7 @@
   "group": "spartanweaponry:spear",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_ice"
+      "tag": "forge:ingots/ice_dragonsteel"
     },
     "/": {
       "item": "spartanfire:witherbone_pole"

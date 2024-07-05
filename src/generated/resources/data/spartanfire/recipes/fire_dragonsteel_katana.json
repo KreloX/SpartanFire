@@ -11,7 +11,7 @@
   "group": "spartanweaponry:katana",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "|": {
       "item": "spartanfire:witherbone_handle"

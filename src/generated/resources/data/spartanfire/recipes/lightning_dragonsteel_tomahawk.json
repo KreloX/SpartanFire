@@ -11,7 +11,7 @@
   "group": "spartanweaponry:tomahawk",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_lightning"
+      "tag": "forge:ingots/lightning_dragonsteel"
     },
     "|": {
       "item": "spartanfire:witherbone_handle"

@@ -11,7 +11,7 @@
   "group": "spartanweaponry:battleaxe",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_lightning"
+      "tag": "forge:ingots/lightning_dragonsteel"
     },
     "/": {
       "tag": "forge:bones/wither"
