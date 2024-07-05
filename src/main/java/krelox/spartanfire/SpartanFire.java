@@ -92,11 +92,11 @@ public class SpartanFire extends SpartanAddon {
             IafItemRegistry.LIGHTNING_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", Set.of(ICE_DRAGON_DAMAGE_BONUS_I, FIRE_DRAGON_DAMAGE_BONUS_I, SHOCKED), Map.of());
 
     public static final SpartanMaterial FIRE_DRAGONSTEEL = material("fire_dragonsteel",
-            DragonSteelTier.DRAGONSTEEL_TIER_FIRE, "forge:ingots/dragonsteel_fire", Set.of(FLAMED_II), Map.of());
+            DragonSteelTier.DRAGONSTEEL_TIER_FIRE, "forge:ingots/fire_dragonsteel", Set.of(FLAMED_II), Map.of());
     public static final SpartanMaterial ICE_DRAGONSTEEL = material("ice_dragonsteel",
-            DragonSteelTier.DRAGONSTEEL_TIER_ICE, "forge:ingots/dragonsteel_ice", Set.of(ICED_II), Map.of());
+            DragonSteelTier.DRAGONSTEEL_TIER_ICE, "forge:ingots/ice_dragonsteel", Set.of(ICED_II), Map.of());
     public static final SpartanMaterial LIGHTNING_DRAGONSTEEL = material("lightning_dragonsteel",
-            DragonSteelTier.DRAGONSTEEL_TIER_LIGHTNING, "forge:ingots/dragonsteel_lightning", Set.of(SHOCKED), Map.of());
+            DragonSteelTier.DRAGONSTEEL_TIER_LIGHTNING, "forge:ingots/lightning_dragonsteel", Set.of(SHOCKED), Map.of());
 
     public static final SpartanMaterial DESERT_MYRMEX_CHITIN = material("desert_myrmex_chitin",
             IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_desert", Set.of(NON_ARTHROPOD_DAMAGE_BONUS), Map.of());

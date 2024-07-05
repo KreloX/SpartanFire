@@ -1,22 +1,22 @@
 {
   "parent": "spartanweaponry:item/base/lance",
-  "textures": {
-    "layer0": "spartanfire:item/jungle_myrmex_chitin_lance",
-    "coating": "spartanweaponry:item/coating/lance"
-  },
   "loader": "spartanweaponry:oil_coated_item",
   "overrides": [
     {
+      "model": "spartanfire:item/jungle_myrmex_chitin_lance_blocking",
       "predicate": {
         "spartanweaponry:blocking": 1.0
-      },
-      "model": "spartanfire:item/jungle_myrmex_chitin_lance_blocking"
+      }
     },
     {
+      "model": "spartanfire:item/jungle_myrmex_chitin_lance_throwing",
       "predicate": {
         "spartanweaponry:throwing": 1.0
-      },
-      "model": "spartanfire:item/jungle_myrmex_chitin_lance_throwing"
+      }
     }
-  ]
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/lance",
+    "layer0": "spartanfire:item/jungle_myrmex_chitin_lance"
+  }
 }

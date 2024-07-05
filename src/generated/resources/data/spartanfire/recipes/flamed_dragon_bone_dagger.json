@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "dagger"
+      ]
+    }
+  ],
   "group": "spartanweaponry:dagger",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:flamed_dragon_bone_dagger",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "dagger"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "spear"
+      ]
+    }
+  ],
   "group": "spartanweaponry:spear",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:desert_myrmex_stinger_spear",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "spear"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

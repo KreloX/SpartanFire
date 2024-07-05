@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "scythe"
+      ]
+    }
+  ],
   "group": "spartanweaponry:scythe",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:flamed_dragon_bone_scythe",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "scythe"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

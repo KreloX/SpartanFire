@@ -1,11 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:katana",
-  "pattern": [
-    "  #",
-    " # ",
-    "|  "
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "katana"
+      ]
+    }
   ],
+  "group": "spartanweaponry:katana",
   "key": {
     "#": {
       "tag": "forge:chitin_jungle"
@@ -14,15 +17,12 @@
       "item": "spartanfire:witherbone_handle"
     }
   },
+  "pattern": [
+    "  #",
+    " # ",
+    "|  "
+  ],
   "result": {
     "item": "spartanfire:jungle_myrmex_chitin_katana"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "katana"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "javelin"
+      ]
+    }
+  ],
   "group": "spartanweaponry:javelin",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:iced_dragon_bone_javelin",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "javelin"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

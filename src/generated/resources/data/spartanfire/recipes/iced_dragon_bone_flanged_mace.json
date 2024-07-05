@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "flanged_mace"
+      ]
+    }
+  ],
   "group": "spartanweaponry:flanged_mace",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:iced_dragon_bone_flanged_mace",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "flanged_mace"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,22 +1,22 @@
 {
   "parent": "spartanweaponry:item/base/battleaxe",
-  "textures": {
-    "layer0": "spartanfire:item/desert_myrmex_chitin_battleaxe",
-    "coating": "spartanweaponry:item/coating/battleaxe"
-  },
   "loader": "spartanweaponry:oil_coated_item",
   "overrides": [
     {
+      "model": "spartanfire:item/desert_myrmex_chitin_battleaxe_blocking",
       "predicate": {
         "spartanweaponry:blocking": 1.0
-      },
-      "model": "spartanfire:item/desert_myrmex_chitin_battleaxe_blocking"
+      }
     },
     {
+      "model": "spartanfire:item/desert_myrmex_chitin_battleaxe_throwing",
       "predicate": {
         "spartanweaponry:throwing": 1.0
-      },
-      "model": "spartanfire:item/desert_myrmex_chitin_battleaxe_throwing"
+      }
     }
-  ]
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/battleaxe",
+    "layer0": "spartanfire:item/desert_myrmex_chitin_battleaxe"
+  }
 }

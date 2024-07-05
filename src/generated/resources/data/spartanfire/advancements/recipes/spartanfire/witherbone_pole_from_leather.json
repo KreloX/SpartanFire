@@ -1,26 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "spartanfire:witherbone_pole_from_leather"
-    ]
-  },
   "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spartanfire:witherbone_pole_from_leather"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
     "has_witherbone": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "tag": "forge:bones/wither"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "spartanfire:witherbone_pole_from_leather"
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
@@ -28,5 +23,10 @@
       "has_witherbone",
       "has_the_recipe"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spartanfire:witherbone_pole_from_leather"
+    ]
+  }
 }

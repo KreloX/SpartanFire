@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "battleaxe"
+      ]
+    }
+  ],
   "group": "spartanweaponry:battleaxe",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:flamed_dragon_bone_battleaxe",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "battleaxe"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

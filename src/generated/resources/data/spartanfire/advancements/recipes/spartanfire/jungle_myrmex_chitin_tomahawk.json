@@ -1,26 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "spartanfire:jungle_myrmex_chitin_tomahawk"
-    ]
-  },
   "criteria": {
     "has_jungle_myrmex_chitin": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "tag": "forge:chitin_jungle"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "spartanfire:jungle_myrmex_chitin_tomahawk"
-      }
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
@@ -28,5 +23,10 @@
       "has_jungle_myrmex_chitin",
       "has_the_recipe"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spartanfire:jungle_myrmex_chitin_tomahawk"
+    ]
+  }
 }

@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "pike"
+      ]
+    }
+  ],
   "group": "spartanweaponry:pike",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:lightning_dragon_bone_pike",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "pike"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,26 +1,21 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "spartanfire:fire_dragonsteel_halberd"
-    ]
-  },
   "criteria": {
     "has_fire_dragonsteel": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/dragonsteel_fire"
+            "tag": "forge:ingots/fire_dragonsteel"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     },
     "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "spartanfire:fire_dragonsteel_halberd"
-      }
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
@@ -28,5 +23,10 @@
       "has_fire_dragonsteel",
       "has_the_recipe"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spartanfire:fire_dragonsteel_halberd"
+    ]
+  }
 }

@@ -1,28 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:longsword",
-  "pattern": [
-    " # ",
-    " # ",
-    "#|#"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "longsword"
+      ]
+    }
   ],
+  "group": "spartanweaponry:longsword",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "|": {
       "item": "spartanfire:witherbone_handle"
     }
   },
+  "pattern": [
+    " # ",
+    " # ",
+    "#|#"
+  ],
   "result": {
     "item": "spartanfire:fire_dragonsteel_longsword"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "longsword"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,27 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:parrying_dagger",
-  "pattern": [
-    " #",
-    "#|"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "parrying_dagger"
+      ]
+    }
   ],
+  "group": "spartanweaponry:parrying_dagger",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_ice"
+      "tag": "forge:ingots/ice_dragonsteel"
     },
     "|": {
       "item": "spartanfire:witherbone_handle"
     }
   },
+  "pattern": [
+    " #",
+    "#|"
+  ],
   "result": {
     "item": "spartanfire:ice_dragonsteel_parrying_dagger"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "parrying_dagger"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

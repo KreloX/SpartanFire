@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "battle_hammer"
+      ]
+    }
+  ],
   "group": "spartanweaponry:battle_hammer",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:iced_dragon_bone_battle_hammer",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "battle_hammer"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,28 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:warhammer",
-  "pattern": [
-    " #",
-    "##",
-    " |"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "warhammer"
+      ]
+    }
   ],
+  "group": "spartanweaponry:warhammer",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "|": {
       "item": "spartanfire:witherbone_handle"
     }
   },
+  "pattern": [
+    " #",
+    "##",
+    " |"
+  ],
   "result": {
     "item": "spartanfire:fire_dragonsteel_warhammer"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "warhammer"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

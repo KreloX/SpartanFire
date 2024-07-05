@@ -1,28 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:pike",
-  "pattern": [
-    "#",
-    "/",
-    "/"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "pike"
+      ]
+    }
   ],
+  "group": "spartanweaponry:pike",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "/": {
       "item": "spartanfire:witherbone_pole"
     }
   },
+  "pattern": [
+    "#",
+    "/",
+    "/"
+  ],
   "result": {
     "item": "spartanfire:fire_dragonsteel_pike"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "pike"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

@@ -1,27 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:tomahawk",
-  "pattern": [
-    "|#",
-    " #"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "tomahawk"
+      ]
+    }
   ],
+  "group": "spartanweaponry:tomahawk",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "|": {
       "item": "spartanfire:witherbone_handle"
     }
   },
+  "pattern": [
+    "|#",
+    " #"
+  ],
   "result": {
     "item": "spartanfire:fire_dragonsteel_tomahawk"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "tomahawk"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

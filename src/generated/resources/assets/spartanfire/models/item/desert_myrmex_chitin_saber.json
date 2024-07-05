@@ -1,22 +1,22 @@
 {
   "parent": "spartanweaponry:item/base/saber",
-  "textures": {
-    "layer0": "spartanfire:item/desert_myrmex_chitin_saber",
-    "coating": "spartanweaponry:item/coating/saber"
-  },
   "loader": "spartanweaponry:oil_coated_item",
   "overrides": [
     {
+      "model": "spartanfire:item/desert_myrmex_chitin_saber_blocking",
       "predicate": {
         "spartanweaponry:blocking": 1.0
-      },
-      "model": "spartanfire:item/desert_myrmex_chitin_saber_blocking"
+      }
     },
     {
+      "model": "spartanfire:item/desert_myrmex_chitin_saber_throwing",
       "predicate": {
         "spartanweaponry:throwing": 1.0
-      },
-      "model": "spartanfire:item/desert_myrmex_chitin_saber_throwing"
+      }
     }
-  ]
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/saber",
+    "layer0": "spartanfire:item/desert_myrmex_chitin_saber"
+  }
 }

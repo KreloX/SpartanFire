@@ -1,26 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "spartanweaponry:javelin",
-  "pattern": [
-    "/#"
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "javelin"
+      ]
+    }
   ],
+  "group": "spartanweaponry:javelin",
   "key": {
     "#": {
-      "tag": "forge:ingots/dragonsteel_fire"
+      "tag": "forge:ingots/fire_dragonsteel"
     },
     "/": {
       "item": "spartanfire:witherbone_pole"
     }
   },
+  "pattern": [
+    "/#"
+  ],
   "result": {
     "item": "spartanfire:fire_dragonsteel_javelin"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "javelin"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

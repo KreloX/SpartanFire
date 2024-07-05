@@ -1,31 +1,31 @@
 {
   "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "battleaxe"
+      ]
+    }
+  ],
   "group": "spartanweaponry:battleaxe",
+  "key": {
+    "#": {
+      "tag": "forge:chitin_desert"
+    },
+    "/": {
+      "tag": "forge:bones/wither"
+    },
+    "|": {
+      "item": "spartanfire:witherbone_handle"
+    }
+  },
   "pattern": [
     "###",
     "#/#",
     " | "
   ],
-  "key": {
-    "#": {
-      "tag": "forge:chitin_desert"
-    },
-    "|": {
-      "item": "spartanfire:witherbone_handle"
-    },
-    "/": {
-      "tag": "forge:bones/wither"
-    }
-  },
   "result": {
     "item": "spartanfire:desert_myrmex_chitin_battleaxe"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "battleaxe"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }

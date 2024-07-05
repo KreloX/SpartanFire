@@ -1,5 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "spartanweaponry:type_disabled",
+      "disabled": [
+        "quarterstaff"
+      ]
+    }
+  ],
   "group": "spartanweaponry:quarterstaff",
   "ingredients": [
     {
@@ -12,13 +20,5 @@
   "result": {
     "item": "spartanfire:iced_dragon_bone_quarterstaff",
     "nbt": "{Damage:0}"
-  },
-  "conditions": [
-    {
-      "disabled": [
-        "quarterstaff"
-      ],
-      "type": "spartanweaponry:type_disabled"
-    }
-  ]
+  }
 }
