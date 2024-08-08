@@ -316,16 +316,14 @@
 	// Tooltips
 
 		// Flamed
-		"tooltip.spartanfire.trait.flamed_i": "Огненный I",
-		"tooltip.spartanfire.trait.flamed_i.desc": "Воспламеняет и отбрасывает цели при попадании",
-		"tooltip.spartanfire.trait.flamed_ii": "Огненный II",
-		"tooltip.spartanfire.trait.flamed_ii.desc": "Воспламеняет и отбрасывает цели при попадании",
+		"tooltip.spartanfire.trait.flamed": "Огненный",
+		"tooltip.spartanfire.trait.flamed_1.desc": "Воспламеняет и отбрасывает цели при попадании",
+		"tooltip.spartanfire.trait.flamed_2.desc": "Воспламеняет и отбрасывает цели при попадании",
 
 		// Iced
-		"tooltip.spartanfire.trait.iced_i": "Ледяной I",
-		"tooltip.spartanfire.trait.iced_i.desc": "Замораживает цели при попадании",
-		"tooltip.spartanfire.trait.iced_ii": "Ледяной II",
-		"tooltip.spartanfire.trait.iced_ii.desc": "Замораживает цели при попадании",
+		"tooltip.spartanfire.trait.iced": "Ледяной",
+		"tooltip.spartanfire.trait.iced_1.desc": "Замораживает цели при попадании",
+		"tooltip.spartanfire.trait.iced_2.desc": "Замораживает цели при попадании",
 
 		// Shocked
 		"tooltip.spartanfire.trait.shocked": "Грозовой",

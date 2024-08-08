@@ -1,10 +1,9 @@
 buildscript {
     repositories {
         // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
-        maven { url = 'https://maven.minecraftforge.net' }
-        mavenCentral()
+        maven { url 'https://maven.minecraftforge.net' }
         gradlePluginPortal()
-        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+        maven { url 'https://repo.spongepowered.org/repository/maven-public/' }
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
@@ -14,7 +13,6 @@ buildscript {
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 plugins {
     id 'idea'
-    id 'maven-publish'
     id 'io.github.0ffz.github-packages' version '[1,2)'
 }
 apply plugin: 'net.minecraftforge.gradle'
@@ -144,9 +142,9 @@ dependencies {
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
-    implementation fg.deobf("krelox.spartantoolkit:spartantoolkit:${minecraft_version}-${toolkit_version}")
-
     implementation fg.deobf("maven.modrinth:spartan-weaponry:${spartan_weaponry_version}")
+    implementation fg.deobf("krelox.spartantoolkit:spartantoolkit:${minecraft_version}-${spartan_toolkit_version}")
+
     implementation fg.deobf("maven.modrinth:ice-and-fire-dragons:${ice_and_fire_version}")
     implementation fg.deobf("curse.maven:citadel-331936:${citadel_version}")
 }
@@ -156,8 +154,9 @@ tasks.withType(ProcessResources).configureEach {
             minecraft_version       : minecraft_version, minecraft_version_range: minecraft_version_range,
             forge_version           : forge_version, forge_version_range: forge_version_range,
             loader_version_range    : loader_version_range,
+            spartan_weaponry_version: spartan_weaponry_version,
+            spartan_toolkit_version : spartan_toolkit_version, spartan_toolkit_limit: spartan_toolkit_limit,
             ice_and_fire_version    : ice_and_fire_version, citadel_version: citadel_version,
-            spartan_weaponry_version: spartan_weaponry_version, toolkit_version: toolkit_version,
             mod_id                  : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
             mod_issue_tracker       : mod_issue_tracker, mod_homepage: mod_homepage, mod_credits: mod_credits,
             mod_authors             : mod_authors, mod_description: mod_description, pack_format_number: pack_format_number,
@@ -181,25 +180,6 @@ jar {
                 "Implementation-Vendor"   : mod_authors,
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
-    }
-}
-
-// Example configuration to allow publishing using the maven-publish plugin
-// This is the preferred method to reobfuscate your jar file
-jar.finalizedBy('reobfJar')
-// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
-// publish.dependsOn('reobfJar')
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-        }
-    }
-    repositories {
-        maven {
-            url "file://${projectDir}/mcmodsrepo"
-        }
     }
 }
 

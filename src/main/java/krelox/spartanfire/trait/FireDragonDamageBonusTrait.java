@@ -1,0 +1,30 @@
+package krelox.spartanfire.trait;
+
+import com.github.alexthe666.iceandfire.entity.EntityFireDragon;
+import com.oblivioussp.spartanweaponry.api.WeaponMaterial;
+import krelox.spartanfire.SpartanFire;
+import krelox.spartantoolkit.BetterWeaponTrait;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ItemStack;
+
+import java.util.Locale;
+
+public class FireDragonDamageBonusTrait extends BetterWeaponTrait {
+    public FireDragonDamageBonusTrait() {
+        super("fire_dragon_damage_bonus", SpartanFire.MODID, TraitQuality.POSITIVE);
+        setUniversal();
+    }
+
+    @Override
+    public String getDescription() {
+        return String.format(Locale.US, "+%.1f damage against Fire Dragons", getLevel() * 4F);
+    }
+
+    @Override
+    public void onHitEntity(WeaponMaterial material, ItemStack stack, LivingEntity target, LivingEntity attacker, Entity projectile) {
+        if (target instanceof EntityFireDragon) {
+            target.hurt(attacker.level().damageSources().drown(), 5.5F + getLevel() * 4);
+        }
+    }
+}

@@ -314,16 +314,14 @@
 // Tooltips
 
 // Flamed
-"tooltip.spartanfire.trait.flamed_i": "点燃 I",
-"tooltip.spartanfire.trait.flamed_i.desc": "击中目标时点燃并击退目标",
-"tooltip.spartanfire.trait.flamed_ii": "点燃 II",
-"tooltip.spartanfire.trait.flamed_ii.desc": "击中目标时点燃并击退目标",
+"tooltip.spartanfire.trait.flamed": "点燃",
+"tooltip.spartanfire.trait.flamed_1.desc": "击中目标时点燃并击退目标",
+"tooltip.spartanfire.trait.flamed_2.desc": "击中目标时点燃并击退目标",
 
 // Iced
-"tooltip.spartanfire.trait.iced_i": "冻结 I",
-"tooltip.spartanfire.trait.iced_i.desc": "击中目标时冻结目标",
-"tooltip.spartanfire.trait.iced_ii": "冻结 II",
-"tooltip.spartanfire.trait.iced_ii.desc": "击中目标时冻结目标",
+"tooltip.spartanfire.trait.iced": "冻结",
+"tooltip.spartanfire.trait.iced_1.desc": "击中目标时冻结目标",
+"tooltip.spartanfire.trait.iced_2.desc": "击中目标时冻结目标",
 
 // Shocked
 "tooltip.spartanfire.trait.shocked": "雷击",
