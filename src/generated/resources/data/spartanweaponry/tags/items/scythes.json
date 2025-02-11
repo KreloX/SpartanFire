@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_scythe",
     "spartanfire:iced_dragon_bone_scythe",
     "spartanfire:lightning_dragon_bone_scythe",
+    "spartanfire:fire_dragonsteel_scythe",
+    "spartanfire:ice_dragonsteel_scythe",
+    "spartanfire:lightning_dragonsteel_scythe",
     "spartanfire:desert_myrmex_chitin_scythe",
     "spartanfire:desert_myrmex_stinger_scythe",
     "spartanfire:jungle_myrmex_chitin_scythe",
-    "spartanfire:jungle_myrmex_stinger_scythe",
-    "spartanfire:fire_dragonsteel_scythe",
-    "spartanfire:ice_dragonsteel_scythe",
-    "spartanfire:lightning_dragonsteel_scythe"
+    "spartanfire:jungle_myrmex_stinger_scythe"
   ]
 }

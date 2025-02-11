@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_battleaxe",
     "spartanfire:iced_dragon_bone_battleaxe",
     "spartanfire:lightning_dragon_bone_battleaxe",
+    "spartanfire:fire_dragonsteel_battleaxe",
+    "spartanfire:ice_dragonsteel_battleaxe",
+    "spartanfire:lightning_dragonsteel_battleaxe",
     "spartanfire:desert_myrmex_chitin_battleaxe",
     "spartanfire:desert_myrmex_stinger_battleaxe",
     "spartanfire:jungle_myrmex_chitin_battleaxe",
-    "spartanfire:jungle_myrmex_stinger_battleaxe",
-    "spartanfire:fire_dragonsteel_battleaxe",
-    "spartanfire:ice_dragonsteel_battleaxe",
-    "spartanfire:lightning_dragonsteel_battleaxe"
+    "spartanfire:jungle_myrmex_stinger_battleaxe"
   ]
 }

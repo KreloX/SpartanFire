@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_boomerang",
     "spartanfire:iced_dragon_bone_boomerang",
     "spartanfire:lightning_dragon_bone_boomerang",
+    "spartanfire:fire_dragonsteel_boomerang",
+    "spartanfire:ice_dragonsteel_boomerang",
+    "spartanfire:lightning_dragonsteel_boomerang",
     "spartanfire:desert_myrmex_chitin_boomerang",
     "spartanfire:desert_myrmex_stinger_boomerang",
     "spartanfire:jungle_myrmex_chitin_boomerang",
-    "spartanfire:jungle_myrmex_stinger_boomerang",
-    "spartanfire:fire_dragonsteel_boomerang",
-    "spartanfire:ice_dragonsteel_boomerang",
-    "spartanfire:lightning_dragonsteel_boomerang"
+    "spartanfire:jungle_myrmex_stinger_boomerang"
   ]
 }

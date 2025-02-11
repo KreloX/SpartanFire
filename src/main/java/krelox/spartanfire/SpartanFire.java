@@ -2,6 +2,7 @@ package krelox.spartanfire;
 
 import com.github.alexthe666.iceandfire.item.DragonSteelTier;
 import com.github.alexthe666.iceandfire.item.IafItemRegistry;
+import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Either;
 import com.oblivioussp.spartanweaponry.ModSpartanWeaponry;
 import com.oblivioussp.spartanweaponry.api.crafting.condition.TypeDisabledCondition;
@@ -9,6 +10,7 @@ import com.oblivioussp.spartanweaponry.api.data.model.ModelGenerator;
 import com.oblivioussp.spartanweaponry.api.data.recipe.ConditionalShapelessRecipeBuilder;
 import com.oblivioussp.spartanweaponry.api.trait.WeaponTrait;
 import it.unimi.dsi.fastutil.Pair;
+import krelox.spartanfire.trait.*;
 import krelox.spartantoolkit.*;
 import net.minecraft.ChatFormatting;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -22,7 +24,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.client.event.RenderTooltipEvent;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
@@ -39,7 +40,6 @@ import org.apache.logging.log4j.util.TriConsumer;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -53,64 +53,73 @@ public class SpartanFire extends SpartanAddon {
     public static final DeferredRegister<WeaponTrait> TRAITS = traitRegister(MODID);
 
     // Traits
-    public static final RegistryObject<WeaponTrait> ICE_DRAGON_DAMAGE_BONUS_I = registerTrait(TRAITS,
-            new WeaponTrait("ice_dragon_damage_bonus_i", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-    public static final RegistryObject<WeaponTrait> ICE_DRAGON_DAMAGE_BONUS_II = registerTrait(TRAITS,
-            new WeaponTrait("ice_dragon_damage_bonus_ii", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-
-    public static final RegistryObject<WeaponTrait> FIRE_DRAGON_DAMAGE_BONUS_I = registerTrait(TRAITS,
-            new WeaponTrait("fire_dragon_damage_bonus_i", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-    public static final RegistryObject<WeaponTrait> FIRE_DRAGON_DAMAGE_BONUS_II = registerTrait(TRAITS,
-            new WeaponTrait("fire_dragon_damage_bonus_ii", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-
-    public static final RegistryObject<WeaponTrait> FLAMED_I = registerTrait(TRAITS,
-            new WeaponTrait("flamed_i", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-    public static final RegistryObject<WeaponTrait> FLAMED_II = registerTrait(TRAITS,
-            new WeaponTrait("flamed_ii", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-
-    public static final RegistryObject<WeaponTrait> ICED_I = registerTrait(TRAITS,
-            new WeaponTrait("iced_i", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-    public static final RegistryObject<WeaponTrait> ICED_II = registerTrait(TRAITS,
-            new WeaponTrait("iced_ii", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-
-    public static final RegistryObject<WeaponTrait> SHOCKED = registerTrait(TRAITS,
-            new WeaponTrait("shocked", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-
-    public static final RegistryObject<WeaponTrait> NON_ARTHROPOD_DAMAGE_BONUS = registerTrait(TRAITS,
-            new WeaponTrait("non-arthropod_damage_bonus", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
-    public static final RegistryObject<WeaponTrait> POISONED = registerTrait(TRAITS,
-            new WeaponTrait("poisoned", MODID, WeaponTrait.TraitQuality.POSITIVE).setUniversal(false));
+    public static final RegistryObject<WeaponTrait> ICE_DRAGON_DAMAGE_BONUS_I = registerTrait(TRAITS, new IceDragonDamageBonusTrait().setLevel(1));
+    public static final RegistryObject<WeaponTrait> ICE_DRAGON_DAMAGE_BONUS_II = registerTrait(TRAITS, new IceDragonDamageBonusTrait().setLevel(2));
+    public static final RegistryObject<WeaponTrait> FIRE_DRAGON_DAMAGE_BONUS_I = registerTrait(TRAITS, new FireDragonDamageBonusTrait().setLevel(1));
+    public static final RegistryObject<WeaponTrait> FIRE_DRAGON_DAMAGE_BONUS_II = registerTrait(TRAITS, new FireDragonDamageBonusTrait().setLevel(2));
+    public static final RegistryObject<WeaponTrait> FLAMED_I = registerTrait(TRAITS, new FlamedTrait().setLevel(1).setMagnitude(5F));
+    public static final RegistryObject<WeaponTrait> FLAMED_II = registerTrait(TRAITS, new FlamedTrait().setLevel(2).setMagnitude(15F));
+    public static final RegistryObject<WeaponTrait> ICED_I = registerTrait(TRAITS, new IcedTrait().setLevel(1));
+    public static final RegistryObject<WeaponTrait> ICED_II = registerTrait(TRAITS, new IcedTrait().setLevel(2));
+    public static final RegistryObject<WeaponTrait> SHOCKED = registerTrait(TRAITS, new ShockedTrait());
+    public static final RegistryObject<WeaponTrait> NON_ARTHROPOD_DAMAGE_BONUS = registerTrait(TRAITS, new NonArthropodDamageBonusTrait());
+    public static final RegistryObject<WeaponTrait> POISONED = registerTrait(TRAITS, new PoisonedTrait());
 
     // Materials
+    private static final ImmutableList.Builder<SpartanMaterial> MATERIALS_BUILDER = ImmutableList.builder();
     public static final SpartanMaterial DRAGON_BONE = material("dragon_bone",
-            IafItemRegistry.DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", Set.of(), Map.of());
+            IafItemRegistry.DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon");
     public static final SpartanMaterial FLAMED_DRAGON_BONE = material("flamed_dragon_bone",
-            IafItemRegistry.FIRE_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", Set.of(ICE_DRAGON_DAMAGE_BONUS_II, FLAMED_I), Map.of());
+            IafItemRegistry.FIRE_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", ICE_DRAGON_DAMAGE_BONUS_II, FLAMED_I);
     public static final SpartanMaterial ICED_DRAGON_BONE = material("iced_dragon_bone",
-            IafItemRegistry.ICE_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", Set.of(FIRE_DRAGON_DAMAGE_BONUS_II, ICED_I), Map.of());
+            IafItemRegistry.ICE_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", FIRE_DRAGON_DAMAGE_BONUS_II, ICED_I);
     public static final SpartanMaterial LIGHTNING_DRAGON_BONE = material("lightning_dragon_bone",
-            IafItemRegistry.LIGHTNING_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", Set.of(ICE_DRAGON_DAMAGE_BONUS_I, FIRE_DRAGON_DAMAGE_BONUS_I, SHOCKED), Map.of());
+            IafItemRegistry.LIGHTNING_DRAGONBONE_TOOL_MATERIAL, "forge:bones/dragon", ICE_DRAGON_DAMAGE_BONUS_I, FIRE_DRAGON_DAMAGE_BONUS_I, SHOCKED);
 
     public static final SpartanMaterial FIRE_DRAGONSTEEL = material("fire_dragonsteel",
-            DragonSteelTier.DRAGONSTEEL_TIER_FIRE, "forge:ingots/fire_dragonsteel", Set.of(FLAMED_II), Map.of());
+            DragonSteelTier.DRAGONSTEEL_TIER_FIRE, "forge:ingots/fire_dragonsteel", FLAMED_II);
     public static final SpartanMaterial ICE_DRAGONSTEEL = material("ice_dragonsteel",
-            DragonSteelTier.DRAGONSTEEL_TIER_ICE, "forge:ingots/ice_dragonsteel", Set.of(ICED_II), Map.of());
+            DragonSteelTier.DRAGONSTEEL_TIER_ICE, "forge:ingots/ice_dragonsteel", ICED_II);
     public static final SpartanMaterial LIGHTNING_DRAGONSTEEL = material("lightning_dragonsteel",
-            DragonSteelTier.DRAGONSTEEL_TIER_LIGHTNING, "forge:ingots/lightning_dragonsteel", Set.of(SHOCKED), Map.of());
+            DragonSteelTier.DRAGONSTEEL_TIER_LIGHTNING, "forge:ingots/lightning_dragonsteel", SHOCKED);
 
     public static final SpartanMaterial DESERT_MYRMEX_CHITIN = material("desert_myrmex_chitin",
-            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_desert", Set.of(NON_ARTHROPOD_DAMAGE_BONUS), Map.of());
+            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_desert", NON_ARTHROPOD_DAMAGE_BONUS);
     public static final SpartanMaterial DESERT_MYRMEX_STINGER = material("desert_myrmex_stinger",
-            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_desert", Set.of(NON_ARTHROPOD_DAMAGE_BONUS, POISONED), Map.of());
+            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_desert", NON_ARTHROPOD_DAMAGE_BONUS, POISONED);
     public static final SpartanMaterial JUNGLE_MYRMEX_CHITIN = material("jungle_myrmex_chitin",
-            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_jungle", Set.of(NON_ARTHROPOD_DAMAGE_BONUS), Map.of());
+            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_jungle", NON_ARTHROPOD_DAMAGE_BONUS);
     public static final SpartanMaterial JUNGLE_MYRMEX_STINGER = material("jungle_myrmex_stinger",
-            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_jungle", Set.of(NON_ARTHROPOD_DAMAGE_BONUS, POISONED), Map.of());
+            IafItemRegistry.MYRMEX_CHITIN_TOOL_MATERIAL, "forge:chitin_jungle", NON_ARTHROPOD_DAMAGE_BONUS, POISONED);
+    public static final ImmutableList<SpartanMaterial> MATERIALS = MATERIALS_BUILDER.build();
+
+    @SafeVarargs
+    private static SpartanMaterial material(String name, Tier tier, String tagPath, RegistryObject<WeaponTrait>... traits) {
+        SpartanMaterial material = new SpartanMaterial(name, MODID, tier, ItemTags.create(new ResourceLocation(tagPath)), traits) {
+            @Override
+            public TagKey<Item> getStick() {
+                return WITHERBONE;
+            }
+
+            @Override
+            public ItemLike getHandle() {
+                return WITHERBONE_HANDLE.get();
+            }
+
+            @Override
+            public ItemLike getPole() {
+                return WITHERBONE_POLE.get();
+            }
+        };
+        MATERIALS_BUILDER.add(material);
+        return material;
+    }
 
     public static final CreativeModeTab SPARTAN_FIRE_TAB = tab(MODID, () -> WEAPONS.get(FLAMED_DRAGON_BONE, WeaponType.GREATSWORD).get());
 
-    public static final RegistryObject<Item> WITHERBONE_HANDLE = ITEMS.register("witherbone_handle", () -> new Item(new Item.Properties().tab(SPARTAN_FIRE_TAB)));
-    public static final RegistryObject<Item> WITHERBONE_POLE = ITEMS.register("witherbone_pole", () -> new Item(new Item.Properties().tab(SPARTAN_FIRE_TAB)));
+    private static final Supplier<Item> GENERIC_ITEM = () -> new Item(new Item.Properties().tab(SPARTAN_FIRE_TAB));
+    public static final RegistryObject<Item> WITHERBONE_HANDLE = ITEMS.register("witherbone_handle", GENERIC_ITEM);
+    public static final RegistryObject<Item> WITHERBONE_POLE = ITEMS.register("witherbone_pole", GENERIC_ITEM);
 
     private static final TagKey<Item> WITHERBONE = ItemTags.create(new ResourceLocation("forge:bones/wither"));
 
@@ -128,25 +137,6 @@ public class SpartanFire extends SpartanAddon {
         if (event.getItemStack().getItem() instanceof WeaponItem weapon && (weapon.getMaterial().equals(FLAMED_DRAGON_BONE) || weapon.getMaterial().equals(ICED_DRAGON_BONE) || weapon.getMaterial().equals(LIGHTNING_DRAGON_BONE))) {
             event.getTooltipElements().add(1, Either.left(Component.translatable("item.iceandfire.legendary_weapon.desc").withStyle(ChatFormatting.GOLD)));
         }
-    }
-
-    private static SpartanMaterial material(String name, Tier tier, String tagPath, Set<RegistryObject<WeaponTrait>> traits, Map<Supplier<Enchantment>, Integer> enchantments) {
-        return new SpartanMaterial(name, MODID, tier, ItemTags.create(new ResourceLocation(tagPath)), traits, enchantments) {
-            @Override
-            public TagKey<Item> getStick() {
-                return WITHERBONE;
-            }
-
-            @Override
-            public ItemLike getHandle() {
-                return WITHERBONE_HANDLE.get();
-            }
-
-            @Override
-            public ItemLike getPole() {
-                return WITHERBONE_POLE.get();
-            }
-        };
     }
 
     @Override
@@ -199,17 +189,17 @@ public class SpartanFire extends SpartanAddon {
             SpartanMaterial material = key.first();
             WeaponType type = key.second();
             if (material.equals(DESERT_MYRMEX_STINGER) || material.equals(JUNGLE_MYRMEX_STINGER)) {
-                SpartanMaterial baseMaterial = WEAPONS.keySet().stream()
+                WEAPONS.keySet().stream()
                         .map(Pair::first)
                         .filter(material1 -> material1.getMaterialName().equals(material.getMaterialName().replace("stinger", "chitin")))
-                        .findAny().get();
-                ConditionalShapelessRecipeBuilder.shapeless(item.get())
-                        .requires(WEAPONS.get(baseMaterial, type).get())
-                        .requires(IafItemRegistry.MYRMEX_STINGER.get())
-                        .group(ModSpartanWeaponry.ID + ":" + type.name().toLowerCase())
-                        .condition(new TypeDisabledCondition(List.of(type.name().toLowerCase())))
-                        .unlockedBy("has_myrmex_stinger", has(IafItemRegistry.MYRMEX_STINGER.get()))
-                        .save(consumer);
+                        .findAny().ifPresent(baseMaterial -> ConditionalShapelessRecipeBuilder
+                                .shapeless(item.get())
+                                .requires(WEAPONS.get(baseMaterial, type).get())
+                                .requires(IafItemRegistry.MYRMEX_STINGER.get())
+                                .group(ModSpartanWeaponry.ID + ":" + type.name().toLowerCase())
+                                .condition(new TypeDisabledCondition(List.of(type.name().toLowerCase())))
+                                .unlockedBy("has_myrmex_stinger", has(IafItemRegistry.MYRMEX_STINGER.get()))
+                                .save(consumer));
             } else if (material.equals(FLAMED_DRAGON_BONE) || material.equals(ICED_DRAGON_BONE) || material.equals(LIGHTNING_DRAGON_BONE)) {
                 RegistryObject<Item> blood = dragonBlood.get(material);
                 ConditionalShapelessRecipeBuilder.shapeless(item.get())
@@ -226,34 +216,13 @@ public class SpartanFire extends SpartanAddon {
     }
 
     @Override
-    protected Map<RegistryObject<WeaponTrait>, String> getTraitDescriptions() {
-        return Map.ofEntries(
-                Map.entry(ICE_DRAGON_DAMAGE_BONUS_I, "+4 damage against Ice Dragons"),
-                Map.entry(ICE_DRAGON_DAMAGE_BONUS_II, "+8 damage against Ice Dragons"),
-                Map.entry(FIRE_DRAGON_DAMAGE_BONUS_I, "+4 damage against Fire Dragons"),
-                Map.entry(FIRE_DRAGON_DAMAGE_BONUS_II, "+8 damage against Fire Dragons"),
-                Map.entry(FLAMED_I, "Ignites and knocks back targets"),
-                Map.entry(FLAMED_II, "Ignites and knocks back targets"),
-                Map.entry(ICED_I, "Freezes targets"),
-                Map.entry(ICED_II, "Freezes targets"),
-                Map.entry(SHOCKED, "Strikes targets with lightning"),
-                Map.entry(NON_ARTHROPOD_DAMAGE_BONUS, "+4 damage against non-arthropods and Death Worms"),
-                Map.entry(POISONED, "Poisons targets")
-        );
-    }
-
-    @Override
     public String modid() {
         return MODID;
     }
 
     @Override
     public List<SpartanMaterial> getMaterials() {
-        return List.of(
-                DRAGON_BONE, FLAMED_DRAGON_BONE, ICED_DRAGON_BONE, LIGHTNING_DRAGON_BONE,
-                DESERT_MYRMEX_CHITIN, DESERT_MYRMEX_STINGER, JUNGLE_MYRMEX_CHITIN, JUNGLE_MYRMEX_STINGER,
-                FIRE_DRAGONSTEEL, ICE_DRAGONSTEEL, LIGHTNING_DRAGONSTEEL
-        );
+        return MATERIALS;
     }
 
     @Override

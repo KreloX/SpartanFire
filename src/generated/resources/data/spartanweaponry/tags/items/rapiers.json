@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_rapier",
     "spartanfire:iced_dragon_bone_rapier",
     "spartanfire:lightning_dragon_bone_rapier",
+    "spartanfire:fire_dragonsteel_rapier",
+    "spartanfire:ice_dragonsteel_rapier",
+    "spartanfire:lightning_dragonsteel_rapier",
     "spartanfire:desert_myrmex_chitin_rapier",
     "spartanfire:desert_myrmex_stinger_rapier",
     "spartanfire:jungle_myrmex_chitin_rapier",
-    "spartanfire:jungle_myrmex_stinger_rapier",
-    "spartanfire:fire_dragonsteel_rapier",
-    "spartanfire:ice_dragonsteel_rapier",
-    "spartanfire:lightning_dragonsteel_rapier"
+    "spartanfire:jungle_myrmex_stinger_rapier"
   ]
 }

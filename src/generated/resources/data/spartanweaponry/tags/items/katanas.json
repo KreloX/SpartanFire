@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_katana",
     "spartanfire:iced_dragon_bone_katana",
     "spartanfire:lightning_dragon_bone_katana",
+    "spartanfire:fire_dragonsteel_katana",
+    "spartanfire:ice_dragonsteel_katana",
+    "spartanfire:lightning_dragonsteel_katana",
     "spartanfire:desert_myrmex_chitin_katana",
     "spartanfire:desert_myrmex_stinger_katana",
     "spartanfire:jungle_myrmex_chitin_katana",
-    "spartanfire:jungle_myrmex_stinger_katana",
-    "spartanfire:fire_dragonsteel_katana",
-    "spartanfire:ice_dragonsteel_katana",
-    "spartanfire:lightning_dragonsteel_katana"
+    "spartanfire:jungle_myrmex_stinger_katana"
   ]
 }

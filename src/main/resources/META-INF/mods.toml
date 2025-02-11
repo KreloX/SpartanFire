@@ -1,43 +1,45 @@
 modLoader="javafml"
-loaderVersion="${loader_version_range}"
-issueTrackerURL="${mod_issue_tracker}"
-license="${mod_license}"
+loaderVersion="$loader_version_range"
+issueTrackerURL="$mod_issue_tracker"
+license="$mod_license"
+
 [[mods]]
-modId="${mod_id}"
-version="${mod_version}"
-displayName="${mod_name}"
-displayURL="${mod_homepage}"
+modId="$mod_id"
+version="$mod_version"
+displayName="$mod_name"
+displayURL="$mod_homepage"
 logoFile="logo.png"
-credits="${mod_credits}"
-authors="${mod_authors}"
-description='''${mod_description}'''
-[[dependencies.${mod_id}]]
+credits="$mod_credits"
+authors="$mod_authors"
+description='''$mod_description'''
+
+[[dependencies.$mod_id]]
     modId="forge"
     mandatory=true
-    versionRange="${forge_version_range}"
+    versionRange="$forge_version_range"
     ordering="NONE"
     side="BOTH"
-[[dependencies.${mod_id}]]
+[[dependencies.$mod_id]]
     modId="minecraft"
     mandatory=true
-    versionRange="${minecraft_version_range}"
+    versionRange="$minecraft_version_range"
     ordering="NONE"
     side="BOTH"
-[[dependencies.${mod_id}]]
+[[dependencies.$mod_id]]
     modId="iceandfire"
     mandatory=true
     versionRange="1.0"
     ordering="NONE"
     side="BOTH"
-[[dependencies.${mod_id}]]
+[[dependencies.$mod_id]]
     modId="spartanweaponry"
     mandatory=true
-    versionRange="[${spartan_weaponry_version},)"
+    versionRange="[$spartan_weaponry_version,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.${mod_id}]]
+[[dependencies.$mod_id]]
     modId="spartantoolkit"
     mandatory=true
-    versionRange="[${toolkit_version},)"
+    versionRange="[$spartan_toolkit_version,$spartan_toolkit_limit)"
     ordering="NONE"
     side="BOTH"

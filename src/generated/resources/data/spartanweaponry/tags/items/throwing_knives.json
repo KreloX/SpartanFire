@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_throwing_knife",
     "spartanfire:iced_dragon_bone_throwing_knife",
     "spartanfire:lightning_dragon_bone_throwing_knife",
+    "spartanfire:fire_dragonsteel_throwing_knife",
+    "spartanfire:ice_dragonsteel_throwing_knife",
+    "spartanfire:lightning_dragonsteel_throwing_knife",
     "spartanfire:desert_myrmex_chitin_throwing_knife",
     "spartanfire:desert_myrmex_stinger_throwing_knife",
     "spartanfire:jungle_myrmex_chitin_throwing_knife",
-    "spartanfire:jungle_myrmex_stinger_throwing_knife",
-    "spartanfire:fire_dragonsteel_throwing_knife",
-    "spartanfire:ice_dragonsteel_throwing_knife",
-    "spartanfire:lightning_dragonsteel_throwing_knife"
+    "spartanfire:jungle_myrmex_stinger_throwing_knife"
   ]
 }

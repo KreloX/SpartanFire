@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_battle_hammer",
     "spartanfire:iced_dragon_bone_battle_hammer",
     "spartanfire:lightning_dragon_bone_battle_hammer",
+    "spartanfire:fire_dragonsteel_battle_hammer",
+    "spartanfire:ice_dragonsteel_battle_hammer",
+    "spartanfire:lightning_dragonsteel_battle_hammer",
     "spartanfire:desert_myrmex_chitin_battle_hammer",
     "spartanfire:desert_myrmex_stinger_battle_hammer",
     "spartanfire:jungle_myrmex_chitin_battle_hammer",
-    "spartanfire:jungle_myrmex_stinger_battle_hammer",
-    "spartanfire:fire_dragonsteel_battle_hammer",
-    "spartanfire:ice_dragonsteel_battle_hammer",
-    "spartanfire:lightning_dragonsteel_battle_hammer"
+    "spartanfire:jungle_myrmex_stinger_battle_hammer"
   ]
 }

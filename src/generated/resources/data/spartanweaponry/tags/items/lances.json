@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_lance",
     "spartanfire:iced_dragon_bone_lance",
     "spartanfire:lightning_dragon_bone_lance",
+    "spartanfire:fire_dragonsteel_lance",
+    "spartanfire:ice_dragonsteel_lance",
+    "spartanfire:lightning_dragonsteel_lance",
     "spartanfire:desert_myrmex_chitin_lance",
     "spartanfire:desert_myrmex_stinger_lance",
     "spartanfire:jungle_myrmex_chitin_lance",
-    "spartanfire:jungle_myrmex_stinger_lance",
-    "spartanfire:fire_dragonsteel_lance",
-    "spartanfire:ice_dragonsteel_lance",
-    "spartanfire:lightning_dragonsteel_lance"
+    "spartanfire:jungle_myrmex_stinger_lance"
   ]
 }

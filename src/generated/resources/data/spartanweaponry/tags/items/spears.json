@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_spear",
     "spartanfire:iced_dragon_bone_spear",
     "spartanfire:lightning_dragon_bone_spear",
+    "spartanfire:fire_dragonsteel_spear",
+    "spartanfire:ice_dragonsteel_spear",
+    "spartanfire:lightning_dragonsteel_spear",
     "spartanfire:desert_myrmex_chitin_spear",
     "spartanfire:desert_myrmex_stinger_spear",
     "spartanfire:jungle_myrmex_chitin_spear",
-    "spartanfire:jungle_myrmex_stinger_spear",
-    "spartanfire:fire_dragonsteel_spear",
-    "spartanfire:ice_dragonsteel_spear",
-    "spartanfire:lightning_dragonsteel_spear"
+    "spartanfire:jungle_myrmex_stinger_spear"
   ]
 }

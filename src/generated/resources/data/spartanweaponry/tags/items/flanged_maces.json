@@ -4,12 +4,12 @@
     "spartanfire:flamed_dragon_bone_flanged_mace",
     "spartanfire:iced_dragon_bone_flanged_mace",
     "spartanfire:lightning_dragon_bone_flanged_mace",
+    "spartanfire:fire_dragonsteel_flanged_mace",
+    "spartanfire:ice_dragonsteel_flanged_mace",
+    "spartanfire:lightning_dragonsteel_flanged_mace",
     "spartanfire:desert_myrmex_chitin_flanged_mace",
     "spartanfire:desert_myrmex_stinger_flanged_mace",
     "spartanfire:jungle_myrmex_chitin_flanged_mace",
-    "spartanfire:jungle_myrmex_stinger_flanged_mace",
-    "spartanfire:fire_dragonsteel_flanged_mace",
-    "spartanfire:ice_dragonsteel_flanged_mace",
-    "spartanfire:lightning_dragonsteel_flanged_mace"
+    "spartanfire:jungle_myrmex_stinger_flanged_mace"
   ]
 }
