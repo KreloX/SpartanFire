@@ -276,12 +276,12 @@
   "tooltip.spartanfire.trait.ice_dragon_damage_bonus_1.desc": "+4.0 冰龙克制",
   "tooltip.spartanfire.trait.ice_dragon_damage_bonus_2.desc": "+8.0 冰龙克制",
   "tooltip.spartanfire.trait.iced": "冻结",
-  "tooltip.spartanfire.trait.iced_1.desc": "击中目标时冻结目标",
-  "tooltip.spartanfire.trait.iced_2.desc": "击中目标时冻结目标",
-  "tooltip.spartanfire.trait.non-arthropod_damage_bonus": "恐蚁",
-  "tooltip.spartanfire.trait.non-arthropod_damage_bonus.desc": "对非节肢生物和死亡蠕虫造成额外伤害",
+  "tooltip.spartanfire.trait.iced_1.desc": "击中目标时冻结目标 10 秒",
+  "tooltip.spartanfire.trait.iced_2.desc": "击中目标时冻结目标 15 秒",
+  "tooltip.spartanfire.trait.non-arthropod_damage_bonus": "非节肢生物克制",
+  "tooltip.spartanfire.trait.non-arthropod_damage_bonus.desc": "+4.0 对非节肢生物和死亡蠕虫克制",
   "tooltip.spartanfire.trait.poisoned": "剧毒",
-  "tooltip.spartanfire.trait.poisoned.desc": "击中目标时对其造成中毒",
+  "tooltip.spartanfire.trait.poisoned.desc": "攻击敌人造成 10 秒中毒",
   "tooltip.spartanfire.trait.shocked": "雷击",
   "tooltip.spartanfire.trait.shocked.desc": "击中目标时召唤闪电打击目标"
 }
